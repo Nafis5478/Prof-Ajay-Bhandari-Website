@@ -37,38 +37,38 @@ export default function Navbar() {
                 <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${location.pathname==='/contact'?'bg-slate-100 rounded-xl':''}`}>Contact me</li>
             </Link>
         </ul>
-        <div onClick={() => setbar(!bar)} className=" cursor-pointer pr-4 z-10 text-black lg:hidden">
+        <div onClick={() => setbar(!bar)} className=" cursor-pointer pr-4 z-10 text-white lg:hidden">
             {bar ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
         {bar &&(
-            <ul className='flex flex-col justify-center items-center absolute pt-20 pb-2 gap-1 top-0 right-0 w-100
-            h-auto bg-gray-300 text-white lg:hidden'>
+            <ul className='flex flex-col justify-center items-center  pt-16 pb-2 gap-1 top-0 right-0 w-100
+            h-auto bg-gray-800 lg:hidden fixed'>
                 <Link to='/' onClick={() => setbar(!bar)}>
-                    <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl `}>Home</li>
+                    <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl `}>Home</li>
                 </Link>
                 <Link to='/about' onClick={() => setbar(!bar)}>
-                    <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl `}>About me</li>
+                    <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl `}>About me</li>
                 </Link>
                 <Link to='/research' onClick={() => setbar(!bar)}>
-                    <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl `}>Research</li>
+                    <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl `}>Research</li>
                 </Link>
                 <Link to='/publication' onClick={() => setbar(!bar)}>
-                    <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>Publications</li>
+                    <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>Publications</li>
                 </Link>
                 <Link to='/teaching' onClick={() => setbar(!bar)}>
-                    <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>Teaching</li>
+                    <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>Teaching</li>
                 </Link>
                 <Link to='/people' onClick={() => setbar(!bar)}>
-                    <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>People</li>
+                    <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>People</li>
                 </Link>
                 <Link to='/lab' onClick={() => setbar(!bar)}>
-                    <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>Lab</li>
+                    <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>Lab</li>
                 </Link>
                 <Link to='/project' onClick={() => setbar(!bar)}>
-                    <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${location.pathname==='/project'?'bg-slate-100 rounde text-blackd-xl':''}`}>Project</li>
+                    <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${location.pathname==='/project'?'bg-slate-100 rounde text-blackd-xl':''}`}>Project</li>
                 </Link>
                 <Link to='/contact' onClick={() => setbar(!bar)}>
-                    <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${location.pathname==='/contact'?'bg-slate-100 rounde text-blackd-xl':''}`}>Contact me</li>
+                    <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${location.pathname==='/contact'?'bg-slate-100 rounde text-blackd-xl':''}`}>Contact me</li>
                 </Link>
             </ul>
         )}
