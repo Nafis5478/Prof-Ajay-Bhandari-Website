@@ -276,13 +276,56 @@ export default function Publication() {
                 </p>
               </div>
             </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                <span className="font-semibold">Ajay Bhandari</span>, Anup Singh, and Wenbo Zhan, Investigating the effect of Anti-angiogenic drugs on heterogeneous tumor microenvironment,<span className="font-semibold"> Royal Society Interface Focus </span>
+                <span className="font-semibold text-green-700"> IF:4.6</span>.
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                <span className="font-semibold">Ajay Bhandari</span>, Boram Gu, Farshad Moradi Kashkooli, Wenbo Zhan, Image-based Predictive Engine for Personalised Drug Delivery in Cancer Therapy,<span className="font-semibold"> Journal of Controlled Release </span>
+                <span className="font-semibold text-green-700"> IF:11.467</span>.
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                <span className="font-semibold">Ajay Bhandari</span>, Boram Gu, Farshad Moradi Kashkooli, Wenbo Zhan, Multiphysics and multiscale models in drug release, transport and delivery for different types of systems,<span className="font-semibold"> Journal of Controlled Release </span>
+                <span className="font-semibold text-green-700"> IF:11.467</span>.
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                Anahita Piranfar, Farshad Moradi Kashkooli, <span className="font-semibold">Ajay Bhandari</span>, Wenbo Zhan, and M. Soltani, A Comparative Analysis of Alpha and Beta Therapy in Prostate Cancer Using a 3D Image-Based Spatiotemporal Model, <span className="font-semibold">Annals of Biomedical Engineering</span> <span className="font-semibold text-green-700">IF: 4</span>
+                </p>
+              </div>
+            </li>
             
           </ul>
         </div>
       </div>
       <div className="text-left md:items-center">
         <h1 className="text-3xl text-center md:text-left font-semibold px-8">
-          Awards and Recognitions
+          Conference Proceeding and Presentation
         </h1>
 
         <div className="py-10 md:ml-40 md:mr-20">
@@ -293,10 +336,7 @@ export default function Publication() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Got “Gullapalli Young Investigator Award” at Sign 2024
-                  Conference, Hyderabad for outstanding research work in the
-                  field of Computational Oncology and awarded 1000 USD cash
-                  prize.
+                Kartika Chandra Tripathy and <span className="font-semibold">Ajay Bhandari</span>, “Micro-particle deposition patterns in human nasal cavity with different types of deviations” Fluid Mechanics and Fluid Power, <span className="font-semibold">December 20-22, 2023, IIT Jodhpur</span>, India. 
                 </p>
               </div>
             </li>
@@ -306,18 +346,15 @@ export default function Publication() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Our idea, “Scrap to Advanced Materials by Guiding the
-                  Communities,” has been selected in the top 75 best ideas out
-                  of 2538 ideas form 67 countries for the LiFE Global Call for
-                  Ideas and Papers by Niti Aayog, Government of India.{" "}
-                  <a
-                    href="https://www.niti.gov.in/documents/reports"
+                Parth Dev Bundela, <span className="font-semibold">Ajay Bhandari</span>, Sarthak S. Singh; Convection enhanced drug delivery in deformable human tumors. <span className="font-semibold">AIP Conf. Proc. 5 September 2023; 2863 (1): 020003. </span>
+                <a
+                    href="https://pubs.aip.org/aip/acp/article-abstract/2863/1/020003/2909462/Convection-enhanced-drug-delivery-in-deformable?redirectedFrom=fulltext"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-700 hover:underline"
                   >
-                    Access Link
-                  </a>
+                  Access Link 
+                  </a> 
                 </p>
               </div>
             </li>
@@ -327,30 +364,15 @@ export default function Publication() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Got the “Royal Society Yusuf Hamied International Exchange
-                  Award” funded by The Yusuf and Farida Hamied Foundation.
-                </p>
-              </div>
-            </li>
-            <li className="flex flex-row">
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>
-                  My research article (ASME JBME Journal paper) was selected by
-                  Research Matters (Entrepreneurship Cell) at Indian Institute
-                  of Science (IISc) Bangalore as cutting-edge research and a
-                  research story was published on it, which appeared as a media
-                  coverage.{" "}
-                  <a
-                    href="https://researchmatters.in/news/packaging-anti-cancer-drugs-liposomes-safer-chemotherapy"
+                Sangly P Srinivas, Parth Dev Bundela, Yamalapalli Sowmya, <span className="font-semibold">Ajay Bhandari</span>; Pharmacokinetic simulation of topical lipophilic solutes across the cornea by the finite element method. <span className="font-semibold">Invest. Ophthalmol. Vis. Sci. 2023;64(8):4744. </span>
+                <a
+                    href="https://iovs.arvojournals.org/article.aspx?articleid=2790515"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-700 hover:underline"
                   >
-                    Access Link
-                  </a>
+                  Access Link 
+                  </a> 
                 </p>
               </div>
             </li>
@@ -360,10 +382,15 @@ export default function Publication() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  The ASCHT 2017 conference paper was selected to publish in a
-                  special issue of the International Journal of Advances in
-                  Engineering Science and Applied Mathematics. Only 8 out of 200
-                  conference papers were selected for the journal.
+                Anahita Piranfar, M. Soltani, Farshad M. Kashkooli, Wenbo Zhan, <span className="font-semibold">Ajay Bhandari</span>, Arman Rahmim,” 177Lu-PSMA-617 Transport in Solid Tumor via 3D Spatio-temporal Model Reconstructed from Magnetic Resonance Image”, Society of Nuclear Medicine and Molecular Imaging, <span className="font-semibold">June 24-27, 2023, Chicago, Illinois, USA. </span>
+                <a
+                    href="https://abdn.elsevierpure.com/en/publications/177lu-psma-617-transport-in-solid-tumors-via-a-3d-image-based-spa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                  Access Link 
+                  </a> 
                 </p>
               </div>
             </li>
@@ -373,8 +400,15 @@ export default function Publication() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Lalit Kishore Chaudhary Memorial Scholarship for best research
-                  paper of the Mechanical Department of IIT Kanpur.
+                Shivam Gupta and <span className="font-semibold">Ajay Bhandari</span>, “Image-based retinal hemodynamics simulation of healthy and pathological retinal vasculature” Fluid Mechanics and Fluid Power, <span className="font-semibold">December 14-16, 2022, IIT Roorkee, India. </span>
+                <a
+                    href="https://link.springer.com/book/9789819957514"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                  Access Link 
+                  </a> 
                 </p>
               </div>
             </li>
@@ -384,9 +418,15 @@ export default function Publication() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Full scholarship to present international conference in
-                  Sendai, Japan. Funding agency: IIT Kanpur, Funding amount INR
-                  1.5 Lac
+                Kartika Chandra Tripathy and <span className="font-semibold">Ajay Bhandari</span>, “Highlighting the importance of nasal air conditioning in septoplasty using virtual correction tools: A numerical study” Fluid Mechanics and Fluid Power, <span className="font-semibold">December 14-16, 2022, IIT Roorkee, India. </span>
+                <a
+                    href="https://link.springer.com/book/10.1007/978-981-99-5752-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                  Access Link 
+                  </a> 
                 </p>
               </div>
             </li>
@@ -396,8 +436,7 @@ export default function Publication() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Qualified GATE in 2014 in Mechanical Engineering and got MHRD
-                  scholarship during Ph.D. 2014-19.
+                <span className="font-semibold">Ajay Bhandari</span>, Ankit Bansal and Niraj Sinha, “Comparison of efficacy of different drug delivery modes in anterior human eye for treatment of primary open angle glaucoma (POAG)”, Computational and Mathematical Biomedical Engineering, <span className="font-semibold">June 10-12, 2019, Tohoku University, Japan. </span>
                 </p>
               </div>
             </li>
@@ -407,8 +446,7 @@ export default function Publication() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Secured third position and first division with honors in
-                  Mechanical Engineering Batch in BE in 2013.
+                Ashish Tiwari, <span className="font-semibold">Ajay Bhandari</span>, Pankaj Wahi and Niraj Sinha, Finite Element Analysis and Computational Fluid Dynamics Study of Pore Shape in Bio-Scaffolds” International Conference on Design, Materials and Manufacturing Concerns in Production of Quality Engineering Goods, <span className="font-semibold">March 27-29, 2017, HBTU, Kanpur, pp. 31-37.</span>
                 </p>
               </div>
             </li>
@@ -418,12 +456,57 @@ export default function Publication() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Secured first position in 10+2 and was awarded scholarship,
-                  certificate of merit and state level award by Chief minister
-                  of Punjab
+                <span className="font-semibold">Ajay Bhandari</span>, Ankit Bansal, Anup Singh and Niraj Sinha, “DCE-MRI Based Voxelized Computational Model for Chemotherapeutic Drug Transport in Human Brain Tumor”, Asian Symposium on Computational Heat Transfer and Fluid Flow (ASCHT2017), <span className="font-semibold">10th- 13rd December, 2017, IIT Madras, India.</span>
                 </p>
               </div>
             </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                <span className="font-semibold">Ajay Bhandari</span>, Ankit Bansal, Anup Singh and Niraj Sinha, “Study of Perfusion Kinetics in Human Brain Tumor using Leaky Tracer Kinetic Model of DCE-MRI Data and CFD”, 2017 International Conference on Life System Modeling and Simulation, <span className="font-semibold">Sep 22-24 2017, Nanjing, China. </span>
+                <a
+                    href="https://link.springer.com/chapter/10.1007/978-981-10-6370-1_7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                  Access Link 
+                  </a> 
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                <span className="font-semibold">Ajay Bhandari</span>, Ankit Bansal, Anup Singh and Niraj Sinha, “Transport of Liposome Encapsulated Drugs in Voxelized Computational Model of Brain Tumors”, International Conference of Nanomedicine and Nano-biotechnology, <span className="font-semibold">Sep 28-30, 2016, University Pierre and Marie Curie, Paris. </span>
+                <a
+                    href="https://link.springer.com/chapter/10.1007/978-981-10-6370-1_7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                  Access Link 
+                  </a> 
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                <span className="font-semibold">Ajay Bhandari</span>, Ankit Bansal, Anup Singh and Niraj Sinha, “CFD Analysis of Perfusion Kinetics in Brain Tumor with DCE-MRI Derived Model”, Sixth International Congress on Computational Mechanics and Simulation, <span className="font-semibold">27th June-1st July 2016, IIT Bombay, India.</span>
+                </p>
+              </div>
+            </li>
+            
           </ul>
         </div>
       </div>
