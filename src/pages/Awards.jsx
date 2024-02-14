@@ -4,7 +4,9 @@ export default function Awards() {
   return (
     <div className="h-full pt-28 md:pt-32 px-5 md:px-28">
       <div className="text-left md:items-center">
-      <h1 className="text-3xl text-center md:text-left font-semibold px-8">Awards and Recognitions</h1>
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8">
+          Awards and Recognitions
+        </h1>
 
         <div className="py-10 md:ml-40 md:mr-20">
           <ul className="flex flex-col gap-2 md:gap-3 md:text-lg ">
@@ -14,7 +16,10 @@ export default function Awards() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                Got “Gullapalli Young Investigator Award” at Sign 2024 Conference, Hyderabad for outstanding research work in the field of Computational Oncology and awarded 1000 USD cash prize.
+                  Got “Gullapalli Young Investigator Award” at Sign 2024
+                  Conference, Hyderabad for outstanding research work in the
+                  field of Computational Oncology and awarded 1000 USD cash
+                  prize.
                 </p>
               </div>
             </li>
