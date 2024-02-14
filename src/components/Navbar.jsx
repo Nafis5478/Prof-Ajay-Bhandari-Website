@@ -21,6 +21,9 @@ export default function Navbar() {
             <Link to='/publication'>
                 <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${location.pathname==='/publication'?'bg-slate-100 rounded-xl':''}`}>Publications</li>
             </Link>
+            <Link to='/awards'>
+                <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${location.pathname==='/awards'?'bg-slate-100 rounded-xl':''}`}>Awards</li>
+            </Link>
             <Link to='/teaching'>
                 <li className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${location.pathname==='/teaching'?'bg-slate-100 rounded-xl':''}`}>Teaching</li>
             </Link>
@@ -54,6 +57,9 @@ export default function Navbar() {
                 </Link>
                 <Link to='/publication' onClick={() => setbar(!bar)}>
                     <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>Publications</li>
+                </Link>
+                <Link to='/awards' onClick={() => setbar(!bar)}>
+                    <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>Awards</li>
                 </Link>
                 <Link to='/teaching' onClick={() => setbar(!bar)}>
                     <li className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}>Teaching</li>

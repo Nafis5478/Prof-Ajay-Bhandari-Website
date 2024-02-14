@@ -11,6 +11,8 @@ import People from './pages/People.jsx'
 import Lab from './pages/Lab.jsx'
 import Project from './pages/Project.jsx'
 import Contact from './pages/Contact.jsx'
+import Footers from './components/Footers.jsx';
+import Awards from './pages/Awards.jsx';
 function App() {
 
   return (
@@ -23,10 +25,12 @@ function App() {
       <Route path="/publication" element={<Publication/>} />
       <Route path="/teaching" element={<Teaching/>} />  
       <Route path="/people" element={<People/>} />  
+      <Route path="/awards" element={<Awards/>}/>
       <Route path="/lab" element={<Lab/>} />  
       <Route path="/project" element={<Project/>} />  
       <Route path="/contact" element={<Contact/>} />  
       </Routes>
+      <Footers/>
     </BrowserRouter>
   )
 }

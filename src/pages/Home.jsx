@@ -5,14 +5,14 @@ import profile from '../assets/profile.jpg'
 import { GiExitDoor } from "react-icons/gi";
 export default function Home() {
   return (
-    <div className='h-screen'>
+    <div className='h-full border-2'>
         <div className=" bg-gray-200  mx-auto flex flex-col items-center justify-center pt-20 pb-2 pl-4 md:flex-row">
         <div className="px-4 flex flex-col justify-center h-full md:w-2/3">
           
           <p className="text-black py-4 max-w text-center md:text-left md:px-10">
             <span className='text-3xl font-semibold'>Explore the Innovations at</span>
             <br />
-            <span className='text-3xl font-bold'>Bio Fluid Labs</span>
+            <span className='text-3xl font-bold'>Bio-Fluid Research Labs</span>
           </p>
           <div className="flex p-4 justify-center md:justify-between  md:px-10">
             <Link to={'/lab'} className="hover:scale-105  text-white w-fit px-6 py-3 my-2 flex items-center gap-4 rounded-md bg-slate-500">
