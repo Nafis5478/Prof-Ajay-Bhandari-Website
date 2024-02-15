@@ -53,34 +53,36 @@ export default function Home() {
           {/* for description */}
           <div className="flex flex-col gap-5">
             <p className="text-md md:text-lg">
-              Curious by and about ‘nature’, I am passionate to understand
-              natural flows which are simple but elegant, yet mysteriously
-              challenging! Using simple mechanical models, I deal largely with
-              experiments supplemented with a blend of theory and numerical
-              simulations. With broad interest in Fluid Mechanics, my research
-              activities span problems in bio-fluid dynamics with special focus
-              on swimming, hovering, flying, flapping foil propulsion, and the
-              mysteries revolving around the fish schooling patterns.
-              Simultaneously, I am trying to unravel the entrainment dynamics of
-              cloud-like flows and turbulent flows.
+              With the globalized world's unceasing need for medical advancement
+              and innovation, it is essential to revolutionize the health
+              sector. This revolutionization can be achieved by bridging the gap
+              between engineering and healthcare, compounding engineering design
+              and problem-solving skills with biological knowledge of medical
+              sciences. Modern medicine and healthcare rely substantially on
+              engineering solutions to help medical specialists diagnose,
+              improve prognosis, enhance treatment efficacy, and improve quality
+              of life. To this end, biofluid mechanics is a progressing area
+              that involves the application of fluid mechanics principles to
+              further the understanding of physiological flows in the human
+              body. Motivated by it, I am fervent to comprehend biological flows
+              using computational models augmented with real-time medical
+              imaging data and in-vitro experiments.
             </p>
             <p className="text-md md:text-lg">
-              Currently, my research group at IIT Kanpur – “Natural Flows
-              Laboratory” (NatFlows Lab) is curious to explore the inherently
-              coupled and intricate interactions between fluid and flexible
-              surfaces through extensive experiments and simulations. The larger
-              goal is to get insights into the role of flexibility that is
-              ubiquitously present in the wings and fins of natural swimming and
-              flying animals which they exploit for their advantage during
-              cruising, hovering, manoeuvring as well as while schooling and
-              flocking.
+              My research group at IIT Dhanbad, "<span className="font-semibold">Biofluids Research Lab</span>" <span className="font-semibold">(BFRL)</span>, is actively involved in unraveling the biomechanics present in
+              different human tissues and their impact on drug delivery
+              mechanisms through numerical simulations and experiments.
+              Simultaneously, my group focuses on the image-based modeling
+              aspect, which involves the extraction of patient-specific
+              parameters and their incorporation into the computational models,
+              taking a forward stride toward personalized medicine.
             </p>
           </div>
           <div className="mt-10 md:mt-20">
             <h1 className="text-2xl font-semibold text-blue-900 border-b-2 border-blue-900">
               Research Interest
             </h1>
-            <p className="mt-5 mb-2 md:mt-7">
+            <p className="mt-5 mb-2 md:mt-7 text-lg">
               Bio-Fluid Mechanics, Computational Oncology, Medical-Image Based
               Numerical Modelling, Patient-specific Computational Models, Cancer
               And Ocular Drug Delivery.

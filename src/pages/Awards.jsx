@@ -16,7 +16,7 @@ export default function Awards() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Got “Gullapalli Young Investigator Award” at Sign 2024
+                  Got “<span className="font-semibold">Gullapalli Young Investigator Award</span>” at Sign 2024
                   Conference, Hyderabad for outstanding research work in the
                   field of Computational Oncology and awarded 1000 USD cash
                   prize.
@@ -29,8 +29,8 @@ export default function Awards() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Our idea, “Scrap to Advanced Materials by Guiding the
-                  Communities,” has been selected in the top 75 best ideas out
+                  Our idea, “<span className="font-semibold">Scrap to Advanced Materials by Guiding the
+                  Communities</span>” has been selected in the top 75 best ideas out
                   of 2538 ideas form 67 countries for the LiFE Global Call for
                   Ideas and Papers by Niti Aayog, Government of India.{" "}
                   <a
@@ -50,8 +50,8 @@ export default function Awards() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Got the “Royal Society Yusuf Hamied International Exchange
-                  Award” funded by The Yusuf and Farida Hamied Foundation.
+                  Got the “<span className="font-semibold">Royal Society Yusuf Hamied International Exchange
+                  Award</span>” funded by The Yusuf and Farida Hamied Foundation.
                 </p>
               </div>
             </li>
@@ -61,8 +61,8 @@ export default function Awards() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  My research article (ASME JBME Journal paper) was selected by
-                  Research Matters (Entrepreneurship Cell) at Indian Institute
+                  The research article (ASME JBME Journal paper) got selected by
+                  <span className="font-semibold"> Research Matters</span> (Entrepreneurship Cell) at Indian Institute
                   of Science (IISc) Bangalore as cutting-edge research and a
                   research story was published on it, which appeared as a media
                   coverage.{" "}
@@ -83,9 +83,27 @@ export default function Awards() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  The ASCHT 2017 conference paper was selected to publish in a
-                  special issue of the International Journal of Advances in
-                  Engineering Science and Applied Mathematics. Only 8 out of 200
+                  POF journal article got selected as <span className="font-semibold">Scilight</span> article.{" "}
+                  <a
+                    href="https://pubs.aip.org/aip/sci/article/2024/4/041103/3061517/A-First-Look-at-How-Diabetes-Affects-Retinal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                    Access Link
+                  </a>
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                  The ASCHT 2017 conference paper got selected to publish in a
+                  special issue of the <span className="font-semibold">International Journal of Advances in
+                  Engineering Science and Applied Mathematics</span>. Only 8 out of 200
                   conference papers were selected for the journal.
                 </p>
               </div>
@@ -96,7 +114,7 @@ export default function Awards() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
-                  Lalit Kishore Chaudhary Memorial Scholarship for best research
+                  <span className="font-semibold">Lalit Kishore Chaudhary Memorial Scholarship</span> for best research
                   paper of the Mechanical Department of IIT Kanpur.
                 </p>
               </div>
