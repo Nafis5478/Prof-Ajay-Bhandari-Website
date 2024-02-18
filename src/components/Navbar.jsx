@@ -11,7 +11,7 @@ export default function Navbar() {
       <ul className="hidden lg:flex gap-2 items-center">
         <Link to="/">
           <li
-            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/" ? "bg-slate-100 rounded-xl" : ""
             }`}
           >
@@ -20,7 +20,7 @@ export default function Navbar() {
         </Link>
         <Link to="/about">
           <li
-            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/about" ? "bg-slate-100 rounded-xl" : ""
             }`}
           >
@@ -29,7 +29,7 @@ export default function Navbar() {
         </Link>
         <Link to="/research">
           <li
-            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/research" ? "bg-slate-100 rounded-xl" : ""
             }`}
           >
@@ -38,7 +38,7 @@ export default function Navbar() {
         </Link>
         <Link to="/publication">
           <li
-            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/publication"
                 ? "bg-slate-100 rounded-xl"
                 : ""
@@ -49,7 +49,7 @@ export default function Navbar() {
         </Link>
         <Link to="/awards">
           <li
-            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/awards" ? "bg-slate-100 rounded-xl" : ""
             }`}
           >
@@ -58,7 +58,7 @@ export default function Navbar() {
         </Link>
         <Link to="/teaching">
           <li
-            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/teaching" ? "bg-slate-100 rounded-xl" : ""
             }`}
           >
@@ -67,7 +67,7 @@ export default function Navbar() {
         </Link>
         <Link to="/people">
           <li
-            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/people" ? "bg-slate-100 rounded-xl" : ""
             }`}
           >
@@ -76,7 +76,7 @@ export default function Navbar() {
         </Link>
         <Link to="/lab">
           <li
-            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/lab" ? "bg-slate-100 rounded-xl" : ""
             }`}
           >
@@ -85,7 +85,7 @@ export default function Navbar() {
         </Link>
         <Link to="/project">
           <li
-            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/project" ? "bg-slate-100 rounded-xl" : ""
             }`}
           >
@@ -94,7 +94,7 @@ export default function Navbar() {
         </Link>
         <Link to="/contact">
           <li
-            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+            className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/contact" ? "bg-slate-100 rounded-xl" : ""
             }`}
           >
@@ -115,63 +115,63 @@ export default function Navbar() {
         >
           <Link to="/" onClick={() => setbar(!bar)}>
             <li
-              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl `}
+              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl `}
             >
               Home
             </li>
           </Link>
           <Link to="/about" onClick={() => setbar(!bar)}>
             <li
-              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl `}
+              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl `}
             >
               About me
             </li>
           </Link>
           <Link to="/research" onClick={() => setbar(!bar)}>
             <li
-              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl `}
+              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl `}
             >
               Research
             </li>
           </Link>
           <Link to="/publication" onClick={() => setbar(!bar)}>
             <li
-              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}
+              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl`}
             >
               Publications
             </li>
           </Link>
           <Link to="/awards" onClick={() => setbar(!bar)}>
             <li
-              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}
+              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl`}
             >
               Awards
             </li>
           </Link>
           <Link to="/teaching" onClick={() => setbar(!bar)}>
             <li
-              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}
+              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl`}
             >
               Teaching
             </li>
           </Link>
           <Link to="/people" onClick={() => setbar(!bar)}>
             <li
-              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}
+              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl`}
             >
               People
             </li>
           </Link>
           <Link to="/lab" onClick={() => setbar(!bar)}>
             <li
-              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl`}
+              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl`}
             >
               Lab
             </li>
           </Link>
           <Link to="/project" onClick={() => setbar(!bar)}>
             <li
-              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
                 location.pathname === "/project"
                   ? "bg-slate-100 rounde text-blackd-xl"
                   : ""
@@ -182,7 +182,7 @@ export default function Navbar() {
           </Link>
           <Link to="/contact" onClick={() => setbar(!bar)}>
             <li
-              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 hover:bg-slate-100 rounded-xl ${
+              className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
                 location.pathname === "/contact"
                   ? "bg-slate-100 rounde text-blackd-xl"
                   : ""

@@ -57,7 +57,7 @@ export default function () {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-row text-2xl md:text-4xl gap-2 md:gap-5 mt-3 justify-center">
+            <div className="flex flex-row text-2xl md:text-4xl gap-5 md:gap-5 mt-3 justify-center">
               <a
                 href="https://www.linkedin.com/in/dr-ajay-bhandari-74628169/?originalSubdomain=in"
                 target="_blank"
@@ -108,7 +108,7 @@ export default function () {
               </a>
             </div>
           </div>
-          <div className="font-semibold md:mx-auto">
+          <div className="font-semibold text-center md:mx-auto">
             Developed and Managed by{" "}
             <a
               href="https://nafisportfoliosite.netlify.app/"
@@ -119,9 +119,6 @@ export default function () {
               Nafis Raza
             </a>
           </div>
-        </div>
-        <div className="">
-          <div></div>
         </div>
       </div>
     </div>

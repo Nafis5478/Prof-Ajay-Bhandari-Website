@@ -18,7 +18,7 @@ export default function Home() {
           <div className="flex p-4 justify-center md:justify-between  md:px-10">
             <Link
               to={"/lab"}
-              className="hover:scale-105  text-white w-fit px-6 py-3 my-2 flex items-center gap-4 rounded-md bg-slate-500"
+              className="hover:scale-105 transition duration-500 text-white w-fit px-6 py-3 my-2 flex items-center gap-4 rounded-md bg-slate-500"
             >
               <span>Explore Labs</span>
               <span className="text-3xl">
@@ -69,20 +69,23 @@ export default function Home() {
               imaging data and in-vitro experiments.
             </p>
             <p className="text-md md:text-lg">
-              My research group at IIT Dhanbad, "<span className="font-semibold">Biofluids Research Lab</span>" <span className="font-semibold">(BFRL)</span>, is actively involved in unraveling the biomechanics present in
-              different human tissues and their impact on drug delivery
-              mechanisms through numerical simulations and experiments.
-              Simultaneously, my group focuses on the image-based modeling
-              aspect, which involves the extraction of patient-specific
-              parameters and their incorporation into the computational models,
-              taking a forward stride toward personalized medicine.
+              My research group at IIT Dhanbad, "
+              <span className="font-semibold">Biofluids Research Lab</span>"{" "}
+              <span className="font-semibold">(BFRL)</span>, is actively
+              involved in unraveling the biomechanics present in different human
+              tissues and their impact on drug delivery mechanisms through
+              numerical simulations and experiments. Simultaneously, my group
+              focuses on the image-based modeling aspect, which involves the
+              extraction of patient-specific parameters and their incorporation
+              into the computational models, taking a forward stride toward
+              personalized medicine.
             </p>
           </div>
           <div className="mt-10 md:mt-20">
             <h1 className="text-2xl font-semibold text-blue-900 border-b-2 border-blue-900">
               Research Interest
             </h1>
-            <p className="mt-5 mb-2 md:mt-7 text-lg">
+            <p className="mt-5 mb-2 md:mt-7 md:text-lg">
               Bio-Fluid Mechanics, Computational Oncology, Medical-Image Based
               Numerical Modelling, Patient-specific Computational Models, Cancer
               And Ocular Drug Delivery.
