@@ -59,7 +59,7 @@ export default function () {
             </div>
             <div className="flex flex-row text-2xl md:text-4xl gap-5 md:gap-5 mt-3 justify-center">
               <a
-                href="https://www.linkedin.com/in/dr-ajay-bhandari-74628169/?originalSubdomain=in"
+                href="https://www.linkedin.com/in/dr-ajay-bhandari-74628169/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-105"

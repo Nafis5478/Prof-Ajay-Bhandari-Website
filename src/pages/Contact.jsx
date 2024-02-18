@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="flex flex-col mt-10 gap-20 md:py-20 items-center pb-5">
           <div className="flex flex-row justify-between gap-10 md:gap-40">
             <a
-              href=""
+              href="https://www.linkedin.com/in/dr-ajay-bhandari-74628169/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-[100px] hover:shadow-blue-500 hover:shadow-lg transition duration-500"
@@ -21,7 +21,7 @@ export default function Contact() {
               <img src={linkedinlogo} alt="linkedinlogo" />
             </a>
             <a
-              href=""
+              href="https://www.instagram.com/ajaybhandari6/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-[100px] hover:shadow-pink-500 hover:shadow-lg transition duration-500"
@@ -31,7 +31,7 @@ export default function Contact() {
           </div>
           <div className="flex flex-row justify-between gap-10 md:gap-40">
             <a
-              href=""
+              href="mailto:ajaybhandari25@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="w-[100px] hover:shadow-yellow-500 hover:shadow-lg transition duration-500"
