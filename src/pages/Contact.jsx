@@ -1,8 +1,7 @@
 import React from "react";
-import instalogo from "../assets/instalogo.png";
 import linkedinlogo from "../assets/linkedinlogo.png";
 import gmaillogo from "../assets/gmaillogo.png";
-import whatsapplogo from "../assets/whatsapplogo.png";
+import googlescholarlogo from "../assets/googlescholarlogo.png";
 export default function Contact() {
   return (
     <div className="h-full pt-28 md:pt-24 gap-2 md:gap-0 px-5 md:px-2 flex flex-col-reverse md:flex-row md:justify-between">
@@ -21,16 +20,6 @@ export default function Contact() {
               <img src={linkedinlogo} alt="linkedinlogo" />
             </a>
             <a
-              href="https://www.instagram.com/ajaybhandari6/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-[100px] hover:shadow-pink-500 hover:shadow-lg transition duration-500"
-            >
-              <img src={instalogo} alt="instalogo" />
-            </a>
-          </div>
-          <div className="flex flex-row justify-between gap-10 md:gap-40">
-            <a
               href="mailto:ajaybhandari25@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -38,13 +27,16 @@ export default function Contact() {
             >
               <img src={gmaillogo} alt="gmaillogo" />
             </a>
+          </div>
+          <div className="flex flex-row justify-between gap-10 md:gap-40">
+            
             <a
               href="https://wa.me/+917755057692"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-[100px] hover:shadow-green-500 hover:shadow-lg transition duration-500"
+              className="w-[200px] hover:shadow-orange-500 hover:shadow-lg transition duration-500"
             >
-              <img src={whatsapplogo} alt="whatsapplogo" />
+              <img src={googlescholarlogo} alt="googlescholarlogo" />
             </a>
           </div>
         </div>

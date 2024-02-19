@@ -5,7 +5,6 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaResearchgate } from "react-icons/fa6";
 import { SiGooglescholar } from "react-icons/si";
 import { FaOrcid } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
 export default function () {
   return (
     <div className="relative w-full">
@@ -62,7 +61,7 @@ export default function () {
                 href="https://www.linkedin.com/in/dr-ajay-bhandari-74628169/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:scale-105"
+                className="hover:scale-110 transition duration-500"
               >
                 <FaLinkedin />
               </a>
@@ -70,7 +69,7 @@ export default function () {
                 href="mailto:ajaybhandari25@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:scale-105"
+                className="hover:scale-110 transition duration-500"
               >
                 <HiOutlineMail />
               </a>
@@ -78,7 +77,7 @@ export default function () {
                 href="https://www.researchgate.net/profile/Ajay-Bhandari-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:scale-105"
+                className="hover:scale-110 transition duration-500"
               >
                 <FaResearchgate />
               </a>
@@ -86,7 +85,7 @@ export default function () {
                 href="https://scholar.google.co.in/citations?user=Zuji5l4AAAAJ&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:scale-105"
+                className="hover:scale-110 transition duration-500"
               >
                 <SiGooglescholar />
               </a>
@@ -94,17 +93,9 @@ export default function () {
                 href="https://orcid.org/0000-0002-5384-9353"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:scale-105"
+                className="hover:scale-110 transition duration-500"
               >
                 <FaOrcid />
-              </a>
-              <a
-                href="https://www.instagram.com/ajaybhandari6/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:scale-105"
-              >
-                <FaInstagram />
               </a>
             </div>
           </div>
