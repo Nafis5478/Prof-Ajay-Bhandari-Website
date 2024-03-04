@@ -18,7 +18,7 @@ export default function () {
               <ul>
                 <li className="flex flex-row gap-2 md:gap-10">
                   <div className="font-semibold mr-1">Office:</div>
-                  <div>Room-225 B, Mechanical Department, IIT(ISM),Dhanbad</div>
+                  <div>Room-225 B, Mechanical Department, IIT(ISM) Dhanbad</div>
                 </li>
                 <li className="flex flex-row gap-2 md:gap-10">
                   <div className="font-semibold">Phone:</div>

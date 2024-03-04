@@ -13,6 +13,7 @@ import research4pic2 from "../assets/research4pic2.jpg";
 import research5pic1 from "../assets/research5pic1.gif";
 import research5pic2 from "../assets/research5pic2.gif";
 import research5pic3 from "../assets/research5pic3.gif";
+import research6pic1 from "../assets/research6pic1.gif";
 export default function Research() {
   return (
     <div className="h-full pt-28 lg:pt-32 px-5 lg:px-28">
@@ -282,7 +283,7 @@ export default function Research() {
             </li>
             <li className="shadow-gray-500 shadow-lg pt-2">
               <div className="text-3xl font-bold p-2  md:ml-5 underline decoration-solid text-center md:text-start">
-              Targeted drug delivery inside the human nasal cavity
+                Targeted drug delivery inside the human nasal cavity
               </div>
               <div className="mt-5">
                 <div className="  flex flex-col md:flex-row gap-2 items-center">
@@ -331,7 +332,7 @@ export default function Research() {
             </li>
             <li className="shadow-gray-500 shadow-lg pt-2">
               <div className="text-3xl font-bold p-2  md:ml-5 underline decoration-solid text-center md:text-start">
-                Enhancement of the septoplasty’s success rate by heat and mass
+                Enhancement of the septoplasty's success rate by heat and mass
                 transfer analysis
               </div>
               <div className="mt-5">
@@ -380,6 +381,48 @@ export default function Research() {
                       className="h-[200px] w-[250px] md:h-80 md:w-96"
                     />
                     <p className="text-center font-semibold">Corrected</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="shadow-gray-500 shadow-lg pt-2">
+              <div className="text-3xl font-bold p-2  md:ml-5 underline decoration-solid text-center md:text-start">
+                Ocular Biomechanics: New way to insert intravitreal injections
+              </div>
+              <div className="mt-5">
+                <div className="  flex flex-col md:flex-row gap-2 items-center pb-2">
+                  <div className="flex justify-center md:w-2/5">
+                    <img
+                      src={research6pic1}
+                      alt="research6pic1"
+                      className="rounded-lg h-[200px] w-[250px] md:h-64 md:w-96"
+                    />
+                  </div>
+                  <div className="pt-2 md:w-3/5">
+                    <p className="px-4">
+                      Intravitreal (IVT) injections provide several advantages
+                      in treating posterior segment eye diseases; however,
+                      several associated challenges remain, including the
+                      insertion strategy of IVT injections inside the human
+                      sclera. We at Biofluids Research Lab are investigating the
+                      effect of twisting IVT needles on the biomechanics of
+                      posterior ocular tissue. In addition, we are also
+                      interested in optimizing IVT needle parameters such as
+                      insertion location, speed, angle, size, and shape to
+                      minimize the pain induced by patients undergoing ocular
+                      surgeries.{" "}
+                      <a
+                        href="https://link.springer.com/article/10.1007/s10237-024-01819-5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-700 hover:underline"
+                      >
+                        Access Link
+                      </a>
+                    </p>
+                    <p className="px-4 text-blue-900 font-semibold">
+                      Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys Fluent.
+                    </p>
                   </div>
                 </div>
               </div>

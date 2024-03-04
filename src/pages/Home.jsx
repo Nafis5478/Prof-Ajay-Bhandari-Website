@@ -32,12 +32,12 @@ export default function Home() {
           <img
             src={logo2}
             alt="logo2"
-            className="mx-auto w-64 h-28 md:w-96 md:h-44"
+            className="mx-auto w-64 h-28 md:w-96 md:h-40"
           />
         </div>
       </div>
       <div className="shadow-gray-500 shadow-lg my-4 flex-col lg:mx-28 lg:p-10 flex md:flex-row justify-center">
-        <div className="md:w-1/3 p-3 gap-1">
+        <div className="md:w-1/3 p-3 flex flex-col gap-1 md:gap-2">
           <div>
             <img
               src={profile}
@@ -45,13 +45,17 @@ export default function Home() {
               className="w-2/3 mx-auto md:w-4/5 rounded-full shadow-black shadow-lg  "
             />
           </div>
-          <div className="text-center mt-4">
-            <p className="font-semibold text-3xl">Prof. Ajay Bhandari</p>
-            <p className="text-lg">Assistant professor</p>
-            <p className="text-lg">Department of Mechanical Engineering</p>
-            <p className="text-lg">
-              Indian Institute of Technology (ISM), Dhanbad
-            </p>
+          <div className="text-center mt-4 flex flex-col gap-2">
+            <div>
+              <p className="font-semibold text-3xl">Prof. Ajay Bhandari</p>
+            </div>
+            <div className="text-gray-600 text-sm">
+              <p className="text-lg">Assistant professor</p>
+              <p className="text-lg">Department of Mechanical Engineering</p>
+              <p className="text-lg">
+                Indian Institute of Technology (ISM), Dhanbad
+              </p>
+            </div>
           </div>
         </div>
         <div className="w-[90%] mx-auto md:w-2/3 justify-center  lg:mt-10 lg:ml-5 lg:pl-20 py-">

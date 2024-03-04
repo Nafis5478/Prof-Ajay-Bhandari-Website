@@ -7,7 +7,7 @@ export default function Navbar() {
   const [bar, setbar] = useState(false);
   return (
     <div className="bg-gray-300 text-black flex justify-between items-center h-20 w-full pl-8 pr-4 fixed">
-      <img src={ismlogo} alt="ismlogo" width={70} />
+      <img src={ismlogo} alt="ismlogo" width={70} className="p-1" />
       <ul className="hidden lg:flex gap-2 items-center">
         <Link to="/">
           <li
