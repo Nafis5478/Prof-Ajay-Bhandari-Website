@@ -1,19 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import lablogo from "../assets/Lablogo.png";
+import logo2 from "../assets/logo2.png";
 import profile from "../assets/profile.jpg";
 import { GiExitDoor } from "react-icons/gi";
 export default function Home() {
   return (
     <div className="h-full border-2">
-      <div className=" bg-gray-200  mx-auto flex flex-col items-center justify-center pt-20 pb-2 pl-4 md:flex-row">
+      <div className=" bg-gray-200  mx-auto flex flex-col items-center justify-center pt-28 pb-2 pl-4 md:flex-row">
         <div className="px-4 flex flex-col justify-center h-full md:w-2/3">
           <p className="text-black py-4 max-w text-center md:text-left md:px-10">
             <span className="text-3xl font-semibold">
               Explore the Innovations at
             </span>
             <br />
-            <span className="text-3xl font-bold">Bio-Fluid Research Labs</span>
+            <span className="text-3xl font-bold">Bio-Fluids Research Lab</span>
           </p>
           <div className="flex p-4 justify-center md:justify-between  md:px-10">
             <Link
@@ -27,11 +28,15 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="md:w-1/3">
-          <img src={lablogo} alt="lablogo" className="mx-auto w-2/3 md:w-2/3" />
+        <div className="md:w-1/3 py-14 md:py-0">
+          <img
+            src={logo2}
+            alt="logo2"
+            className="mx-auto w-64 h-28 md:w-96 md:h-44"
+          />
         </div>
       </div>
-      <div className="flex-col lg:mx-28 lg:p-10 flex md:flex-row justify-center">
+      <div className="shadow-gray-500 shadow-lg my-4 flex-col lg:mx-28 lg:p-10 flex md:flex-row justify-center">
         <div className="md:w-1/3 p-3 gap-1">
           <div>
             <img

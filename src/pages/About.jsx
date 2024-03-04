@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="h-full pt-28 md:pt-32  md:px-28">
       <h1 className="text-3xl font-semibold px-8">About Me</h1>
-      <div className="flex flex-col gap-2 py-10 md:px-4 mx-3 md:mx-10">
+      <div className="flex flex-col gap-2 py-10 md:px-4 mx-3 md:mx-10 shadow-gray-500 shadow-lg my-4">
         <div className="text-left md:items-center">
           <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 border-b-2 border-gray-900">
             Education
@@ -525,11 +525,11 @@ export default function About() {
                   className="mx-auto w-1/2 md:w-1/3"
                 />
                 <p className="text-center py-2 font-semibold">
-                University Institute of Engineering and Technology (UIET), Panjab University (PU), Chandigarh
+                  University Institute of Engineering and Technology (UIET),
+                  Panjab University (PU), Chandigarh
                 </p>
               </a>
             </div>
-            
           </div>
         </div>
       </div>

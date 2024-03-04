@@ -18,13 +18,13 @@ export default function () {
               <ul>
                 <li className="flex flex-row gap-2 md:gap-10">
                   <div className="font-semibold mr-1">Office:</div>
-                  <div>Room-226, Mechanical Department, IIT(ISM),Dhanbad</div>
+                  <div>Room-225 B, Mechanical Department, IIT(ISM),Dhanbad</div>
                 </li>
                 <li className="flex flex-row gap-2 md:gap-10">
                   <div className="font-semibold">Phone:</div>
                   <div className="flex flex-col md:flex-row md:gap-5">
                     <div>+91-7755057692 (Personal)</div>
-                    <div>1234567890 (Office)</div>
+                    <div>+91-326-223-5347 (Office)</div>
                   </div>
                 </li>
                 <li className="flex flex-row gap-2 md:gap-10">

@@ -29,7 +29,6 @@ export default function Contact() {
             </a>
           </div>
           <div className="flex flex-row justify-between gap-10 md:gap-40">
-            
             <a
               href="https://wa.me/+917755057692"
               target="_blank"

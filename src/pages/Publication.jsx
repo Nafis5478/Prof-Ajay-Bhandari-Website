@@ -8,7 +8,7 @@ export default function Publication() {
           Peer-Reviewed Journal Publications
         </h1>
 
-        <div className="py-10 md:ml-40 md:mr-20">
+        <div className="py-4 md:ml-40 md:mr-20 shadow-gray-500 shadow-lg px-2 my-3">
           <ul className="flex flex-col gap-2 md:gap-3 md:text-lg ">
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
@@ -17,11 +17,11 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-2">1. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Anup
-                  Singh, and Wenbo Zhan, Decoding the effect of different tumor
-                  heterogeneities on thermosensitive liposome drug delivery
-                  during radiofrequency ablation: A novel heat and mass transfer
-                  perspective,{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Anup Singh, and Wenbo Zhan, Decoding the effect of different
+                  tumor heterogeneities on thermosensitive liposome drug
+                  delivery during radiofrequency ablation: A novel heat and mass
+                  transfer perspective,{" "}
                   <span className="font-semibold">
                     International Communications in Heat and Mass Transfer,{" "}
                   </span>
@@ -39,9 +39,10 @@ export default function Publication() {
                 </p>
                 <p>
                   Anahita Piranfar, Farshad Moradi Kashkooli, Wenbo Zhan,{" "}
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Arman
-                  Rahmim, and M. Soltani, Radiopharmaceutical Transport in Solid
-                  Tumors via a 3-Dimensional Image-Based Spatiotemporal Model,{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Arman Rahmim, and M. Soltani, Radiopharmaceutical Transport
+                  in Solid Tumors via a 3-Dimensional Image-Based Spatiotemporal
+                  Model,{" "}
                   <span className="font-semibold">
                     NPJ Systems Biology and Applications (Nature),
                   </span>{" "}
@@ -59,8 +60,8 @@ export default function Publication() {
                 </p>
                 <p>
                   Ashish Siddharth,{" "}
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Sarthak
-                  S. Singh, and Arun Dayal Udai, Effect of Twisting of
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Sarthak S. Singh, and Arun Dayal Udai, Effect of Twisting of
                   Intravitreal Injections on Ocular Bio-mechanics: A Novel
                   Insight to Ocular Surgery,{" "}
                   <span className="font-semibold">
@@ -80,8 +81,9 @@ export default function Publication() {
                 </p>
                 <p>
                   Kartika Chandra Tripathy, Md Sirajullah, Deepak Kumar Mandal,
-                  and <span className="font-semibold underline">Ajay Bhandari</span>,
-                  Delineating the effects of morphological changes on retinal
+                  and{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Delineating the effects of morphological changes on retinal
                   hemodynamics in diabetic human retinas: An invitro
                   investigation,{" "}
                   <span className="font-semibold">Physics of Fluids</span> Vol.
@@ -109,9 +111,12 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-2">5. </span>
                 </p>
                 <p>
-                Kartika Chandra Tripathy, Ashish Siddharth and <span className="font-semibold underline">Ajay Bhandari</span>,
-                Image-based insilico investigation of hemodynamics and biomechanics in healthy and diabetic human retinas,{" "}
-                  <span className="font-semibold">Microvascular Research</span> Vol. 150, pp. 104594,{" "}
+                  Kartika Chandra Tripathy, Ashish Siddharth and{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Image-based insilico investigation of hemodynamics and
+                  biomechanics in healthy and diabetic human retinas,{" "}
+                  <span className="font-semibold">Microvascular Research</span>{" "}
+                  Vol. 150, pp. 104594,{" "}
                   <span className="font-semibold">November 2023</span>{" "}
                   <span className="font-semibold text-green-700">
                     (Selected as featured by the Editor){" "}
@@ -136,8 +141,8 @@ export default function Publication() {
                 </p>
                 <p>
                   Kartika Chandra Tripathy, Rakesh Kumar Gupta and{" "}
-                  <span className="font-semibold underline">Ajay Bhandari</span>,
-                  Importance of nasal air conditioning in pre-septoplasty
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Importance of nasal air conditioning in pre-septoplasty
                   planning: A heat and mass transfer perspective,{" "}
                   <span className="font-semibold">
                     International Journal of Thermal Sciences
@@ -163,10 +168,11 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-2">7. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Kartikey
-                  Jaiswal, Anup Singh and Wenbo Zhan, Highlighting the effect of
-                  heterogeneous blood perfusion on radio-frequency ablation of
-                  human brain tumors: An image-based numerical investigation,{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Kartikey Jaiswal, Anup Singh and Wenbo Zhan, Highlighting
+                  the effect of heterogeneous blood perfusion on radio-frequency
+                  ablation of human brain tumors: An image-based numerical
+                  investigation,{" "}
                   <span className="font-semibold">
                     International Journal of Thermal Sciences
                   </span>{" "}
@@ -191,10 +197,11 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-2">8. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Kartikey
-                  Jaiswal, Anup Singh and Wenbo Zhan, Convection-enhanced
-                  delivery of antiangiogenic drugs and liposomal cytotoxic drugs
-                  to heterogeneous brain tumour for combination therapy,{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Kartikey Jaiswal, Anup Singh and Wenbo Zhan,
+                  Convection-enhanced delivery of antiangiogenic drugs and
+                  liposomal cytotoxic drugs to heterogeneous brain tumour for
+                  combination therapy,{" "}
                   <span className="font-semibold">Cancers </span> Vol. 14, Issue
                   17, pp. 4177,{" "}
                   <span className="font-semibold">August 2022 </span>
@@ -221,9 +228,9 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-2">9. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ocular
-                  Fluid Mechanics and Drug Delivery: A Review of Mathematical
-                  and Computational Models,{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ocular Fluid Mechanics and Drug Delivery: A Review of
+                  Mathematical and Computational Models,{" "}
                   <span className="font-semibold">
                     Pharmaceutical Research{" "}
                   </span>
@@ -252,10 +259,10 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-2">10. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal and Niraj Sinha, Effect of Aging on Heat Transfer,
-                  Fluid Flow and Drug Transport in Anterior Human Eye: A
-                  Computational Study,
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal and Niraj Sinha, Effect of Aging on Heat
+                  Transfer, Fluid Flow and Drug Transport in Anterior Human Eye:
+                  A Computational Study,
                   <span className="font-semibold">
                     {" "}
                     Journal of Controlled Release{" "}
@@ -285,10 +292,10 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-1">11. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal and Niraj Sinha, Numerical Modeling of Therapeutic lens
-                  Drug Delivery in Anterior Human Eye for Treatment of Primary
-                  Open Angle Glaucoma (POAG),
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal and Niraj Sinha, Numerical Modeling of
+                  Therapeutic lens Drug Delivery in Anterior Human Eye for
+                  Treatment of Primary Open Angle Glaucoma (POAG),
                   <span className="font-semibold">
                     {" "}
                     Proceedings of the Institution of Mechanical Engineers, Part
@@ -319,10 +326,10 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-1">12. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal, Anup Singh, Rakesh Kumar Gupta and Niraj Sinha,
-                  Comparison of Transport of Chemotherapeutic Drugs in Voxelized
-                  Heterogeneous Model of Human Brain Tumor,
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal, Anup Singh, Rakesh Kumar Gupta and Niraj
+                  Sinha, Comparison of Transport of Chemotherapeutic Drugs in
+                  Voxelized Heterogeneous Model of Human Brain Tumor,
                   <span className="font-semibold">
                     {" "}
                     Microvascular Research.{" "}
@@ -349,10 +356,10 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-1">13. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal, Rishav Jain, Anup Singh and Niraj Sinha, Effect of
-                  Tumor Volume on Drug Delivery in Heterogeneous Vasculature of
-                  Human Brain Tumors,
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal, Rishav Jain, Anup Singh and Niraj Sinha,
+                  Effect of Tumor Volume on Drug Delivery in Heterogeneous
+                  Vasculature of Human Brain Tumors,
                   <span className="font-semibold">
                     {" "}
                     ASME Journal of Engineering and Science in Medical
@@ -379,10 +386,10 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-1">14. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal, Anup Singh and Niraj Sinha, DCE-MRI Based Voxelized
-                  Computational Model for Chemotherapeutic Drug Transport in
-                  Human Brain Tumor,
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal, Anup Singh and Niraj Sinha, DCE-MRI Based
+                  Voxelized Computational Model for Chemotherapeutic Drug
+                  Transport in Human Brain Tumor,
                   <span className="font-semibold">
                     {" "}
                     International Journal of Advances Engineering Science and
@@ -409,8 +416,8 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-1">15. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal, Anup Singh and Niraj Sinha, Numerical Study of
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal, Anup Singh and Niraj Sinha, Numerical Study of
                   Transport of Anticancer Drugs in Heterogeneous Vasculature of
                   Human Brain Tumors Using Dynamic Contrast Enhanced- Magnetic
                   Resonance Imaging,
@@ -443,10 +450,10 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-1">16. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal, Anup Singh and Niraj Sinha, Transport of Liposome
-                  Encapsulated drugs in Voxelized Computational Model of Human
-                  Brain Tumors,
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal, Anup Singh and Niraj Sinha, Transport of
+                  Liposome Encapsulated drugs in Voxelized Computational Model
+                  of Human Brain Tumors,
                   <span className="font-semibold">
                     {" "}
                     IEEE Transactions on Nano Bio Science.{" "}
@@ -472,9 +479,10 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-1">17. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal, Anup Singh and Niraj Sinha, Perfusion Kinetics in
-                  Human Brain Tumor with DCE-MRI derived model and CFD analysis,
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal, Anup Singh and Niraj Sinha, Perfusion Kinetics
+                  in Human Brain Tumor with DCE-MRI derived model and CFD
+                  analysis,
                   <span className="font-semibold">
                     {" "}
                     Journal of Biomechanics.{" "}
@@ -583,17 +591,23 @@ export default function Publication() {
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 border-b-2 border-gray-900">
           Guest Editor
         </h1>
-        <div className="py-10 md:ml-40 md:mr-20">
+        <div className="py-4 md:ml-40 md:mr-20 my-4 shadow-gray-500 shadow-lg px-2">
           <ul className="flex flex-col gap-2 *:md:gap-3 md:text-lg">
-          <li className="flex flex-row">
+            <li className="flex flex-row">
               <div className="flex flex-row gap-2">
                 <p>
                   <MdDoubleArrow className="inline-block" />
                   {/* <span className="inline-block font-semibold px-2">1. </span> */}
                 </p>
                 <p>
-                Guest editor for special issue “<span className="font-semibold">Image-based Diagnostic and/or Therapeutic Agent Delivery Models in Cancer</span>” for the Frontiers in Oncology, Frontiers in Pharmacology, and Frontiers in Radiology Journal.
-                <a
+                  Guest editor for special issue “
+                  <span className="font-semibold">
+                    Image-based Diagnostic and/or Therapeutic Agent Delivery
+                    Models in Cancer
+                  </span>
+                  ” for the Frontiers in Oncology, Frontiers in Pharmacology,
+                  and Frontiers in Radiology Journal.
+                  <a
                     href="https://www.frontiersin.org/research-topics/54422/image-based-diagnostic-andor-therapeutic-agent-delivery-models-in-cancer"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -612,7 +626,7 @@ export default function Publication() {
           Conference Proceeding and Presentation
         </h1>
 
-        <div className="py-10 md:ml-40 md:mr-20">
+        <div className="py-4 md:ml-40 md:mr-20 my-4 px-2 shadow-gray-500 shadow-lg ">
           <ul className="flex flex-col gap-2 md:gap-3 md:text-lg ">
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
@@ -622,9 +636,9 @@ export default function Publication() {
                 </p>
                 <p>
                   Kartika Chandra Tripathy and{" "}
-                  <span className="font-semibold underline">Ajay Bhandari</span>,
-                  “Micro-particle deposition patterns in human nasal cavity with
-                  different types of deviations” Fluid Mechanics and Fluid
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , “Micro-particle deposition patterns in human nasal cavity
+                  with different types of deviations” Fluid Mechanics and Fluid
                   Power,{" "}
                   <span className="font-semibold">
                     December 20-22, 2023, IIT Jodhpur
@@ -641,9 +655,9 @@ export default function Publication() {
                 </p>
                 <p>
                   Parth Dev Bundela,{" "}
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Sarthak
-                  S. Singh; Convection enhanced drug delivery in deformable
-                  human tumors.{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Sarthak S. Singh; Convection enhanced drug delivery in
+                  deformable human tumors.{" "}
                   <span className="font-semibold">
                     AIP Conf. Proc. 5 September 2023; 2863 (1): 020003.{" "}
                   </span>
@@ -666,8 +680,8 @@ export default function Publication() {
                 </p>
                 <p>
                   Sangly P Srinivas, Parth Dev Bundela, Yamalapalli Sowmya,{" "}
-                  <span className="font-semibold underline">Ajay Bhandari</span>;
-                  Pharmacokinetic simulation of topical lipophilic solutes
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  ; Pharmacokinetic simulation of topical lipophilic solutes
                   across the cornea by the finite element method.{" "}
                   <span className="font-semibold">
                     Invest. Ophthalmol. Vis. Sci. 2023;64(8):4744.{" "}
@@ -691,9 +705,10 @@ export default function Publication() {
                 </p>
                 <p>
                   Anahita Piranfar, M. Soltani, Farshad M. Kashkooli, Wenbo
-                  Zhan, <span className="font-semibold underline">Ajay Bhandari</span>,
-                  Arman Rahmim,” 177Lu-PSMA-617 Transport in Solid Tumor via 3D
-                  Spatio-temporal Model Reconstructed from Magnetic Resonance
+                  Zhan,{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Arman Rahmim,” 177Lu-PSMA-617 Transport in Solid Tumor via
+                  3D Spatio-temporal Model Reconstructed from Magnetic Resonance
                   Image”, Society of Nuclear Medicine and Molecular Imaging,{" "}
                   <span className="font-semibold">
                     June 24-27, 2023, Chicago, Illinois, USA.{" "}
@@ -717,8 +732,8 @@ export default function Publication() {
                 </p>
                 <p>
                   Shivam Gupta and{" "}
-                  <span className="font-semibold underline">Ajay Bhandari</span>,
-                  “Image-based retinal hemodynamics simulation of healthy and
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , “Image-based retinal hemodynamics simulation of healthy and
                   pathological retinal vasculature” Fluid Mechanics and Fluid
                   Power,{" "}
                   <span className="font-semibold">
@@ -743,8 +758,8 @@ export default function Publication() {
                 </p>
                 <p>
                   Kartika Chandra Tripathy and{" "}
-                  <span className="font-semibold underline">Ajay Bhandari</span>,
-                  “Highlighting the importance of nasal air conditioning in
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , “Highlighting the importance of nasal air conditioning in
                   septoplasty using virtual correction tools: A numerical study”
                   Fluid Mechanics and Fluid Power,{" "}
                   <span className="font-semibold">
@@ -768,11 +783,11 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-2">7. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal and Niraj Sinha, “Comparison of efficacy of different
-                  drug delivery modes in anterior human eye for treatment of
-                  primary open angle glaucoma (POAG)”, Computational and
-                  Mathematical Biomedical Engineering,{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal and Niraj Sinha, “Comparison of efficacy of
+                  different drug delivery modes in anterior human eye for
+                  treatment of primary open angle glaucoma (POAG)”,
+                  Computational and Mathematical Biomedical Engineering,{" "}
                   <span className="font-semibold">
                     June 10-12, 2019, Tohoku University, Japan.{" "}
                   </span>
@@ -787,8 +802,8 @@ export default function Publication() {
                 </p>
                 <p>
                   Ashish Tiwari,{" "}
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Pankaj
-                  Wahi and Niraj Sinha, Finite Element Analysis and
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Pankaj Wahi and Niraj Sinha, Finite Element Analysis and
                   Computational Fluid Dynamics Study of Pore Shape in
                   Bio-Scaffolds” International Conference on Design, Materials
                   and Manufacturing Concerns in Production of Quality
@@ -806,11 +821,11 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-2">9. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal, Anup Singh and Niraj Sinha, “DCE-MRI Based Voxelized
-                  Computational Model for Chemotherapeutic Drug Transport in
-                  Human Brain Tumor”, Asian Symposium on Computational Heat
-                  Transfer and Fluid Flow (ASCHT2017),{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal, Anup Singh and Niraj Sinha, “DCE-MRI Based
+                  Voxelized Computational Model for Chemotherapeutic Drug
+                  Transport in Human Brain Tumor”, Asian Symposium on
+                  Computational Heat Transfer and Fluid Flow (ASCHT2017),{" "}
                   <span className="font-semibold">
                     10th- 13rd December, 2017, IIT Madras, India.
                   </span>
@@ -824,11 +839,11 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-1">10. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal, Anup Singh and Niraj Sinha, “Study of Perfusion
-                  Kinetics in Human Brain Tumor using Leaky Tracer Kinetic Model
-                  of DCE-MRI Data and CFD”, 2017 International Conference on
-                  Life System Modeling and Simulation,{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal, Anup Singh and Niraj Sinha, “Study of
+                  Perfusion Kinetics in Human Brain Tumor using Leaky Tracer
+                  Kinetic Model of DCE-MRI Data and CFD”, 2017 International
+                  Conference on Life System Modeling and Simulation,{" "}
                   <span className="font-semibold">
                     Sep 22-24 2017, Nanjing, China.{" "}
                   </span>
@@ -850,10 +865,10 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-1">11. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal, Anup Singh and Niraj Sinha, “Transport of Liposome
-                  Encapsulated Drugs in Voxelized Computational Model of Brain
-                  Tumors”, International Conference of Nanomedicine and
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal, Anup Singh and Niraj Sinha, “Transport of
+                  Liposome Encapsulated Drugs in Voxelized Computational Model
+                  of Brain Tumors”, International Conference of Nanomedicine and
                   Nano-biotechnology,{" "}
                   <span className="font-semibold">
                     Sep 28-30, 2016, University Pierre and Marie Curie, Paris.{" "}
@@ -876,10 +891,10 @@ export default function Publication() {
                   <span className="inline-block font-semibold px-1">12. </span>
                 </p>
                 <p>
-                  <span className="font-semibold underline">Ajay Bhandari</span>, Ankit
-                  Bansal, Anup Singh and Niraj Sinha, “CFD Analysis of Perfusion
-                  Kinetics in Brain Tumor with DCE-MRI Derived Model”, Sixth
-                  International Congress on Computational Mechanics and
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Ankit Bansal, Anup Singh and Niraj Sinha, “CFD Analysis of
+                  Perfusion Kinetics in Brain Tumor with DCE-MRI Derived Model”,
+                  Sixth International Congress on Computational Mechanics and
                   Simulation,{" "}
                   <span className="font-semibold">
                     27th June-1st July 2016, IIT Bombay, India.
@@ -894,16 +909,19 @@ export default function Publication() {
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 border-b-2 border-gray-900">
           Patents
         </h1>
-        <div className="py-10 md:ml-40 md:mr-20">
+        <div className="py-4 md:ml-40 md:mr-20 my-4 px-2 shadow-gray-500 shadow-lg ">
           <ul className="flex flex-col gap-2 *:md:gap-3 md:text-lg">
-          <li className="flex flex-row">
+            <li className="flex flex-row">
               <div className="flex flex-row gap-2">
                 <p>
                   <MdDoubleArrow className="inline-block" />
                   {/* <span className="inline-block font-semibold px-2">1. </span> */}
                 </p>
                 <p>
-                Ashish Siddharth, <span className="font-semibold underline">Ajay Bhandari</span>, and Arun Dayal Udai, Method and Equipment for Ocular Surgery and Drug Delivery (Filed).
+                  Ashish Siddharth,{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , and Arun Dayal Udai, Method and Equipment for Ocular Surgery
+                  and Drug Delivery (Filed).
                 </p>
               </div>
             </li>
