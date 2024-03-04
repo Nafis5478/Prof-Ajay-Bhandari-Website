@@ -255,6 +255,9 @@ export default function Research() {
                         Access Link
                       </a>
                     </p>
+                    <p className="px-4 text-blue-900 font-semibold">
+                      Softwares used: Inventor, Ansys Fluent, Static Structural.
+                    </p>
                   </div>
                 </div>
                 <div className="flex flex-col md:flex-row justify-between mx-2 md:mx-20 pt-10 pb-2 gap-2">
@@ -272,14 +275,14 @@ export default function Research() {
                       alt="research3pic3"
                       className="h-[200px] w-[250px] md:h-80 md:w-96"
                     />
-                    <p className="text-center">Results for Vien</p>
+                    <p className="text-center">Results for Vein</p>
                   </div>
                 </div>
               </div>
             </li>
             <li className="shadow-gray-500 shadow-lg pt-2">
               <div className="text-3xl font-bold p-2  md:ml-5 underline decoration-solid text-center md:text-start">
-                Computational Oncology and Drug Delivery
+              Targeted drug delivery inside the human nasal cavity
               </div>
               <div className="mt-5">
                 <div className="  flex flex-col md:flex-row gap-2 items-center">
@@ -320,7 +323,7 @@ export default function Research() {
                       on different nasal anatomies.
                     </p>
                     <p className="px-4 text-blue-900 font-semibold">
-                      Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys Fluent
+                      Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys Fluent.
                     </p>
                   </div>
                 </div>
@@ -357,7 +360,7 @@ export default function Research() {
                       patients and the effectiveness of the septoplasty.
                     </p>
                     <p className="px-4 text-blue-900 font-semibold">
-                      Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys Fluent
+                      Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys Fluent.
                     </p>
                   </div>
                 </div>

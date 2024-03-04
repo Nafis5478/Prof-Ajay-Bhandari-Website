@@ -8,10 +8,10 @@ export default function About() {
       <h1 className="text-3xl font-semibold px-8">About Me</h1>
       <div className="flex flex-col gap-2 py-10 md:px-4 mx-3 md:mx-10 shadow-gray-500 shadow-lg my-4">
         <div className="text-left md:items-center">
-          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 border-b-2 border-gray-900">
+          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
             Education
           </h1>
-          <div className="py-10 md:ml-40 md:mr-20">
+          <div className="py-10 md:ml-40 md:mr-20 px-2 md:px-0">
             <ul className="flex flex-col gap-2 md:gap-5">
               <li className="flex flex-col gap-1 md:flex-row md:justify-between md:text-lg">
                 <div className="flex flex-row gap-2">
@@ -56,10 +56,10 @@ export default function About() {
           </div>
         </div>
         <div className="text-left md:items-center">
-          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 border-b-2 border-gray-900">
+          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
             Experiences
           </h1>
-          <div className="py-10 md:ml-40 md:mr-20">
+          <div className="py-10 md:ml-40 md:mr-20 px-2 md:px-0">
             <ul className="flex flex-col gap-2 md:gap-5">
               <li className="flex flex-col gap-1 md:flex-row md:justify-between md:text-lg ">
                 <div className="flex flex-row gap-2">
@@ -115,10 +115,10 @@ export default function About() {
           </div>
         </div>
         <div className="text-left md:items-center">
-          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 border-b-2 border-gray-900">
+          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
             Invited Talks and Webinars Organized
           </h1>
-          <div className="py-10 md:ml-40 md:mr-20">
+          <div className="py-10 md:ml-40 md:mr-20 px-2 md:px-0">
             <ul className="flex flex-col gap-2 md:gap-3 md:text-lg">
               <li className="flex flex-row">
                 <div className="flex flex-row gap-2">
@@ -195,10 +195,10 @@ export default function About() {
           </div>
         </div>
         <div className="text-left md:items-center">
-          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 border-b-2 border-gray-900">
+          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
             Administrative Responsibilities
           </h1>
-          <div className="py-10 md:ml-40 md:mr-20">
+          <div className="py-10 md:ml-40 md:mr-20 px-2 md:px-0">
             <ul className="flex flex-col gap-2 md:gap-3 md:text-lg">
               <li className="flex flex-row">
                 <div className="flex flex-row gap-2">
@@ -253,19 +253,19 @@ export default function About() {
           </div>
         </div>
         <div className="text-left md:items-center">
-          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 border-b-2 border-gray-900">
+          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
             Educational Details
           </h1>
           <div className="flex flex-col gap-2 pt-10 md:ml-40 md:mr-20">
-            <h1 className="font-semibold text-xl underline">PhD Thesis</h1>
-            <div className="md:ml-5">
+            <h1 className="font-semibold text-xl underline text-center md:text-start">PhD Thesis</h1>
+            <div className="md:ml-5 px-2 md:px-0">
               <p className="text-lg">
                 <span className="font-semibold">Thesis Title</span>- Dynamic
                 Contrast Enhanced-Magnetic Resonance Imaging (DCE-MRI) based
                 numerical modeling of anticancer drug transport in human brain
                 tumors.
               </p>
-              <p className="font-semibold text-xl">
+              <p className="font-semibold text-xl text-center md:text-start">
                 Salient outcomes and clinical implications of PhD research
               </p>
               <ul className="flex flex-col gap-2 md:gap-3 md:ml-3 md:text-lg">
@@ -314,7 +314,7 @@ export default function About() {
                   </div>
                 </li>
               </ul>
-              <p className="font-semibold text-xl  underline">Adviser</p>
+              <p className="font-semibold text-xl  underline text-center md:text-start">Adviser</p>
               <ul className="flex flex-col gap-2 md:gap-3 md:ml-3 md:text-lg">
                 <li className="flex flex-row">
                   <div className="flex flex-row gap-2">
@@ -377,14 +377,14 @@ export default function About() {
             </div>
           </div>
           <div className="flex flex-col gap-2 pt-10 md:ml-40 md:mr-20">
-            <h1 className="font-semibold text-xl underline">M.Tech Thesis</h1>
-            <div className="md:ml-5">
+            <h1 className="font-semibold text-xl underline text-center md:text-start">M.Tech Thesis</h1>
+            <div className="md:ml-5 px-2 md:px-0">
               <p className="text-lg">
                 <span className="font-semibold">Thesis Title</span>- Numerical
                 modeling of drug transport in the anterior human eye to treat
                 Primary Open Angle Glaucoma (POAG).
               </p>
-              <p className="font-semibold text-xl">
+              <p className="font-semibold text-xl text-center md:text-start">
                 Salient outcomes and clinical implications of Masters research{" "}
               </p>
               <ul className="flex flex-col gap-2 md:gap-3 md:ml-3 md:text-lg">
@@ -427,7 +427,7 @@ export default function About() {
                   </div>
                 </li>
               </ul>
-              <p className="font-semibold text-xl  underline">Adviser</p>
+              <p className="font-semibold text-xl text-center md:text-start underline">Adviser</p>
               <ul className="flex flex-col gap-2 md:gap-3 md:ml-3 md:text-lg">
                 <li className="flex flex-row">
                   <div className="flex flex-row gap-2">
@@ -452,14 +452,14 @@ export default function About() {
             </div>
           </div>
           <div className="flex flex-col gap-2 pt-10 md:ml-40 md:mr-20">
-            <h1 className="font-semibold text-xl underline">BE Project</h1>
-            <div className="md:ml-5">
+            <h1 className="font-semibold text-xl underline text-center md:text-start">BE Project</h1>
+            <div className="md:ml-5 px-2 md:px-0">
               <p className="text-lg">
                 <span className="font-semibold">Thesis Title</span>- To reduce
                 the rejection/rework of the gearbox line in Mahindra and
                 Mahindra Ltd. Swaraj Divison Mohali.
               </p>
-              <p className="font-semibold text-xl">
+              <p className="font-semibold text-xl text-center md:text-start">
                 Salient outcomes of undergraduate project{" "}
               </p>
               <ul className="flex flex-col gap-2 md:gap-3 md:ml-3 md:text-lg">
@@ -491,7 +491,7 @@ export default function About() {
           </div>
         </div>
         <div className="text-left md:items-center">
-          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 border-b-2 border-gray-900">
+          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
             Alma Maters
           </h1>
           <div className="flex flex-col pt-5 md:flex-row items-center">

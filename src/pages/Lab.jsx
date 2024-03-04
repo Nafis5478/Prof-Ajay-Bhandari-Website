@@ -17,7 +17,7 @@ export default function Lab() {
   return (
     <div className="h-full pt-28 lg:pt-32 px-5 lg:px-28">
       <div className="text-left lg:items-center lg:mb-10">
-        <h1 className="text-3xl text-center lg:text-left font-semibold px-8 border-b-2 border-black py-2">
+        <h1 className="text-3xl text-center lg:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-black py-2">
           Major Experimental Facilities
         </h1>
         <div className="py-10 lg:ml-40 lg:mr-20">
@@ -256,7 +256,7 @@ export default function Lab() {
         </div>
       </div>
       <div className="text-left lg:items-center">
-        <h1 className="text-3xl text-center lg:text-left font-semibold px-8 border-b-2 border-black py-2">
+        <h1 className="text-3xl text-center lg:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-black py-2">
           Computational Facilities
         </h1>
         <div className="py-10 lg:ml-40 lg:mr-20">

@@ -4,7 +4,7 @@ export default function Publication() {
   return (
     <div className="h-full pt-28 md:pt-32 px-5 md:px-28">
       <div className="text-left md:items-center">
-        <h1 className="text-3xl text-center md:text-left font-semibold px-8 border-b-2 border-gray-900">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
           Peer-Reviewed Journal Publications
         </h1>
 
@@ -588,7 +588,7 @@ export default function Publication() {
         </div>
       </div>
       <div className="text-left md:items-center">
-        <h1 className="text-3xl text-center md:text-left font-semibold px-8 border-b-2 border-gray-900">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
           Guest Editor
         </h1>
         <div className="py-4 md:ml-40 md:mr-20 my-4 shadow-gray-500 shadow-lg px-2">
@@ -622,7 +622,7 @@ export default function Publication() {
         </div>
       </div>
       <div className="text-left md:items-center">
-        <h1 className="text-3xl text-center md:text-left font-semibold px-8 border-b-2 border-gray-900">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
           Conference Proceeding and Presentation
         </h1>
 
@@ -906,7 +906,7 @@ export default function Publication() {
         </div>
       </div>
       <div className="text-left md:items-center">
-        <h1 className="text-3xl text-center md:text-left font-semibold px-8 border-b-2 border-gray-900">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
           Patents
         </h1>
         <div className="py-4 md:ml-40 md:mr-20 my-4 px-2 shadow-gray-500 shadow-lg ">

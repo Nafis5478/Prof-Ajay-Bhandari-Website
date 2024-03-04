@@ -92,13 +92,13 @@ export default function Navbar() {
             Project
           </li>
         </Link>
-        <Link to="/contact">
+        <Link to="/join-us">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
-              location.pathname === "/contact" ? "bg-slate-100 rounded-xl" : ""
+              location.pathname === "/join-us" ? "bg-slate-100 rounded-xl" : ""
             }`}
           >
-            Contact me
+            Join Us
           </li>
         </Link>
       </ul>
@@ -180,15 +180,15 @@ export default function Navbar() {
               Project
             </li>
           </Link>
-          <Link to="/contact" onClick={() => setbar(!bar)}>
+          <Link to="/join-us" onClick={() => setbar(!bar)}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
-                location.pathname === "/contact"
+                location.pathname === "/join-us"
                   ? "bg-slate-100 rounde text-blackd-xl"
                   : ""
               }`}
             >
-              Contact me
+              Join Us
             </li>
           </Link>
         </ul>
