@@ -6,19 +6,19 @@ import { MdDoubleArrow } from "react-icons/md";
 
 export default function Contact() {
   return (
-    <div className="h-full lg:h-full pt-28 md:pt-24 gap-2 md:gap-0 px-5 md:px-2">
-      <div className="md:mx-28 md:my-8 ">
+    <div className="h-full lg:h-full pt-28 md:pt-24 flex flex-col gap-3 px-5 md:px-2">
+      <div className="md:mx-28 md:mt-4 ">
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
           Prospective Students / Vacancies
         </h1>
         <div className="py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
-          <p>
+          <p className="md:text-lg">
             If you are fascinated by and want to deeply explore fluid flows,
             indeed keen on rigorous research in Fluid Mechanics and plan to
             publish your work in reputed journals and international conferences,
             then this is the right place for you!
           </p>
-          <p>
+          <p className="md:text-lg">
             Curious, research-driven, honest, enthusiastic, motivated, dedicated
             and hardworking people are welcome to join the NatFlows Lab. We are
             constantly looking for such people.
@@ -29,8 +29,8 @@ export default function Contact() {
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
           Interested PhD/MS/MTech Students{" "}
         </h1>
-        <div className="py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
-          <p className="font-semibold text-center">
+        <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
+          <p className="font-semibold text-start ml-4 mr-2 md:ml-8 md:mr-4">
             Presuming that you have read through the NatFlows Lab homepage, if
             you are interested and planning to join our lab, then here is the
             process.
@@ -121,8 +121,8 @@ export default function Contact() {
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
           Recommended Courses
         </h1>
-        <div className="py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
-          <p className="font-semibold text-center">
+        <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
+          <p className="font-semibold text-start ml-4 mr-2 md:ml-8 md:mr-4">
             We work in fluid flow problems using experiments blended with theory
             and simulation, therefore, crediting some of the following courses,
             but not limited to, depending upon your research problem would
@@ -180,8 +180,111 @@ export default function Contact() {
           </ul>
         </div>
       </div>
+      <div className="md:mx-28 md:mt-4 ">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
+          Prospective PhD (Research Students)
+        </h1>
+        <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
+          <p className="font-semibold text-start ml-4 mr-2 md:ml-8 md:mr-4">
+            If you are doing/have performed well in some of the above courses
+            and you are willing to join our lab, then please email Sachin Y.
+            Shinde (sachin@iitk.ac.in) with following documents:
+          </p>
+          <ul className="flex flex-col gap-2 mx-4 md:mx-20">
+            <li>
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>Your resume (CV)</p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                  Short research proposal (~ one page) stating the research
+                  statement and plan (if you have one) which can be discussed
+                  when we meet
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                  Few lines stating why do you want to work in NatFlow Lab, and
+                  your plan after graduation
+                </p>
+              </div>
+            </li>
+          </ul>
+          <p className="text-gray-950 underline decoration-gray-500 text-start ml-4 mr-2 md:ml-8 md:mr-4">
+            Prospective Students providing these documents would be considered
+            favourably.
+          </p>
+        </div>
+      </div>
+      <div className="md:mx-28 md:mt-4 ">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
+          Prospective MTech Students
+        </h1>
+        <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
+          <p className="font-semibold text-start ml-4 mr-2 md:ml-8 md:mr-4">
+            If you are doing/have performed well in some of the above courses
+            and you are willing to join our lab, then please email Sachin Y.
+            Shinde (sachin@iitk.ac.in) with following documents:
+          </p>
+          <ul className="flex flex-col gap-2 mx-4 md:mx-20">
+            <li>
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>Your resume (CV)</p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
+                  Few lines stating why do you want to work in NatFlows Lab, and
+                  your future plan after MTech
+                </p>
+              </div>
+            </li>
+          </ul>
+          <p className="text-gray-950 underline decoration-gray-500 text-start ml-4 mr-2 md:ml-8 md:mr-4">
+            Prospective Students providing these documents would be considered
+            favourably.
+          </p>
+        </div>
+      </div>
+      <div className="md:mx-28 md:mt-4 ">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
+          Prospective SUMMER Intern Students
+        </h1>
+        <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 md:px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
+          <p className="font-semibold md:text-start ml-4 mr-2 md:ml-8 md:mr-4">
+            If you are indeed keen on doing serious research work, then you are
+            most welcome to join the NatFlows Lab. Please contact Sachin Y.
+            Shinde (sachin@iitk.ac.in) with your CV and short plan of work.
+          </p>
+          <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
+            However, if you are aiming only to get a recommendation and PVF at
+            the end of internship, you will be disappointed! Such students
+            should refrain from applying!
+          </p>
+        </div>
+      </div>
       <div className="md:mx-28 md:mt-4">
-      <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
           Contact Us
         </h1>
         <div className="py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col md:flex-row gap-2 justify-between">
@@ -223,7 +326,7 @@ export default function Contact() {
           <div className="text-2xl font-semibold items-center flex justify-center ">
             Or
           </div>
-          <div className=" md:w-2/5 mb-5 md:pt-10 rounded-lg px-5 py-2 ">
+          <div className=" md:w-1/2 mb-5 md:pt-10 rounded-lg px-5 md:px-0 py-2 ">
             <h1 className="text-3xl text-center font-semibold px-8">
               Drop me a message
             </h1>
