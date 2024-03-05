@@ -23,7 +23,7 @@ export default function Research() {
         </h1>
         <div className="py-10 lg:ml-10 lg:mr-10">
           <ul className="flex flex-col gap-2 lg:gap-3 lg:text-lg">
-            <li className="shadow-gray-500 shadow-lg pt-2">
+            <li className="shadow-gray-500 shadow-lg pt-2 bg-gray-50">
               <div className="text-3xl font-bold p-2  md:ml-5 underline decoration-solid text-center md:text-start">
                 Computational Oncology and Drug Delivery
               </div>
@@ -134,7 +134,7 @@ export default function Research() {
                 </div>
               </div>
             </li>
-            <li className="shadow-gray-500 shadow-lg pt-2">
+            <li className="shadow-gray-500 shadow-lg pt-2 bg-gray-50">
               <div className="text-3xl font-bold p-2  md:ml-5 underline decoration-solid text-center md:text-start">
                 Retinal Hemodynamics: In Vitro Investigation
               </div>
@@ -213,7 +213,7 @@ export default function Research() {
                 </div>
               </div>
             </li>
-            <li className="shadow-gray-500 shadow-lg pt-2">
+            <li className="shadow-gray-500 shadow-lg pt-2 bg-gray-50">
               <div className="text-3xl font-bold p-2  md:ml-5 underline decoration-solid text-center md:text-start">
                 Multiscale modeling of hemodynamics and biomechanics in human
                 retina
@@ -281,7 +281,7 @@ export default function Research() {
                 </div>
               </div>
             </li>
-            <li className="shadow-gray-500 shadow-lg pt-2">
+            <li className="shadow-gray-500 shadow-lg pt-2 bg-gray-50">
               <div className="text-3xl font-bold p-2  md:ml-5 underline decoration-solid text-center md:text-start">
                 Targeted drug delivery inside the human nasal cavity
               </div>
@@ -330,7 +330,7 @@ export default function Research() {
                 </div>
               </div>
             </li>
-            <li className="shadow-gray-500 shadow-lg pt-2">
+            <li className="shadow-gray-500 shadow-lg pt-2 bg-gray-50">
               <div className="text-3xl font-bold p-2  md:ml-5 underline decoration-solid text-center md:text-start">
                 Enhancement of the septoplasty's success rate by heat and mass
                 transfer analysis
@@ -385,7 +385,7 @@ export default function Research() {
                 </div>
               </div>
             </li>
-            <li className="shadow-gray-500 shadow-lg pt-2">
+            <li className="shadow-gray-500 shadow-lg pt-2 bg-gray-50">
               <div className="text-3xl font-bold p-2  md:ml-5 underline decoration-solid text-center md:text-start">
                 Ocular Biomechanics: New way to insert intravitreal injections
               </div>
