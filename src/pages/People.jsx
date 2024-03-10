@@ -20,7 +20,7 @@ export default function People() {
                   <img
                     src={kartik}
                     alt="kartik"
-                    className="rounded-lg h-[150px] md:h-72 shadow-lg shadow-gray-700"
+                    className="rounded-lg h-[150px] md:h-96 shadow-lg shadow-gray-700"
                   />
                 </div>
                 <div className="p-2 md:w-3/5">
@@ -33,19 +33,19 @@ export default function People() {
                     I joined Thermax as a graduate trainee. I worked there for
                     eight months in the department of quality assurance. I
                     completed my M.Tech in thermal engineering at Veer Surendra
-                    Sai University of Technology (Formerly UCE, Burla),Burla,
-                    Odisha. My M Tech project was on "Natural convection heat
+                    Sai University of Technology (Formerly UCE, Burla), Burla,
+                    Odisha. My M.Tech project was on "Natural convection heat
                     transfer in a heat sink with branched and interrupted fins".
-                    After completing my M.Tech,I joined IIT(ISM), Dhanbad, for
+                    After completing my M.Tech, I joined IIT(ISM), Dhanbad, for
                     Ph.D. I am currently pursuing my Ph.D. research in the
-                    Biofluid research lab under the supervision of Prof.Ajay
-                    Bhandari. My research interests are Biofluid mechanics and
+                    Biofluid research lab under the supervision of <span className="font-semibold">Prof. Ajay
+                    Bhandari</span>. My research interests are Biofluid mechanics and
                     heat transfer, CFD investigation of upper respiratory
                     system, Hemodynamics, Fluid-structure interactions, and
-                    Virtual surgery. The title of my thesis is "Investigation of
+                    Virtual surgery. The title of my thesis is "<span className="font-semibold">Investigation of
                     Nasal Septal Deviation and Implications of Virtual
                     Septoplasty: An Image-based Numerical and Experimental
-                    Analysis".
+                    Analysis</span>".
                   </p>
                 </div>
               </div>
@@ -65,16 +65,16 @@ export default function People() {
                     I have completed my B.E. in Mechanical Engineering from
                     Rajiv Gandhi Proudyogiki Vishwavidyalaya Bhopal. I have
                     completed my M.Tech in thermal engineering at National
-                    Institute of Technology Patna Bihar; my M.Tech project was
+                    Institute of Technology Patna Bihar. My M.Tech project was
                     on "Enhancing the performance of photovoltaic panel by air
-                    cooling" after completing my M.Tech,I joined IIT(ISM),
-                    Dhanbad, for my Ph.D.; I am pursuing my Ph.D. research in
-                    the Biofluid research lab under the supervision of Prof.
-                    Ajay Bhandari; my research interests are Biofluid mechanics
+                    cooling" after completing my M.Tech, I joined IIT(ISM),
+                    Dhanbad, for my Ph.D. I am pursuing my Ph.D. research in
+                    the Biofluid research lab under the supervision of <span className="font-semibold">Prof.
+                    Ajay Bhandari</span> my research interests are Biofluid mechanics
                     and Hemodynamics, Fluid-structure interactions. The title of
-                    my thesis is "Computational and Experimental Investigation
+                    my thesis is "<span className="font-semibold">Computational and Experimental Investigation
                     of Ophthalmic Artery Aneurysms: Enhancing Diagnostic
-                    Approaches and Insights".
+                    Approaches and Insights</span>".
                   </p>
                 </div>
               </div>
@@ -103,10 +103,7 @@ export default function People() {
                     I am from Coochbehar district of West Bengal. Currently, I
                     am pursuing my M.Tech degree in Mechanical Engineering at
                     IIT(ISM) Dhanbad will commence on July 2024. My M.Tech
-                    project is "Optimization of probe positioning and probe
-                    parameters in heterogeneous vascular density and blood flow
-                    of Radiofrequency ablation in human brain tumor". I got
-                    placed in TATA Motors as a PGET. I have completed my B.Tech
+                    project is "<span className="font-semibold">Optimization of probe positioning and probe parameters in heterogeneous vascular density and blood flow of Radiofrequency ablation in human brain tumor</span>". I got placed in TATA Motors as a PGET. I have completed my B.Tech
                     in Mechanical Engineering from Jalpaiguri Government
                     Engineering College, Jalpaiguri, in the year 2021. My B.Tech
                     project was "Exergy Analysis of Thermal Power Plant."
@@ -129,11 +126,7 @@ export default function People() {
                     I am currently pursuing an MTech in Mechanical Engineering
                     with a specialization in the Thermal domain at IIT ISM
                     Dhanbad, will be commence in December 2024. My MTech project
-                    focuses on "CFD simulation of thermosensitive drug delivery
-                    in heterogeneous human brain tumors." Prior to this, I
-                    completed a six-month internship at Tata Steel, Jamshedpur,
-                    where I worked on a project titled "Graphene from waste oil"
-                    during my MTech course. Previously, I served as a Junior
+                    focuses on "<span className="font-semibold">CFD simulation of thermosensitive drug delivery in heterogeneous human brain tumors</span>". Prior to this, I completed a six-month internship at Tata Steel, Jamshedpur, where I worked on a project titled "Graphene from waste oil" during my MTech course. Previously, I served as a Junior
                     Research Fellow at CSIR-CMERI, Durgapur, from August 2019 to
                     January 2021, contributing to the project "Design and
                     Development of Small Utility Compact Tractor." Before that,
@@ -163,11 +156,7 @@ export default function People() {
                     I am basically from Bokaro Steel City, Jharkhand. Currently,
                     I am pursuing my M.Tech degree in Mechanical Engineering at
                     IIT(ISM) Dhanbad which will be completed by July 2025. My
-                    M.Tech project is "Numerical (CFD) Investigation of targeted
-                    drug delivery in human nasal cavities". I have completed my
-                    B.Tech in Mechanical Engineering from B.I.T SINDRI, Dhanbad,
-                    Jharkhand in the year 2021. My B.Tech project was "LPG Based
-                    Refrigeration System".
+                    M.Tech project is "<span className="font-semibold">Numerical (CFD) Investigation of targeted drug delivery in human nasal cavities</span>". I have completed my B.Tech in Mechanical Engineering from B.I.T SINDRI, Dhanbad, Jharkhand in the year 2021. My B.Tech project was "LPG Based Refrigeration System".
                   </p>
                 </div>
               </div>
@@ -188,10 +177,7 @@ export default function People() {
                     a PGET in ESG and sustainability cell in Jindal Stainless
                     Limited, Hisar , I have pursued my M.Tech degree in
                     Mechanical Engineering at IIT(ISM) Dhanbad in June 2023. My
-                    M.Tech project is "Numerical investigation of radiofrequency
-                    ablation assisted thermosensitive liposome in heterogeneous
-                    environment of human brain tumors". I have completed my
-                    graduation in Production Engineering from Jadavpur
+                    M.Tech project is "<span className="font-semibold">Numerical investigation of radiofrequency ablation assisted thermosensitive liposome in heterogeneous environment of human brain tumors</span>". I have completed my graduation in Production Engineering from Jadavpur
                     University, Kolkata in the year 2018. My B.Tech project was
                     "study of surface integrity of Micro EDM through Response
                     surface Methodology (RSM)."

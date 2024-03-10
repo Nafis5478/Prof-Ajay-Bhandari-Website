@@ -13,171 +13,31 @@ export default function Contact() {
         </h1>
         <div className="py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
           <p className="md:text-lg">
-            If you are fascinated by and want to deeply explore fluid flows,
-            indeed keen on rigorous research in Fluid Mechanics and plan to
-            publish your work in reputed journals and international conferences,
-            then this is the right place for you!
-          </p>
-          <p className="md:text-lg">
-            Curious, research-driven, honest, enthusiastic, motivated, dedicated
-            and hardworking people are welcome to join the NatFlows Lab. We are
-            constantly looking for such people.
+            If you are self-driven, keen on doing rigorous research work, and
+            plan to publish high-profile research publications in Biofluid
+            Mechanics (both experimental and numerical), then Biofluids Research
+            Lab is the right place for you!
           </p>
         </div>
       </div>
       <div className="md:mx-28 md:mt-4 ">
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
-          Interested PhD/MS/MTech Students{" "}
+          Interested Ph.D/M.Tech/B.Tech/Summer intern Students{" "}
         </h1>
         <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
-          <p className="font-semibold text-start ml-4 mr-2 md:ml-8 md:mr-4">
-            Presuming that you have read through the NatFlows Lab homepage, if
-            you are interested and planning to join our lab, then here is the
-            process.
+          <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
+            Presuming that you have gone through the research tab on the website
+            If you are interested in working in the Biofluids Research Lab,
+            please email a copy of your CV with your research interests to {" "}
+            <a
+              href="mailto:ajayb@iitism.ac.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:underline"
+            >
+               ajayb@iitism.ac.in
+            </a>
           </p>
-          <ul className="flex flex-col gap-2 mx-4 md:mx-20">
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>
-                  Admissions are based on Competitive GATE score, so have one
-                  such.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>
-                  Admissions take place once (or sometime, twice) every year:
-                  May (sure) and December (not always!). Apply to Mechanical
-                  Engineering Department for the program of your choice
-                  (PhD/MS/MTech). Please monitor the Department website for
-                  Admission Announcements.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>
-                  Screened applicants (PhD/MS) have to go through written exam
-                  (most likely) and an interview.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>
-                  Admitted students have the freedom to choose the Advisor in
-                  the first semester.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>
-                  This step is very important. If you are interested to work in
-                  NatFlows Lab, then please contact Sachin Y. Shinde
-                  (sachin@iitk.ac.in). Early contact is always encouraged to not
-                  miss out the lab vacancies. Moreover, early choice of research
-                  area helps in choosing the right courses appropriate to your
-                  research problem.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>
-                  Dual-Degree BTMT Students: You are welcome to visit the lab
-                  and interact with the lab group. You can write to Sachin Y.
-                  Shinde (sachin@iitk.ac.in) for appointment, and we can meet to
-                  discuss the mutual research interest and prospective research
-                  problem. The important requirement is curiosity and problem
-                  solving attitude apart from thorough understanding of ME231
-                  course.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="md:mx-28 md:mt-4 ">
-        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
-          Recommended Courses
-        </h1>
-        <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
-          <p className="font-semibold text-start ml-4 mr-2 md:ml-8 md:mr-4">
-            We work in fluid flow problems using experiments blended with theory
-            and simulation, therefore, crediting some of the following courses,
-            but not limited to, depending upon your research problem would
-            prepare you for the research work.
-          </p>
-          <ul className="flex flex-col gap-2 mx-4 md:mx-20">
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>ME631: Viscous Flow Theory</p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>ME681: Mathematics for Engineers</p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>ME647: Introduction to Turbulent Flows</p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>ME674: Fluid Mechanics of Flapping Foils</p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>ME666: Inviscid Flows</p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>ME630: Computational Fluid Dynamics and Heat Transfer</p>
-              </div>
-            </li>
-          </ul>
         </div>
       </div>
       <div className="md:mx-28 md:mt-4 ">
@@ -185,47 +45,17 @@ export default function Contact() {
           Prospective PhD (Research Students)
         </h1>
         <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
-          <p className="font-semibold text-start ml-4 mr-2 md:ml-8 md:mr-4">
-            If you are doing/have performed well in some of the above courses
-            and you are willing to join our lab, then please email Sachin Y.
-            Shinde (sachin@iitk.ac.in) with following documents:
-          </p>
-          <ul className="flex flex-col gap-2 mx-4 md:mx-20">
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>Your resume (CV)</p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>
-                  Short research proposal (~ one page) stating the research
-                  statement and plan (if you have one) which can be discussed
-                  when we meet
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>
-                  Few lines stating why do you want to work in NatFlow Lab, and
-                  your plan after graduation
-                </p>
-              </div>
-            </li>
-          </ul>
-          <p className="text-gray-950 underline decoration-gray-500 text-start ml-4 mr-2 md:ml-8 md:mr-4">
-            Prospective Students providing these documents would be considered
-            favourably.
+        <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
+          Interested <span className="font-semibold">Ph.D</span> students are advised to monitor the{" "}
+          <a
+              href="https://admission.iitism.ac.in/index.php/admission/phd/add_phd/how_to_apply"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:underline"
+            >
+              website
+          </a>
+          {" "}for admission announcements. Department of Mechanical Engineering at IIT(ISM) Dhanbad admits <span className="font-semibold">Ph.D</span>. students twice a year during the commencement of the Monsoon and Winter semesters. 
           </p>
         </div>
       </div>
@@ -234,52 +64,73 @@ export default function Contact() {
           Prospective MTech Students
         </h1>
         <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
-          <p className="font-semibold text-start ml-4 mr-2 md:ml-8 md:mr-4">
-            If you are doing/have performed well in some of the above courses
-            and you are willing to join our lab, then please email Sachin Y.
-            Shinde (sachin@iitk.ac.in) with following documents:
-          </p>
-          <ul className="flex flex-col gap-2 mx-4 md:mx-20">
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>Your resume (CV)</p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-row gap-2">
-                <p>
-                  <MdDoubleArrow className="inline-block" />
-                </p>
-                <p>
-                  Few lines stating why do you want to work in NatFlows Lab, and
-                  your future plan after MTech
-                </p>
-              </div>
-            </li>
-          </ul>
-          <p className="text-gray-950 underline decoration-gray-500 text-start ml-4 mr-2 md:ml-8 md:mr-4">
-            Prospective Students providing these documents would be considered
-            favourably.
+          <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
+          Interested <span className="font-semibold">M.Tech</span> students are advised to email a copy of their CV (mentioning their research interests) to <a
+              href="https://admission.iitism.ac.in/index.php/admission/phd/add_phd/how_to_apply"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:underline"
+            >
+              website
+          </a> or meet me in the office.
           </p>
         </div>
       </div>
       <div className="md:mx-28 md:mt-4 ">
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
-          Prospective SUMMER Intern Students
+          Prospective B.Tech Students
         </h1>
         <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 md:px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
-          <p className="font-semibold md:text-start ml-4 mr-2 md:ml-8 md:mr-4">
-            If you are indeed keen on doing serious research work, then you are
-            most welcome to join the NatFlows Lab. Please contact Sachin Y.
-            Shinde (sachin@iitk.ac.in) with your CV and short plan of work.
+          <p className="md:text-start ml-4 mr-2 md:ml-8 md:mr-4">
+          Interested sophomores, pre-final year, and final year <span className="font-semibold">B.Tech</span> students are encouraged to meet in the office (Room No 225B) and discuss the potential research projects. Please drop me an email before coming and fix a meeting time. 
           </p>
           <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
-            However, if you are aiming only to get a recommendation and PVF at
-            the end of internship, you will be disappointed! Such students
-            should refrain from applying!
+            Early mentoring of <span className="font-semibold">B.Tech</span> students helps as it may lead to a sound research output; therefore, early contact is always encouraged. No prerequisites are required; however, sound fluid mechanics and heat transfer knowledge will be an advantage.
+          </p>
+        </div>
+      </div>
+      <div className="md:mx-28 md:mt-4 ">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
+          Prospective Post-doctoral candidates
+        </h1>
+        <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 md:px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
+          <p className="md:text-start ml-4 mr-2 md:ml-8 md:mr-4">
+            Post-doctoral candidates whose research interests align with those mentioned on the Research tab are welcome to join our lab. Please email your CV, a short research plan, and why you want to join Biofluids Research Lab to <a
+              href="mailto:ajayb@iitism.ac.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:underline"
+            >
+               ajayb@iitism.ac.in
+            </a>. In addition, please keep an eye on the following Post-doctoral fellowship opportunities: <a
+              href="https://people.iitism.ac.in/~research/post-doctoral-fellowship.php"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:underline"
+            >
+              Institute Post-doctoral fellowship
+            </a>, <a
+              href="https://serbonline.in/SERB/npdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:underline"
+            >
+              SERB-National Post-doctoral Fellowship
+            </a>, <a
+              href="https://pdfw.ugc.ac.in/default.aspx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:underline"
+            >
+              UGC sponsored Post-doctoral Fellowship
+            </a> and <a
+              href="https://nbhm.dae.gov.in/postdoct.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:underline"
+            >
+              National Board for Higher Mathematics Post-doctoral Fellowship
+            </a>.
           </p>
         </div>
       </div>

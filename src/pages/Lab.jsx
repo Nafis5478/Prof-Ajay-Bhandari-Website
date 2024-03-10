@@ -1,4 +1,10 @@
 import React from "react";
+import ImageSlider from '../components/Slider.jsx';
+import SimpleImageSlider from "react-simple-image-slider";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore from "swiper";
+import "swiper/css/bundle";
+import { Navigation } from "swiper/modules";
 import { MdDoubleArrow } from "react-icons/md";
 import slaprinter from "../assets/slaprinter.jpg";
 import laserbeamexpander from "../assets/laserbeamexpander.jpg";
@@ -13,9 +19,55 @@ import hpz6 from "../assets/hpz6.jpg";
 import syringepump from "../assets/syringepump.jpg";
 import magneticstrrier from "../assets/magneticstrrier.jpg";
 import ultrasonicbath from "../assets/ultrasonicbath.jpg";
+import slider1 from "../assets/slider1.jpg";
+import slider2 from "../assets/slider2.jpg";
+import slider3 from "../assets/slider3.jpg";
+import slider4 from "../assets/slider4.jpg";
+import slider5 from "../assets/slider5.jpg";
 export default function Lab() {
+  const sliderImage = [
+    { url: slider1},
+    { url: slider2},
+    { url: slider3},
+    { url: slider4},
+    { url: slider5},
+  ];
+  const images = [
+    slider4,
+    slider3,
+    slider1,
+    slider2,
+    slider5
+    // Add more image URLs here
+  ];
+  SwiperCore.use([Navigation]);
   return (
     <div className="h-full pt-28 lg:pt-32 px-5 lg:px-28">
+      <div className="text-left lg:items-center lg:mb-10">
+        <h1 className="text-3xl text-center lg:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-black py-2">
+          Lab Tour
+        </h1>
+        <div className="p-2 flex justify-center relative -z-10">
+          {/* <Swiper navigation>
+            {sliderImage.url.map((url) => (
+              <SwiperSlide key={url}>
+                <div className="aspect-w-16 aspect-h-9 mx-40 border-2 flex justify-center border-black">
+                <div
+                    className=" h-52 md:h-96 md:w-full"
+                    style={{
+                      background: `url(${url}) center`,
+                      backgroundSize: "cover",
+                    }}
+                  ></div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper> */}
+            <ImageSlider images={images}  />
+          {/* <div className="h-96">
+          </div> */}
+        </div>
+      </div>
       <div className="text-left lg:items-center lg:mb-10">
         <h1 className="text-3xl text-center lg:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-black py-2">
           Major Experimental Facilities
@@ -28,7 +80,7 @@ export default function Lab() {
                   <img
                     src={slaprinter}
                     alt="slaprinter"
-                    className="rounded-lg h-[150px] md:h-72"
+                    className="rounded-lg h-[150px] md:h-64"
                   />
                 </div>
                 <div className="p-2 md:w-3/5">
