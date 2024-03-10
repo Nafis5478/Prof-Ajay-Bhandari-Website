@@ -19,7 +19,15 @@ export default function Teaching() {
                   <span className="font-semibold">
                     Research Methodology and Statistics
                   </span>{" "}
-                  (PG) (Monsoon Semester 2020-21, Winter Semester 20-21, 21-22)
+                  (PG) (Monsoon Semester 2020-21, Winter Semester 20-21, 21-22) {" "}
+                  <a
+                    href="/Research Methodology and Statistics.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                    Lecture plan
+                  </a>
                 </p>
               </div>
             </li>
@@ -32,7 +40,15 @@ export default function Teaching() {
                   <span className="font-semibold">
                     Conduction and Radiation
                   </span>{" "}
-                  (UG and PG) (Winter Semester 21-22, 22-23, 23-24)
+                  (UG and PG) (Winter Semester 21-22, 22-23, 23-24) {" "}
+                  <a
+                    href="/Conduction and Radiation.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                    Lecture plan
+                  </a>
                 </p>
               </div>
             </li>
@@ -43,7 +59,15 @@ export default function Teaching() {
                 </p>
                 <p>
                   <span className="font-semibold">Fluid Mechanics</span> (UG)
-                  (Monsoon Semester 23-24)
+                  (Monsoon Semester 23-24){" "}
+                  <a
+                    href="/Fluid Mechanics.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                    Lecture plan
+                  </a>
                 </p>
               </div>
             </li>
@@ -76,7 +100,15 @@ export default function Teaching() {
                 </p>
                 <p>
                   <span className="font-semibold">Biofluid Mechanics</span>{" "}
-                  (Newly developed course for PG students)
+                  (Newly developed course for PG students) {" "}
+                  <a
+                    href="/Biofluid Mechanics.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                    Lecture plan
+                  </a>
                 </p>
               </div>
             </li>

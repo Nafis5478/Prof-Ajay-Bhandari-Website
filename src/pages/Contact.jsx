@@ -2,8 +2,6 @@ import React from "react";
 import linkedinlogo from "../assets/linkedinlogo.png";
 import gmaillogo from "../assets/gmaillogo.png";
 import googlescholarlogo from "../assets/googlescholarlogo.png";
-import { MdDoubleArrow } from "react-icons/md";
-
 export default function Contact() {
   return (
     <div className="h-full lg:h-full pt-28 md:pt-24 flex flex-col gap-3 px-5 md:px-2">
@@ -22,57 +20,65 @@ export default function Contact() {
       </div>
       <div className="md:mx-28 md:mt-4 ">
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
-          Interested Ph.D/M.Tech/B.Tech/Summer intern Students{" "}
+          Interested Ph.D /M.Tech /B.Tech /Summer intern Students{" "}
         </h1>
         <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
           <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
             Presuming that you have gone through the research tab on the website
             If you are interested in working in the Biofluids Research Lab,
-            please email a copy of your CV with your research interests to {" "}
+            please email a copy of your CV with your research interests to{" "}
             <a
               href="mailto:ajayb@iitism.ac.in"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-700 hover:underline"
             >
-               ajayb@iitism.ac.in
+              ajayb@iitism.ac.in
             </a>
           </p>
         </div>
       </div>
       <div className="md:mx-28 md:mt-4 ">
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
-          Prospective PhD (Research Students)
+          Prospective Ph.D (Research Students)
         </h1>
         <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
-        <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
-          Interested <span className="font-semibold">Ph.D</span> students are advised to monitor the{" "}
-          <a
+          <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
+            Interested <span className="font-semibold">Ph.D</span> students are
+            advised to monitor the{" "}
+            <a
               href="https://admission.iitism.ac.in/index.php/admission/phd/add_phd/how_to_apply"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-700 hover:underline"
             >
               website
-          </a>
-          {" "}for admission announcements. Department of Mechanical Engineering at IIT(ISM) Dhanbad admits <span className="font-semibold">Ph.D</span>. students twice a year during the commencement of the Monsoon and Winter semesters. 
+            </a>{" "}
+            for admission announcements. Department of Mechanical Engineering at
+            IIT(ISM) Dhanbad admits <span className="font-semibold">Ph.D</span>.
+            students twice a year during the commencement of the Monsoon and
+            Winter semesters.
           </p>
         </div>
       </div>
       <div className="md:mx-28 md:mt-4 ">
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
-          Prospective MTech Students
+          Prospective M.Tech Students
         </h1>
         <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
           <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
-          Interested <span className="font-semibold">M.Tech</span> students are advised to email a copy of their CV (mentioning their research interests) to <a
+            Interested <span className="font-semibold">M.Tech</span> students
+            are advised to email a copy of their CV (mentioning their research
+            interests) to{" "}
+            <a
               href="https://admission.iitism.ac.in/index.php/admission/phd/add_phd/how_to_apply"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-700 hover:underline"
             >
               website
-          </a> or meet me in the office.
+            </a>{" "}
+            or meet me in the office.
           </p>
         </div>
       </div>
@@ -82,10 +88,18 @@ export default function Contact() {
         </h1>
         <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 md:px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
           <p className="md:text-start ml-4 mr-2 md:ml-8 md:mr-4">
-          Interested sophomores, pre-final year, and final year <span className="font-semibold">B.Tech</span> students are encouraged to meet in the office (Room No 225B) and discuss the potential research projects. Please drop me an email before coming and fix a meeting time. 
+            Interested sophomores, pre-final year, and final year{" "}
+            <span className="font-semibold">B.Tech</span> students are
+            encouraged to meet in the office (Room No 225B) and discuss the
+            potential research projects. Please drop me an email before coming
+            and fix a meeting time.
           </p>
           <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
-            Early mentoring of <span className="font-semibold">B.Tech</span> students helps as it may lead to a sound research output; therefore, early contact is always encouraged. No prerequisites are required; however, sound fluid mechanics and heat transfer knowledge will be an advantage.
+            Early mentoring of <span className="font-semibold">B.Tech</span>{" "}
+            students helps as it may lead to a sound research output; therefore,
+            early contact is always encouraged. No prerequisites are required;
+            however, sound fluid mechanics and heat transfer knowledge will be
+            an advantage.
           </p>
         </div>
       </div>
@@ -95,42 +109,68 @@ export default function Contact() {
         </h1>
         <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 md:px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
           <p className="md:text-start ml-4 mr-2 md:ml-8 md:mr-4">
-            Post-doctoral candidates whose research interests align with those mentioned on the Research tab are welcome to join our lab. Please email your CV, a short research plan, and why you want to join Biofluids Research Lab to <a
+            Post-doctoral candidates whose research interests align with those
+            mentioned on the Research tab are welcome to join our lab. Please
+            email your CV, a short research plan, and why you want to join
+            Biofluids Research Lab to{" "}
+            <a
               href="mailto:ajayb@iitism.ac.in"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-700 hover:underline"
             >
-               ajayb@iitism.ac.in
-            </a>. In addition, please keep an eye on the following Post-doctoral fellowship opportunities: <a
+              ajayb@iitism.ac.in
+            </a>
+            . In addition, please keep an eye on the following Post-doctoral
+            fellowship opportunities:{" "}
+            <a
               href="https://people.iitism.ac.in/~research/post-doctoral-fellowship.php"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-700 hover:underline"
             >
               Institute Post-doctoral fellowship
-            </a>, <a
+            </a>
+            ,{" "}
+            <a
               href="https://serbonline.in/SERB/npdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-700 hover:underline"
             >
               SERB-National Post-doctoral Fellowship
-            </a>, <a
+            </a>
+            ,{" "}
+            <a
               href="https://pdfw.ugc.ac.in/default.aspx"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-700 hover:underline"
             >
               UGC sponsored Post-doctoral Fellowship
-            </a> and <a
+            </a>{" "}
+            and{" "}
+            <a
               href="https://nbhm.dae.gov.in/postdoct.html"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-700 hover:underline"
             >
               National Board for Higher Mathematics Post-doctoral Fellowship
-            </a>.
+            </a>
+            .
+          </p>
+        </div>
+      </div>
+      <div className="md:mx-28 md:mt-4 ">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
+          Prospective Project Fellows and Research Associates
+        </h1>
+        <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 md:px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
+          <p className="md:text-start ml-4 mr-2 md:ml-8 md:mr-4">
+            Timely updation of project vacancies will be carried out on the
+            website as and when they come for the hiring of project fellows and
+            research associates. So stay tuned.
           </p>
         </div>
       </div>

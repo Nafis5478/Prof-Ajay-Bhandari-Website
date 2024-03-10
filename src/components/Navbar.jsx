@@ -5,11 +5,14 @@ import ismlogo from "../assets/ismlogo.png";
 export default function Navbar() {
   const location = useLocation();
   const [bar, setbar] = useState(false);
+  const handleClick = () => {
+    window.scrollTo({ top: 0 });
+  }
   return (
     <div className="bg-gray-300 text-black flex justify-between items-center h-20 w-full pl-8 pr-4 fixed">
       <img src={ismlogo} alt="ismlogo" width={70} className="p-1" />
       <ul className="hidden lg:flex gap-2 items-center">
-        <Link to="/">
+        <Link onClick={handleClick} to="/">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/" ? "bg-slate-100 rounded-xl" : ""
@@ -18,7 +21,7 @@ export default function Navbar() {
             Home
           </li>
         </Link>
-        <Link to="/about">
+        <Link onClick={handleClick} to="/about">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/about" ? "bg-slate-100 rounded-xl" : ""
@@ -27,7 +30,7 @@ export default function Navbar() {
             About me
           </li>
         </Link>
-        <Link to="/research">
+        <Link onClick={handleClick} to="/research">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/research" ? "bg-slate-100 rounded-xl" : ""
@@ -36,7 +39,7 @@ export default function Navbar() {
             Research
           </li>
         </Link>
-        <Link to="/publication">
+        <Link onClick={handleClick} to="/publication">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/publication"
@@ -47,7 +50,7 @@ export default function Navbar() {
             Publications
           </li>
         </Link>
-        <Link to="/awards">
+        <Link onClick={handleClick} to="/awards">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/awards" ? "bg-slate-100 rounded-xl" : ""
@@ -56,7 +59,7 @@ export default function Navbar() {
             Awards
           </li>
         </Link>
-        <Link to="/teaching">
+        <Link onClick={handleClick} to="/teaching">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/teaching" ? "bg-slate-100 rounded-xl" : ""
@@ -65,7 +68,7 @@ export default function Navbar() {
             Teaching
           </li>
         </Link>
-        <Link to="/people">
+        <Link onClick={handleClick} to="/people">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/people" ? "bg-slate-100 rounded-xl" : ""
@@ -74,7 +77,7 @@ export default function Navbar() {
             People
           </li>
         </Link>
-        <Link to="/lab">
+        <Link onClick={handleClick} to="/lab">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/lab" ? "bg-slate-100 rounded-xl" : ""
@@ -83,7 +86,7 @@ export default function Navbar() {
             Lab
           </li>
         </Link>
-        <Link to="/project">
+        <Link onClick={handleClick} to="/project">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/project" ? "bg-slate-100 rounded-xl" : ""
@@ -92,7 +95,7 @@ export default function Navbar() {
             Project
           </li>
         </Link>
-        <Link to="/join-us">
+        <Link onClick={handleClick} to="/join-us">
           <li
             className={`cursor-pointer font-medium text-black px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
               location.pathname === "/join-us" ? "bg-slate-100 rounded-xl" : ""
@@ -113,63 +116,63 @@ export default function Navbar() {
           className="flex flex-col justify-center items-center  pt-16 pb-2 gap-1 top-0 right-0 w-100
             h-auto bg-gray-800 lg:hidden fixed"
         >
-          <Link to="/" onClick={() => setbar(!bar)}>
+          <Link to="/" onClick={() => {setbar(!bar);handleClick()}}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl `}
             >
               Home
             </li>
           </Link>
-          <Link to="/about" onClick={() => setbar(!bar)}>
+          <Link to="/about" onClick={() => {setbar(!bar);handleClick()}}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl `}
             >
               About me
             </li>
           </Link>
-          <Link to="/research" onClick={() => setbar(!bar)}>
+          <Link to="/research" onClick={() => {setbar(!bar);handleClick()}}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl `}
             >
               Research
             </li>
           </Link>
-          <Link to="/publication" onClick={() => setbar(!bar)}>
+          <Link to="/publication" onClick={() => {setbar(!bar);handleClick()}}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl`}
             >
               Publications
             </li>
           </Link>
-          <Link to="/awards" onClick={() => setbar(!bar)}>
+          <Link to="/awards" onClick={() => {setbar(!bar);handleClick()}}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl`}
             >
               Awards
             </li>
           </Link>
-          <Link to="/teaching" onClick={() => setbar(!bar)}>
+          <Link to="/teaching" onClick={() => {setbar(!bar);handleClick()}}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl`}
             >
               Teaching
             </li>
           </Link>
-          <Link to="/people" onClick={() => setbar(!bar)}>
+          <Link to="/people" onClick={() => {setbar(!bar);handleClick()}}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl`}
             >
               People
             </li>
           </Link>
-          <Link to="/lab" onClick={() => setbar(!bar)}>
+          <Link to="/lab" onClick={() => {setbar(!bar);handleClick()}}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl`}
             >
               Lab
             </li>
           </Link>
-          <Link to="/project" onClick={() => setbar(!bar)}>
+          <Link to="/project" onClick={() => {setbar(!bar);handleClick()}}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
                 location.pathname === "/project"
@@ -180,7 +183,7 @@ export default function Navbar() {
               Project
             </li>
           </Link>
-          <Link to="/join-us" onClick={() => setbar(!bar)}>
+          <Link to="/join-us" onClick={() => {setbar(!bar);handleClick()}}>
             <li
               className={`cursor-pointer font-medium text-gray-200 px-4 hover:scale-105 transition duration-300 hover:bg-slate-100 rounded-xl ${
                 location.pathname === "/join-us"
