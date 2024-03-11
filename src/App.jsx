@@ -13,6 +13,7 @@ import Project from './pages/Project.jsx'
 import Contact from './pages/Contact.jsx'
 import Footers from './components/Footers.jsx';
 import Awards from './pages/Awards.jsx';
+import Scrolltop from './components/scrolltop.jsx';
 function App() {
 
   return (
@@ -31,6 +32,7 @@ function App() {
       <Route path="/join-us" element={<Contact/>} />  
       </Routes>
       <Footers/>
+      <Scrolltop/>
     </BrowserRouter>
   )
 }

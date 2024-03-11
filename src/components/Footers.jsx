@@ -23,8 +23,24 @@ export default function () {
                 <li className="flex flex-row gap-2 md:gap-10">
                   <div className="font-semibold">Phone:</div>
                   <div className="flex flex-col md:flex-row md:gap-5">
-                    <div>+91-7755057692 (Personal)</div>
-                    <div>+91-326-223-5347 (Office)</div>
+                    <div>
+                      <a
+                        href="tel:+917755057692"
+                        className="text-blue-700 hover:underline"
+                      >
+                        +91-7755057692
+                      </a>{" "}
+                      (Personal)
+                    </div>
+                    <div>
+                      <a
+                        href="tel:+913262235347"
+                        className="text-blue-700 hover:underline"
+                      >
+                        +91-326-223-5347
+                      </a>{" "}
+                      (Office)
+                    </div>
                   </div>
                 </li>
                 <li className="flex flex-row gap-2 md:gap-10">
