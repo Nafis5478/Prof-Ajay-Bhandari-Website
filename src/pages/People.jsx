@@ -111,7 +111,7 @@ export default function People() {
                   <p>
                     I am from Coochbehar district of West Bengal. Currently, I
                     am pursuing my M.Tech degree in Mechanical Engineering at
-                    IIT(ISM) Dhanbad will commence on July 2024. My M.Tech
+                    IIT(ISM) Dhanbad, which will be commencing in July 2024. My M.Tech
                     project is "
                     <span className="font-semibold">
                       Optimization of probe positioning and probe parameters in
@@ -139,12 +139,12 @@ export default function People() {
                 <div className="p-2 md:w-3/5">
                   <h1 className="text-3xl font-semibold">Sourav Choudhury</h1>
                   <p>
-                    I am currently pursuing an MTech in Mechanical Engineering
+                    I am currently pursuing M.Tech in Mechanical Engineering
                     with a specialization in the Thermal domain at IIT ISM
-                    Dhanbad, will be commence in December 2024. My MTech project
+                    Dhanbad,which will be commencing in December 2024. My M.Tech project
                     focuses on "
                     <span className="font-semibold">
-                      CFD simulation of thermosensitive drug delivery in
+                      CFD simulation of tumor treating fields in
                       heterogeneous human brain tumors
                     </span>
                     ". Prior to this, I completed a six-month internship at Tata
@@ -215,7 +215,7 @@ export default function People() {
                     </span>
                     ". I have completed my graduation in Production Engineering
                     from Jadavpur University, Kolkata in the year 2018. My
-                    B.Tech project was "study of surface integrity of Micro EDM
+                    B.Tech project was "Study of surface integrity of Micro EDM
                     through Response surface Methodology (RSM)."
                   </p>
                 </div>

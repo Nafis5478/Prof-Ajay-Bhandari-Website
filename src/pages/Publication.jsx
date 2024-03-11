@@ -69,6 +69,14 @@ export default function Publication() {
                   </span>{" "}
                   <span className="font-semibold text-green-700">Accepted</span>
                   , <span className="font-semibold">January 2024,</span>{" "}
+                  <a
+                    href="https://link.springer.com/article/10.1007/s10237-024-01819-5"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
+                    Access Link
+                  </a>{" "}
                   <span className="font-semibold text-green-700">IF:3.5</span>.
                 </p>
               </div>
@@ -740,7 +748,7 @@ export default function Publication() {
                     December 14-16, 2022, IIT Roorkee, India.{" "}
                   </span>
                   <a
-                    href="https://link.springer.com/book/9789819957514"
+                    href="https://link.springer.com/chapter/10.1007/978-981-99-7177-0_66"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-700 hover:underline"
@@ -766,7 +774,7 @@ export default function Publication() {
                     December 14-16, 2022, IIT Roorkee, India.{" "}
                   </span>
                   <a
-                    href="https://link.springer.com/book/10.1007/978-981-99-5752-1"
+                    href="https://link.springer.com/chapter/10.1007/978-981-99-7177-0_52"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-700 hover:underline"

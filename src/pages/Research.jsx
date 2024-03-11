@@ -358,7 +358,14 @@ export default function Research() {
                       we are exploring these alterations using computational
                       fluid dynamics (CFD) and virtual surgery techniques to
                       develop criteria for selecting potential septoplasty
-                      patients and the effectiveness of the septoplasty.
+                      patients and the effectiveness of the septoplasty {" "}<a
+                        href="https://www.sciencedirect.com/science/article/pii/S1290072923003824?dgcid=author"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-700 hover:underline"
+                      >
+                        (Access Link)
+                      </a>.
                     </p>
                     <p className="px-4 text-blue-900 font-semibold">
                       Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys Fluent.

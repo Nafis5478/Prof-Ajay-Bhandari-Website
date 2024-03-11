@@ -46,8 +46,8 @@ export default function Lab() {
                     It is used for 3D printing transparent objects which can be
                     used for flow visualization. This printer uses
                     light-reactive thermoset materials called “resin”. When SLA
-                    resins are exposed to certain wavelengths of light,short
-                    molecular chains join together,polymerizing monomers and
+                    resins are exposed to certain wavelengths of light, short
+                    molecular chains join together, polymerizing monomers and
                     oligomers into solidified rigid geometries.
                   </p>
                   <h1 className="text-red-500 font-semibold">Specifications</h1>
@@ -170,15 +170,33 @@ export default function Lab() {
                     Data Acquisition System
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sequi eligendi optio vero, autem minus, natus quasi enim
-                    quos voluptatibus nostrum, iusto quo saepe voluptates quas!
-                    Magni, omnis excepturi perspiciatis eum repellat, incidunt
-                    aliquam cupiditate ullam a, consequuntur numquam
-                    exercitationem et reiciendis magnam? Quod repellat accusamus
-                    dolorum ducimus, veritatis ullam neque quos sint perferendis
-                    provident?
+                    Data Acquisition systems are needed to actuate the high speed camera, record the flow visualization data and further store the data obtained while experimentation. 
                   </p>
+                  <h1 className="text-red-500 font-semibold">Specifications</h1>
+                  <ul className="flex flex-col gap-2 text-blue-900 font-semibold">
+                    <li className="flex flex-row">
+                      <div className="flex flex-row gap-2">
+                        <p>
+                          <MdDoubleArrow className="inline-block" />
+                        </p>
+                        <p>USB based Data acquisition system Make: Aimil Ltd.
+                          <br />
+                          Model: Aimil_USB_DAQ_3.0
+                        </p>
+                      </div>
+                    </li>
+                    <li className="flex flex-row">
+                      <div className="flex flex-row gap-2">
+                        <p>
+                          <MdDoubleArrow className="inline-block" />
+                        </p>
+                        <p>USB based Data acquisition system Make: Thermo Fisher Scientific.
+                          <br />
+                          Model: DT82E
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </li>

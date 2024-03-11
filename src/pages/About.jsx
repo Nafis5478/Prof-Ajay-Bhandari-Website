@@ -205,6 +205,14 @@ export default function About() {
                   <p>
                     <MdDoubleArrow className="inline-block" />
                   </p>
+                  <p>Department Grievance Committee Member March 2024-till present.</p>
+                </div>
+              </li>
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
                   <p>Coordinator Media from April 2023-till present.</p>
                 </div>
               </li>
@@ -226,7 +234,7 @@ export default function About() {
                   </p>
                   <p>
                     Faculty-in-Charge (FIC) Placements of Department of
-                    Mechanical Engineering from June 2022 till present.
+                    Mechanical Engineering from June 2022-till present.
                   </p>
                 </div>
               </li>

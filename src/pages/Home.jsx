@@ -95,9 +95,7 @@ export default function Home() {
               Research Interest
             </h1>
             <p className="mt-5 mb-2 md:mt-7 md:text-lg">
-              Bio-Fluid Mechanics, Computational Oncology, Medical-Image Based
-              Numerical Modelling, Patient-specific Computational Models, Cancer
-              And Ocular Drug Delivery.
+              Bio-Fluid Mechanics, Computational Fluid Dynamics, Computational Oncology, Medical-Image Based Numerical Modelling, Patient-specific Computational Models, Cancer, nasal and Ocular Drug Delivery.
             </p>
           </div>
         </div>

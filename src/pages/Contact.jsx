@@ -40,7 +40,7 @@ export default function Contact() {
       </div>
       <div className="md:mx-28 md:mt-4 ">
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
-          Prospective Ph.D (Research Students)
+          Prospective Ph.D Students
         </h1>
         <div className="md:text-lg py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col gap-2">
           <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
@@ -204,7 +204,7 @@ export default function Contact() {
               </div>
               <div className="flex flex-row justify-between gap-10 md:gap-40">
                 <a
-                  href="https://wa.me/+917755057692"
+                  href="https://scholar.google.co.in/citations?user=Zuji5l4AAAAJ&hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-[200px] hover:shadow-orange-500 hover:shadow-lg transition duration-500"
@@ -223,7 +223,7 @@ export default function Contact() {
             </h1>
             <div className="flex justify-center mt-5">
               <form
-                action="https://getform.io/f/62ec3233-38ce-42aa-80c8-da4e77b08364"
+                action="https://getform.io/f/qblppkgb"
                 method="POST"
                 className="flex flex-col w-full "
               >
