@@ -32,8 +32,7 @@ export default function () {
                   <div className="flex flex-col md:flex-row md:gap-5">
                     <div>
                       <a
-                        href="mailto:ajayb@iitism.ac.in
-                    "
+                        href="mailto:ajayb@iitism.ac.in"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-700 hover:underline"

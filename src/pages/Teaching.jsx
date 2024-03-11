@@ -19,7 +19,7 @@ export default function Teaching() {
                   <span className="font-semibold">
                     Research Methodology and Statistics
                   </span>{" "}
-                  (PG) (Monsoon Semester 2020-21, Winter Semester 20-21, 21-22) {" "}
+                  (PG) (Monsoon Semester 2020-21, Winter Semester 20-21, 21-22){" "}
                   <a
                     href="/Research Methodology and Statistics.pdf"
                     target="_blank"
@@ -40,7 +40,7 @@ export default function Teaching() {
                   <span className="font-semibold">
                     Conduction and Radiation
                   </span>{" "}
-                  (UG and PG) (Winter Semester 21-22, 22-23, 23-24) {" "}
+                  (UG and PG) (Winter Semester 21-22, 22-23, 23-24){" "}
                   <a
                     href="/Conduction and Radiation.pdf"
                     target="_blank"
@@ -100,7 +100,7 @@ export default function Teaching() {
                 </p>
                 <p>
                   <span className="font-semibold">Biofluid Mechanics</span>{" "}
-                  (Newly developed course for PG students) {" "}
+                  (Newly developed course for PG students){" "}
                   <a
                     href="/Biofluid Mechanics.pdf"
                     target="_blank"
