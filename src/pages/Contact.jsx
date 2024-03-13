@@ -178,7 +178,7 @@ export default function Contact() {
         <h1 className="text-3xl text-center md:text-left font-semibold px-8 underline md:no-underline md:border-b-2 md:border-gray-900">
           Contact Us
         </h1>
-        <div className="py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col md:flex-row gap-2 justify-between">
+        <div className="py-2 md:py-4 md:ml-20 md:mr-20 px-2 my-3 shadow-gray-500 shadow-lg flex flex-col lg:flex-row gap-2 justify-between">
           <div className="text-left md:w-2/5 md:pt-10">
             <h1 className="text-3xl text-center font-semibold px-8 ">
               Connect me through
