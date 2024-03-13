@@ -20,7 +20,7 @@ export default function People() {
                   <img
                     src={kartik}
                     alt="kartik"
-                    className="rounded-lg h-[150px] md:h-96 shadow-lg shadow-gray-700"
+                    className="rounded-lg h-56 w-48 md:h-96 md:w-72 shadow-lg shadow-gray-700"
                   />
                 </div>
                 <div className="p-2 md:w-3/5">
@@ -60,7 +60,7 @@ export default function People() {
                   <img
                     src={gautam}
                     alt="gautam"
-                    className="rounded-lg h-[150px] md:h-72 shadow-lg shadow-gray-700"
+                    className="rounded-lg h-40 w-40 md:w-64 md:h-72 shadow-lg shadow-gray-700"
                   />
                 </div>
                 <div className="p-2 md:w-3/5">
@@ -133,7 +133,7 @@ export default function People() {
                   <img
                     src={sourav}
                     alt="sourav"
-                    className="rounded-lg shadow-lg shadow-gray-700 md:h-96"
+                    className="rounded-lg shadow-lg h-64 shadow-gray-700 md:h-96"
                   />
                 </div>
                 <div className="p-2 md:w-3/5">
@@ -197,7 +197,7 @@ export default function People() {
                   <img
                     src={anand}
                     alt="anand"
-                    className="rounded-lg shadow-lg shadow-gray-700 md:h-72"
+                    className="rounded-lg shadow-lg h-56 shadow-gray-700 md:h-72"
                   />
                 </div>
                 <div className="p-2 md:w-3/5">
