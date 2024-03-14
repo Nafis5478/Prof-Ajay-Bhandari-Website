@@ -115,17 +115,22 @@ export default function Research() {
                       </a>{" "}
                       routinely used for the treatment of human brain tumours.
                       In addition to systemic administration, the GUI is also
-                      capable to simulate convection enhanced drug delivery mode
-                      in glioblastomas (
-                      <a
+                      capable to simulate convection enhanced drug delivery mode {" "}(<a
                         href="https://www.mdpi.com/2072-6694/14/17/4177"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-700 hover:underline"
                       >
                         Access Link
-                      </a>
-                      ).
+                      </a>) and radiofrequency ablation {" "} (<a
+                        href="https://www.sciencedirect.com/science/article/pii/S1290072923001448"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-700 hover:underline"
+                      >
+                        Access Link
+                      </a>)
+                      in glioblastomas.
                     </p>
                     <p className="px-4 text-blue-900 font-semibold">
                       Softwares used: OpenFOAM, MATLAB.{" "}

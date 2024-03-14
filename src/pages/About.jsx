@@ -103,7 +103,7 @@ export default function About() {
                   <span>
                     <MdDoubleArrow className="inline-block" />
                   </span>
-                  <span className="font-semibold">Jan 2020- June 2023</span>
+                  <span className="font-semibold">Jan 2020- June 2020</span>
                 </div>
                 <span className="text-left w-full md:w-2/3">
                   Senior Research Associate, Department of Mechanical and

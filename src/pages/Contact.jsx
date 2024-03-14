@@ -69,16 +69,7 @@ export default function Contact() {
           <p className="text-start ml-4 mr-2 md:ml-8 md:mr-4">
             Interested <span className="font-semibold">M.Tech</span> students
             are advised to email a copy of their CV (mentioning their research
-            interests) to{" "}
-            <a
-              href="https://admission.iitism.ac.in/index.php/admission/phd/add_phd/how_to_apply"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-700 hover:underline"
-            >
-              website
-            </a>{" "}
-            or meet me in the office.
+            interests) or meet me in the office.
           </p>
         </div>
       </div>

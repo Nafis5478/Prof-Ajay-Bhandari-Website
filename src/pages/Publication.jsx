@@ -177,7 +177,7 @@ export default function Publication() {
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
-                  , Kartikey Jaiswal, Anup Singh and Wenbo Zhan, Highlighting
+                  ,  Siddhartha Mukharjee, Anand Kumar, Anup Singh and Wenbo Zhan, Highlighting
                   the effect of heterogeneous blood perfusion on radio-frequency
                   ablation of human brain tumors: An image-based numerical
                   investigation,{" "}
@@ -187,7 +187,7 @@ export default function Publication() {
                   Vol. 189, pp. 108283,{" "}
                   <span className="font-semibold">Mar 2023 </span>
                   <a
-                    href="https://www.sciencedirect.com/science/article/pii/S1290072923003824?dgcid=author"
+                    href="https://www.sciencedirect.com/science/article/pii/S1290072923001448"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-700 hover:underline"
@@ -636,11 +636,63 @@ export default function Publication() {
 
         <div className="py-4 md:ml-40 md:mr-20 my-4 px-2 shadow-gray-500 shadow-lg ">
           <ul className="flex flex-col gap-2 md:gap-3 md:text-lg ">
+
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
                   <span className="inline-block font-semibold px-2">1. </span>
+                </p>
+                <p>
+                  Kartika Chandra Tripathy and{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , "Effect of septal correction on nasal aerodynamics – An invitro experimental and numerical investigation" International Conference on Thermo-Fluids and System Design,{" "}
+                  <span className="font-semibold">
+                  April 4-5, 2024, BIT Mesra
+                  </span>
+                  , India.
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  {/* <MdDoubleArrow className="inline-block" /> */}
+                  <span className="inline-block font-semibold px-2">2. </span>
+                </p>
+                <p>
+                  Sourav Choudhury, Prashant Bokam and{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , "Alternative brain cancer treatment using tumor treating fields: A computational approach." International Conference on Thermo-Fluids and System Design,{" "}
+                  <span className="font-semibold">
+                    April 4-5, 2024, BIT Mesra
+                  </span>
+                  , India.
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  {/* <MdDoubleArrow className="inline-block" /> */}
+                  <span className="inline-block font-semibold px-2">3. </span>
+                </p>
+                <p>
+                  Dhruvjyoti Roy, Prashant Bokam and{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , "Optimization of probe positioning in radiofrequency ablation of heterogeneous human brain tumor: A numerical heat transfer study" International Conference on Thermo-Fluids and System Design,{" "}
+                  <span className="font-semibold">
+                    April 4-5, 2024, BIT Mesra
+                  </span>
+                  , India.
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  {/* <MdDoubleArrow className="inline-block" /> */}
+                  <span className="inline-block font-semibold px-2">4. </span>
                 </p>
                 <p>
                   Kartika Chandra Tripathy and{" "}
@@ -659,7 +711,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">2. </span>
+                  <span className="inline-block font-semibold px-2">5. </span>
                 </p>
                 <p>
                   Parth Dev Bundela,{" "}
@@ -684,7 +736,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">3. </span>
+                  <span className="inline-block font-semibold px-2">6. </span>
                 </p>
                 <p>
                   Sangly P Srinivas, Parth Dev Bundela, Yamalapalli Sowmya,{" "}
@@ -709,7 +761,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">4. </span>
+                  <span className="inline-block font-semibold px-2">7. </span>
                 </p>
                 <p>
                   Anahita Piranfar, M. Soltani, Farshad M. Kashkooli, Wenbo
@@ -736,7 +788,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">5. </span>
+                  <span className="inline-block font-semibold px-2">8. </span>
                 </p>
                 <p>
                   Shivam Gupta and{" "}
@@ -762,7 +814,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">6. </span>
+                  <span className="inline-block font-semibold px-2">9. </span>
                 </p>
                 <p>
                   Kartika Chandra Tripathy and{" "}
@@ -788,7 +840,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">7. </span>
+                  <span className="inline-block font-semibold px-2">10. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -806,7 +858,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">8. </span>
+                  <span className="inline-block font-semibold px-2">11. </span>
                 </p>
                 <p>
                   Ashish Tiwari,{" "}
@@ -826,7 +878,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">9. </span>
+                  <span className="inline-block font-semibold px-2">12. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -844,7 +896,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-1">10. </span>
+                  <span className="inline-block font-semibold px-1">13. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -870,7 +922,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-1">11. </span>
+                  <span className="inline-block font-semibold px-1">14. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -882,7 +934,7 @@ export default function Publication() {
                     Sep 28-30, 2016, University Pierre and Marie Curie, Paris.{" "}
                   </span>
                   <a
-                    href="https://link.springer.com/chapter/10.1007/978-981-10-6370-1_7"
+                    href="https://programme.exordo.com/iconan2016/delegates/presentation/91/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-700 hover:underline"
@@ -896,7 +948,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-1">12. </span>
+                  <span className="inline-block font-semibold px-1">15. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
