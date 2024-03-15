@@ -26,7 +26,16 @@ export default function Publication() {
                     International Communications in Heat and Mass Transfer,{" "}
                   </span>
                   <span className="font-semibold text-green-700">
-                    Accepted, IF:7
+                    Accepted,{" "}
+                    <a
+                      href="https://www.sciencedirect.com/science/article/pii/S0735193324001520?dgcid=author"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-700 hover:underline"
+                    >
+                      Access Link
+                    </a>{" "}
+                    IF:7
                   </span>
                 </p>
               </div>
@@ -177,10 +186,10 @@ export default function Publication() {
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
-                  ,  Siddhartha Mukharjee, Anand Kumar, Anup Singh and Wenbo Zhan, Highlighting
-                  the effect of heterogeneous blood perfusion on radio-frequency
-                  ablation of human brain tumors: An image-based numerical
-                  investigation,{" "}
+                  , Siddhartha Mukharjee, Anand Kumar, Anup Singh and Wenbo
+                  Zhan, Highlighting the effect of heterogeneous blood perfusion
+                  on radio-frequency ablation of human brain tumors: An
+                  image-based numerical investigation,{" "}
                   <span className="font-semibold">
                     International Journal of Thermal Sciences
                   </span>{" "}
@@ -636,7 +645,6 @@ export default function Publication() {
 
         <div className="py-4 md:ml-40 md:mr-20 my-4 px-2 shadow-gray-500 shadow-lg ">
           <ul className="flex flex-col gap-2 md:gap-3 md:text-lg ">
-
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
                 <p>
@@ -646,9 +654,11 @@ export default function Publication() {
                 <p>
                   Kartika Chandra Tripathy and{" "}
                   <span className="font-semibold underline">Ajay Bhandari</span>
-                  , "Effect of septal correction on nasal aerodynamics – An invitro experimental and numerical investigation" International Conference on Thermo-Fluids and System Design,{" "}
+                  , "Effect of septal correction on nasal aerodynamics – An
+                  invitro experimental and numerical investigation"
+                  International Conference on Thermo-Fluids and System Design,{" "}
                   <span className="font-semibold">
-                  April 4-5, 2024, BIT Mesra
+                    April 4-5, 2024, BIT Mesra
                   </span>
                   , India.
                 </p>
@@ -663,7 +673,9 @@ export default function Publication() {
                 <p>
                   Sourav Choudhury, Prashant Bokam and{" "}
                   <span className="font-semibold underline">Ajay Bhandari</span>
-                  , "Alternative brain cancer treatment using tumor treating fields: A computational approach." International Conference on Thermo-Fluids and System Design,{" "}
+                  , "Alternative brain cancer treatment using tumor treating
+                  fields: A computational approach." International Conference on
+                  Thermo-Fluids and System Design,{" "}
                   <span className="font-semibold">
                     April 4-5, 2024, BIT Mesra
                   </span>
@@ -680,7 +692,10 @@ export default function Publication() {
                 <p>
                   Dhruvjyoti Roy, Prashant Bokam and{" "}
                   <span className="font-semibold underline">Ajay Bhandari</span>
-                  , "Optimization of probe positioning in radiofrequency ablation of heterogeneous human brain tumor: A numerical heat transfer study" International Conference on Thermo-Fluids and System Design,{" "}
+                  , "Optimization of probe positioning in radiofrequency
+                  ablation of heterogeneous human brain tumor: A numerical heat
+                  transfer study" International Conference on Thermo-Fluids and
+                  System Design,{" "}
                   <span className="font-semibold">
                     April 4-5, 2024, BIT Mesra
                   </span>

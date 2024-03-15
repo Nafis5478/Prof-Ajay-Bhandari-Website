@@ -106,7 +106,7 @@ export default function Research() {
                       </a>
                       ), and thermosensitive liposomes{" "}
                       <a
-                        href="https://www.sciencedirect.com/science/article/pii/S1290072923003824?dgcid=author"
+                        href="https://www.sciencedirect.com/science/article/pii/S0735193324001520?dgcid=author"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-700 hover:underline"
@@ -115,22 +115,26 @@ export default function Research() {
                       </a>{" "}
                       routinely used for the treatment of human brain tumours.
                       In addition to systemic administration, the GUI is also
-                      capable to simulate convection enhanced drug delivery mode {" "}(<a
+                      capable to simulate convection enhanced drug delivery mode{" "}
+                      (
+                      <a
                         href="https://www.mdpi.com/2072-6694/14/17/4177"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-700 hover:underline"
                       >
                         Access Link
-                      </a>) and radiofrequency ablation {" "} (<a
+                      </a>
+                      ) and radiofrequency ablation (
+                      <a
                         href="https://www.sciencedirect.com/science/article/pii/S1290072923001448"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-700 hover:underline"
                       >
                         Access Link
-                      </a>)
-                      in glioblastomas.
+                      </a>
+                      ) in glioblastomas.
                     </p>
                     <p className="px-4 text-blue-900 font-semibold">
                       Softwares used: OpenFOAM, MATLAB.{" "}
@@ -363,14 +367,16 @@ export default function Research() {
                       we are exploring these alterations using computational
                       fluid dynamics (CFD) and virtual surgery techniques to
                       develop criteria for selecting potential septoplasty
-                      patients and the effectiveness of the septoplasty {" "}<a
+                      patients and the effectiveness of the septoplasty{" "}
+                      <a
                         href="https://www.sciencedirect.com/science/article/pii/S1290072923003824?dgcid=author"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-700 hover:underline"
                       >
                         (Access Link)
-                      </a>.
+                      </a>
+                      .
                     </p>
                     <p className="px-4 text-blue-900 font-semibold">
                       Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys Fluent.
