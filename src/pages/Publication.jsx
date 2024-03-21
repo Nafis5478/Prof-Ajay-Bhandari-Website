@@ -24,7 +24,7 @@ export default function Publication() {
                   transfer perspective,{" "}
                   <span className="font-semibold">
                     International Communications in Heat and Mass Transfer,{" "}
-                  </span>
+                  </span> Vol. 153, pp. 107390 {" "}
                   <span className="font-semibold text-green-700">
                     Accepted,{" "}
                     <a

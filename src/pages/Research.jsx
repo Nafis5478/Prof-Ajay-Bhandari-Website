@@ -439,7 +439,7 @@ export default function Research() {
                       </a>
                     </p>
                     <p className="px-4 text-blue-900 font-semibold">
-                      Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys Fluent.
+                      Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys structural.
                     </p>
                   </div>
                 </div>
