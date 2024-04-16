@@ -54,9 +54,18 @@ export default function Publication() {
                   Model,{" "}
                   <span className="font-semibold">
                     NPJ Systems Biology and Applications (Nature),
-                  </span>{" "}
+                  </span>{" "}Vol. 10, Issue. 39{" "}
                   <span className="font-semibold text-green-700">
-                    Accepted, IF:4.3
+                    Accepted,{" "}
+                    <a
+                      href="https://www.nature.com/articles/s41540-024-00362-4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-700 hover:underline"
+                    >
+                      Access Link
+                    </a>{" "}
+                    IF:4.3
                   </span>
                 </p>
               </div>
