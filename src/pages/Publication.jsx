@@ -32,7 +32,7 @@ export default function Publication() {
                     >
                       Access Link
                     </a>{" "}
-                    IF:7
+                    IF:11.467
                   </span>
                 </p>
               </div>
@@ -53,7 +53,7 @@ export default function Publication() {
                     International Communications in Heat and Mass Transfer,{" "}
                   </span> Vol. 153, pp. 107390 {" "}
                   <span className="font-semibold text-green-700">
-                    Accepted,{" "}
+                    ,{" "}
                     <a
                       href="https://www.sciencedirect.com/science/article/pii/S0735193324001520?dgcid=author"
                       target="_blank"
@@ -83,7 +83,7 @@ export default function Publication() {
                     NPJ Systems Biology and Applications (Nature),
                   </span>{" "}Vol. 10, Issue. 39{" "}
                   <span className="font-semibold text-green-700">
-                    Accepted,{" "}
+                    ,{" "}
                     <a
                       href="https://www.nature.com/articles/s41540-024-00362-4"
                       target="_blank"
@@ -112,7 +112,7 @@ export default function Publication() {
                   <span className="font-semibold">
                     Biomechanics and Modeling in Mechanobiology
                   </span>{" "}
-                  <span className="font-semibold text-green-700">Accepted</span>
+                  <span className="font-semibold text-green-700"></span>
                   , <span className="font-semibold">January 2024,</span>{" "}
                   <a
                     href="https://link.springer.com/article/10.1007/s10237-024-01819-5"
