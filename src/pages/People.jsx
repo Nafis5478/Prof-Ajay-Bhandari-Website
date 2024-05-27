@@ -98,36 +98,6 @@ export default function People() {
         <div className="py-10 lg:ml-40 lg:mr-20">
           <ul className="flex flex-col gap-2 lg:gap-3 lg:text-lg ">
             <li className="flex flex-row">
-              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row p-4 gap-2 bg-gray-50">
-                <div className="flex justify-center md:w-2/5">
-                  <img
-                    src={dhruv}
-                    alt="dhruv"
-                    className="rounded-lg shadow-lg shadow-gray-700"
-                  />
-                </div>
-                <div className="p-2 md:w-3/5">
-                  <h1 className="text-3xl font-semibold">Dhruvajyoti Roy</h1>
-                  <p>
-                    I am from Coochbehar district of West Bengal. Currently, I
-                    am pursuing my M.Tech degree in Mechanical Engineering at
-                    IIT(ISM) Dhanbad, which will be commencing in July 2024. My M.Tech
-                    project is "
-                    <span className="font-semibold">
-                      Optimization of probe positioning and probe parameters in
-                      heterogeneous vascular density and blood flow of
-                      Radiofrequency ablation in human brain tumor
-                    </span>
-                    ". I got placed in TATA Motors as a PGET. I have completed
-                    my B.Tech in Mechanical Engineering from Jalpaiguri
-                    Government Engineering College, Jalpaiguri, in the year
-                    2021. My B.Tech project was "Exergy Analysis of Thermal
-                    Power Plant."
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li className="flex flex-row">
               <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50">
                 <div className="flex justify-center md:w-2/5 items-center">
                   <img
@@ -137,7 +107,7 @@ export default function People() {
                   />
                 </div>
                 <div className="p-2 md:w-3/5">
-                  <h1 className="text-3xl font-semibold">Sourav Choudhury</h1>
+                  <h1 className="text-3xl font-semibold">Sourav Choudhury (Ongoing)</h1>
                   <p>
                     I am currently pursuing M.Tech in Mechanical Engineering
                     with a specialization in the Thermal domain at IIT ISM
@@ -173,7 +143,7 @@ export default function People() {
                 </div>
                 <div className="p-2 md:w-3/5">
                   <h1 className="text-3xl font-semibold">
-                    Anant Prakash Mishra
+                    Anant Prakash Mishra (Ongoing)
                   </h1>
                   <p>
                     I am basically from Bokaro Steel City, Jharkhand. Currently,
@@ -201,7 +171,7 @@ export default function People() {
                   />
                 </div>
                 <div className="p-2 md:w-3/5">
-                  <h1 className="text-3xl font-semibold">Anand Kumar</h1>
+                  <h1 className="text-3xl font-semibold">Anand Kumar (Completed)</h1>
                   <p>
                     I am from Buxar district of Bihar. Currently I am working as
                     a PGET in ESG and sustainability cell in Jindal Stainless
@@ -217,6 +187,36 @@ export default function People() {
                     from Jadavpur University, Kolkata in the year 2018. My
                     B.Tech project was "Study of surface integrity of Micro EDM
                     through Response surface Methodology (RSM)."
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row p-4 gap-2 bg-gray-50">
+                <div className="flex justify-center md:w-2/5">
+                  <img
+                    src={dhruv}
+                    alt="dhruv"
+                    className="rounded-lg shadow-lg shadow-gray-700"
+                  />
+                </div>
+                <div className="p-2 md:w-3/5">
+                  <h1 className="text-3xl font-semibold">Dhruvajyoti Roy (Completed)</h1>
+                  <p>
+                    I am from Coochbehar district of West Bengal. Currently, I
+                    am pursuing my M.Tech degree in Mechanical Engineering at
+                    IIT(ISM) Dhanbad, which will be commencing in July 2024. My M.Tech
+                    project is "
+                    <span className="font-semibold">
+                      Optimization of probe positioning and probe parameters in
+                      heterogeneous vascular density and blood flow of
+                      Radiofrequency ablation in human brain tumor
+                    </span>
+                    ". I got placed in TATA Motors as a PGET. I have completed
+                    my B.Tech in Mechanical Engineering from Jalpaiguri
+                    Government Engineering College, Jalpaiguri, in the year
+                    2021. My B.Tech project was "Exergy Analysis of Thermal
+                    Power Plant."
                   </p>
                 </div>
               </div>
