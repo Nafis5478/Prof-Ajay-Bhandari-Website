@@ -309,8 +309,16 @@ export default function Research() {
                       nasal cavity is challenging due to its intricate
                       anatomical structure. The deposition mechanisms for
                       smaller particles are attributed to diffusion. On the
-                      contrary, inertial impaction dominates larger ones. Many
-                      parameters affect the drug trajectory, including
+                      contrary, inertial impaction dominates larger ones {" "}
+                      <a
+                      href="https://pubs.aip.org/aip/pof/article/36/9/091919/3314000/Effect-of-various-septal-deviations-and"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-700 hover:underline"
+                    >
+                      Access Link
+                    </a>.{" "}
+                      Many parameters affect the drug trajectory, including
                       patient-specificity, administration technique, device
                       type, and atomization techniques
                     </p>
