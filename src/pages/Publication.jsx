@@ -1,6 +1,7 @@
 import React from "react";
 import { MdDoubleArrow } from "react-icons/md";
 export default function Publication() {
+  var pi=20;
   return (
     <div className="h-full pt-28 md:pt-32 px-5 md:px-28">
       <div className="text-left md:items-center">
@@ -14,14 +15,48 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">1. </span>
+                  <span className="inline-block font-semibold px-2">{pi-19}. </span>
                 </p>
                 <p>
-                Kartika Chandra Tripathy, and <span className="font-semibold underline">Ajay Bhandari</span>
-                  , Effect of various septal deviations and corrections on nasal aero and particle dynamics:{" "}
+                  Anahita Piranfar, Farshad Moradi Kashkooli, Wenbo Zhan,{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  and M. Soltani, A Comparative Analysis of Alpha and Beta
+                  Therapy in Prostate Cancer Using a 3D Image-Based
+                  Spatiotemporal Model,{" "}
                   <span className="font-semibold">
-                  An in silico and in vitro investigation,{" "}
-                  </span> Physics of Fluids Vol. 39(9), pp. 091919, <span className="font-semibold">September 2024</span> {" "}
+                    Annals of Biomedical Engineering, November 2024
+                  </span>{" "}
+                  <span className="font-semibold text-green-700">
+                    {" "}
+                    <a
+                      href="https://link.springer.com/article/10.1007/s10439-024-03650-6"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-700 hover:underline"
+                    >
+                      Access Link
+                    </a>{" "}
+                    IF:3.0
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  {/* <MdDoubleArrow className="inline-block" /> */}
+                  <span className="inline-block font-semibold px-2">{pi-18}. </span>
+                </p>
+                <p>
+                  Kartika Chandra Tripathy, and{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span>
+                  , Effect of various septal deviations and corrections on nasal
+                  aero and particle dynamics:{" "}
+                  <span className="font-semibold">
+                    An in silico and in vitro investigation,{" "}
+                  </span>{" "}
+                  Physics of Fluids Vol. 39(9), pp. 091919,{" "}
+                  <span className="font-semibold">September 2024</span>{" "}
                   <span className="font-semibold text-green-700">
                     {" "}
                     <a
@@ -41,14 +76,18 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">2. </span>
+                  <span className="inline-block font-semibold px-2">{pi-17}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
-                  , Boram Gu, Farshad Moradi Kashkooli and Wenbo Zhan, Image-based predictive modelling frameworks for personalised drug delivery in cancer therapy,{" "}
+                  , Boram Gu, Farshad Moradi Kashkooli and Wenbo Zhan,
+                  Image-based predictive modelling frameworks for personalised
+                  drug delivery in cancer therapy,{" "}
                   <span className="font-semibold">
-                  Journal of Controlled Release,{" "}
-                  </span> Vol. 370, pp. 721-746, <span className="font-semibold">June 2024</span> {" "}
+                    Journal of Controlled Release,{" "}
+                  </span>{" "}
+                  Vol. 370, pp. 721-746,{" "}
+                  <span className="font-semibold">June 2024</span>{" "}
                   <span className="font-semibold text-green-700">
                     {" "}
                     <a
@@ -68,7 +107,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">3. </span>
+                  <span className="inline-block font-semibold px-2">{pi-16}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -78,7 +117,8 @@ export default function Publication() {
                   transfer perspective,{" "}
                   <span className="font-semibold">
                     International Communications in Heat and Mass Transfer,{" "}
-                  </span> Vol. 153, pp. 107390 {" "}
+                  </span>{" "}
+                  Vol. 153, pp. 107390{" "}
                   <span className="font-semibold text-green-700">
                     ,{" "}
                     <a
@@ -98,7 +138,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">4. </span>
+                  <span className="inline-block font-semibold px-2">{pi-15}. </span>
                 </p>
                 <p>
                   Anahita Piranfar, Farshad Moradi Kashkooli, Wenbo Zhan,{" "}
@@ -108,7 +148,8 @@ export default function Publication() {
                   Model,{" "}
                   <span className="font-semibold">
                     NPJ Systems Biology and Applications (Nature),
-                  </span>{" "}Vol. 10, Issue. 39{" "}
+                  </span>{" "}
+                  Vol. 10, Issue. 39{" "}
                   <span className="font-semibold text-green-700">
                     ,{" "}
                     <a
@@ -128,7 +169,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">5. </span>
+                  <span className="inline-block font-semibold px-2">{pi-14}. </span>
                 </p>
                 <p>
                   Ashish Siddharth,{" "}
@@ -139,8 +180,8 @@ export default function Publication() {
                   <span className="font-semibold">
                     Biomechanics and Modeling in Mechanobiology
                   </span>{" "}
-                  <span className="font-semibold text-green-700"></span>
-                  , <span className="font-semibold">January 2024,</span>{" "}
+                  <span className="font-semibold text-green-700"></span>,{" "}
+                  <span className="font-semibold">January 2024,</span>{" "}
                   <a
                     href="https://link.springer.com/article/10.1007/s10237-024-01819-5"
                     target="_blank"
@@ -157,7 +198,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">6. </span>
+                  <span className="inline-block font-semibold px-2">{pi-13}. </span>
                 </p>
                 <p>
                   Kartika Chandra Tripathy, Md Sirajullah, Deepak Kumar Mandal,
@@ -188,7 +229,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">7. </span>
+                  <span className="inline-block font-semibold px-2">{pi-12}. </span>
                 </p>
                 <p>
                   Kartika Chandra Tripathy, Ashish Siddharth and{" "}
@@ -217,7 +258,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">8. </span>
+                  <span className="inline-block font-semibold px-2">{pi-11}. </span>
                 </p>
                 <p>
                   Kartika Chandra Tripathy, Rakesh Kumar Gupta and{" "}
@@ -245,7 +286,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">9. </span>
+                  <span className="inline-block font-semibold px-2">{pi-10}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -274,7 +315,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">10. </span>
+                  <span className="inline-block font-semibold px-2">{pi-9}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -305,7 +346,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">11. </span>
+                  <span className="inline-block font-semibold px-2">{pi-8}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -336,7 +377,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-2">12. </span>
+                  <span className="inline-block font-semibold px-2">{pi-7}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -369,7 +410,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-1">13. </span>
+                  <span className="inline-block font-semibold px-1">{pi-6}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -403,7 +444,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-1">14. </span>
+                  <span className="inline-block font-semibold px-1">{pi-5}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -433,7 +474,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-1">15. </span>
+                  <span className="inline-block font-semibold px-1">{pi-4}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -463,7 +504,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-1">16. </span>
+                  <span className="inline-block font-semibold px-1">{pi-3}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -493,7 +534,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-1">17. </span>
+                  <span className="inline-block font-semibold px-1">{pi-2}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -527,7 +568,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-1">18. </span>
+                  <span className="inline-block font-semibold px-1">{pi-1}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
@@ -556,7 +597,7 @@ export default function Publication() {
               <div className="flex flex-row gap-2">
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
-                  <span className="inline-block font-semibold px-1">19. </span>
+                  <span className="inline-block font-semibold px-1">{pi}. </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">Ajay Bhandari</span>
