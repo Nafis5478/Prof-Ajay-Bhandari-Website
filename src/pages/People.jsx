@@ -28,7 +28,7 @@ export default function People() {
                 </div>
                 <div className="p-2 md:w-3/5">
                   <h1 className="text-3xl font-semibold">
-                    Kartika Chandra Tripathy
+                    Kartika Chandra Tripathy (Ongoing)
                   </h1>
                   <p>
                     I have completed my B.Tech Mechanical Engineering from
@@ -61,7 +61,7 @@ export default function People() {
                   />
                 </div>
                 <div className="p-2 md:w-3/5">
-                  <h1 className="text-3xl font-semibold">Gautam Kumar</h1>
+                  <h1 className="text-3xl font-semibold">Gautam Kumar (Ongoing)</h1>
                   <p>
                     I have completed my B.E. in Mechanical Engineering from
                     Rajiv Gandhi Proudyogiki Vishwavidyalaya Bhopal and my
@@ -94,7 +94,7 @@ export default function People() {
                 </div>
                 <div className="p-2 md:w-3/5">
                   <h1 className="text-3xl font-semibold">
-                    Anjay Kumar
+                    Anjay Kumar (Ongoing)
                   </h1>
                   <p>
                     I have completed my B.Tech Mechanical Engineering from
@@ -105,7 +105,7 @@ export default function People() {
                     <span className="font-semibold">Prof. Ajay Bhandari</span>.
                     The title of my thesis is "
                     <span className="font-semibold">
-                    Heat transfer, solar technology, and fluid flow, with a particular focus on the thermal and fluid behavior of biofluids
+                    Experimental and Numerical investigation of obstructive sleep apnea
                     </span>
                     ".
                   </p>
@@ -121,36 +121,7 @@ export default function People() {
         </h1>
         <div className="py-10 lg:ml-40 lg:mr-20">
           <ul className="flex flex-col gap-2 lg:gap-3 lg:text-lg ">
-            <li className="flex flex-row">
-              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50">
-                <div className="flex justify-center md:w-2/5 items-center">
-                  <img
-                    src={sourav}
-                    alt="sourav"
-                    className="rounded-lg shadow-lg h-64 shadow-gray-700 md:h-64"
-                  />
-                </div>
-                <div className="p-2 md:w-3/5">
-                  <h1 className="text-3xl font-semibold">
-                    Sourav Choudhury (Ongoing)
-                  </h1>
-                  <p>
-                    I am pursuing M.Tech in Mechanical Engineering with a
-                    specialization in the Thermal domain at IIT ISM
-                    Dhanbad,which will be commencing in December 2024. My M.Tech
-                    project focuses on "
-                    <span className="font-semibold">
-                      CFD simulation of tumor treating fields in heterogeneous
-                      human brain tumors
-                    </span>
-                    ". Prior to this, I completed a six-month internship at Tata
-                    Steel, Jamshedpur. I graduated with a Bachelor's degree in
-                    Mechanical Engineering from Aryabhatta Institute of
-                    Engineering and Management, Durgapur, in 2018.
-                  </p>
-                </div>
-              </div>
-            </li>
+            
             <li className="flex flex-row">
               <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row p-4 gap-2 bg-gray-50">
                 <div className="flex justify-center md:w-2/5 items-center">
@@ -169,8 +140,7 @@ export default function People() {
                     IIT(ISM) Dhanbad which will be completed by July 2025. My
                     M.Tech project is "
                     <span className="font-semibold">
-                      Numerical (CFD) Investigation of targeted drug delivery in
-                      human nasal cavities
+                    Experimental investigation of intravitreal drug delivery in vitreous humor of human eye
                     </span>
                     ". I have completed my B.Tech in Mechanical Engineering from
                     B.I.T SINDRI, Dhanbad, Jharkhand in the year 2021.
@@ -192,7 +162,12 @@ export default function People() {
                   <p>
                     I am pursuing M.Tech in Mechanical Engineering with a
                     specialization in the Thermal Engineering at IIT ISM
-                    Dhanbad,which will be completed by July 2026. I have
+                    Dhanbad,which will be completed by July 2026.My
+                    M.Tech project is "
+                    <span className="font-semibold">
+                    Personalized radiopharmaceutical drug delivery to heterogeneous human brain tumors.
+                    </span>
+                    ".I have
                     completed my B. Tech Mechanical Engineering from NIT Sikkim
                     in 2020. I also worked L&T Power as a GET for one and half
                     years in the department of LMB-Pressure Parts Manufacturing.
@@ -282,6 +257,36 @@ export default function People() {
                     my B.Tech in Mechanical Engineering from Jalpaiguri
                     Government Engineering College, Jalpaiguri, in the year
                     2021.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50">
+                <div className="flex justify-center md:w-2/5 items-center">
+                  <img
+                    src={sourav}
+                    alt="sourav"
+                    className="rounded-lg shadow-lg h-64 shadow-gray-700 md:h-64"
+                  />
+                </div>
+                <div className="p-2 md:w-3/5">
+                  <h1 className="text-3xl font-semibold">
+                    Sourav Choudhury (Completed)
+                  </h1>
+                  <p>
+                    I am pursuing M.Tech in Mechanical Engineering with a
+                    specialization in the Thermal domain at IIT ISM
+                    Dhanbad,which will be commencing in December 2024. My M.Tech
+                    project focuses on "
+                    <span className="font-semibold">
+                      CFD simulation of tumor treating fields in heterogeneous
+                      human brain tumors
+                    </span>
+                    ". Prior to this, I completed a six-month internship at Tata
+                    Steel, Jamshedpur. I graduated with a Bachelor's degree in
+                    Mechanical Engineering from Aryabhatta Institute of
+                    Engineering and Management, Durgapur, in 2018.
                   </p>
                 </div>
               </div>
