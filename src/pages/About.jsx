@@ -196,6 +196,117 @@ export default function About() {
         </div>
         <div className="text-left md:items-center">
           <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
+            Reaseach Collaboration
+          </h1>
+          <div className="py-10 md:ml-40 md:mr-20 px-2 md:px-0">
+            <ul className="flex flex-col gap-2 md:gap-3 md:text-lg">
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                    Department of Radiology, Fortis Memorial Research Institute
+                    Gurugram
+                  </p>
+                </div>
+              </li>
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                    Department of Biomedical Engineering. All Indian Institute
+                    of Medical Sciences (AIIMS)-Delhi
+                  </p>
+                </div>
+              </li>
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                    Advanced Eye center, Post Graduate Institute of Medical
+                    Sciences (PGI)-Chandigarh
+                  </p>
+                </div>
+              </li>
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                    Centre for Biomedical Engineering, Indian Institute of
+                    Technology (IIT) Delhi
+                  </p>
+                </div>
+              </li>
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>University Of Aberdeen, Scotland</p>
+                </div>
+              </li>
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                    Imperial College, London
+                  </p>
+                </div>
+              </li>
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                  Toronto Metropolitan University, Canada 
+                  </p>
+                </div>
+              </li>
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                  Cranfield University, UK
+                  </p>  
+                </div>
+              </li>
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                    Indiana University, USA
+                  </p>
+                </div>
+              </li>
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                    Institut Pprime, University of Poitiers, France
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-left md:items-center">
+          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
             Administrative Responsibilities
           </h1>
           <div className="py-10 md:ml-40 md:mr-20 px-2 md:px-0">
@@ -205,7 +316,10 @@ export default function About() {
                   <p>
                     <MdDoubleArrow className="inline-block" />
                   </p>
-                  <p>Department Grievance Committee Member March 2024-till present.</p>
+                  <p>
+                    Department Grievance Committee Member March 2024-till
+                    present.
+                  </p>
                 </div>
               </li>
               <li className="flex flex-row">
@@ -265,7 +379,9 @@ export default function About() {
             Educational Details
           </h1>
           <div className="flex flex-col gap-2 pt-10 md:ml-40 md:mr-20">
-            <h1 className="font-semibold text-xl underline text-center md:text-start">PhD Thesis</h1>
+            <h1 className="font-semibold text-xl underline text-center md:text-start">
+              PhD Thesis
+            </h1>
             <div className="md:ml-5 px-2 md:px-0">
               <p className="text-lg">
                 <span className="font-semibold">Thesis Title</span>- Dynamic
@@ -322,7 +438,9 @@ export default function About() {
                   </div>
                 </li>
               </ul>
-              <p className="font-semibold text-xl  underline text-center md:text-start">Adviser</p>
+              <p className="font-semibold text-xl  underline text-center md:text-start">
+                Adviser
+              </p>
               <ul className="flex flex-col gap-2 md:gap-3 md:ml-3 md:text-lg">
                 <li className="flex flex-row">
                   <div className="flex flex-row gap-2">
@@ -385,7 +503,9 @@ export default function About() {
             </div>
           </div>
           <div className="flex flex-col gap-2 pt-10 md:ml-40 md:mr-20">
-            <h1 className="font-semibold text-xl underline text-center md:text-start">M.Tech Thesis</h1>
+            <h1 className="font-semibold text-xl underline text-center md:text-start">
+              M.Tech Thesis
+            </h1>
             <div className="md:ml-5 px-2 md:px-0">
               <p className="text-lg">
                 <span className="font-semibold">Thesis Title</span>- Numerical
@@ -435,7 +555,9 @@ export default function About() {
                   </div>
                 </li>
               </ul>
-              <p className="font-semibold text-xl text-center md:text-start underline">Adviser</p>
+              <p className="font-semibold text-xl text-center md:text-start underline">
+                Adviser
+              </p>
               <ul className="flex flex-col gap-2 md:gap-3 md:ml-3 md:text-lg">
                 <li className="flex flex-row">
                   <div className="flex flex-row gap-2">
@@ -460,7 +582,9 @@ export default function About() {
             </div>
           </div>
           <div className="flex flex-col gap-2 pt-10 md:ml-40 md:mr-20">
-            <h1 className="font-semibold text-xl underline text-center md:text-start">BE Project</h1>
+            <h1 className="font-semibold text-xl underline text-center md:text-start">
+              BE Project
+            </h1>
             <div className="md:ml-5 px-2 md:px-0">
               <p className="text-lg">
                 <span className="font-semibold">Thesis Title</span>- To reduce
