@@ -11,6 +11,7 @@ import amd from "../assets/amd.jpg";
 import asrock from "../assets/asrock.jpg";
 import hpz6 from "../assets/hpz6.jpg";
 import syringepump from "../assets/syringepump.jpg";
+import influsionpump from "../assets/influsionpump.jpg";
 import magneticstrrier from "../assets/magneticstrrier.jpg";
 import cwlsource from "../assets/cwlsource.jpg"
 import ultrasonicbath from "../assets/ultrasonicbath.jpg";
@@ -298,6 +299,28 @@ export default function Lab() {
                   </p>
                   <h1 className="text-red-500 font-semibold">Specifications</h1>
                   <p className="text-blue-900 font-semibold">Shalya Endolux, ELE24H02C</p>
+                </div>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row p-4 gap-2 bg-gray-50">
+                <div className="flex justify-center md:w-2/5">
+                  <img
+                    src={influsionpump}
+                    alt="cwlsource"
+                    className="rounded-lg h-[250px]"
+                  />
+                </div>
+                <div className="p-2 md:w-3/5">
+                  <h1 className="text-3xl font-semibold">
+                  Infusion pump
+                  </h1>
+                  <p>
+                  It is a full-featured syringe infusion pump, meticulously engineered to provide a comprehensive solution for both critical care and general infusion applications. It offers precise and reliable drug delivery, making it ideal for use in drug delivery experiments. The device is equipped with advanced features, such as occlusion detection, anti-bolus mechanisms.
+                  </p>
+                  <h1 className="text-red-500 font-semibold">Specifications</h1>
+                  <p className="text-blue-900 font-semibold">Infusion pump, BPL ACURA V1, KMTA4H5965
+                  </p>
                 </div>
               </div>
             </li>

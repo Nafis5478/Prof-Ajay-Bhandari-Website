@@ -376,6 +376,26 @@ export default function About() {
         </div>
         <div className="text-left md:items-center">
           <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
+          Membership of Scientific Societies
+          </h1>
+          <div className="py-10 md:ml-40 md:mr-20 px-2 md:px-0">
+            <ul className="flex flex-col gap-2 md:gap-3 md:text-lg">
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                  Association for Research in Vision and Ophthalmology (ARVO): Member 2025
+                  </p>
+                </div>
+              </li> 
+            </ul>
+          </div>
+        </div>
+        
+        <div className="text-left md:items-center">
+          <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
             Educational Details
           </h1>
           <div className="flex flex-col gap-2 pt-10 md:ml-40 md:mr-20">

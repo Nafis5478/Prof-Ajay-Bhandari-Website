@@ -10,6 +10,7 @@ import research3pic2 from "../assets/research3pic2.jpg";
 import research3pic3 from "../assets/research3pic3.jpg";
 import research4pic1 from "../assets/research4pic1.gif";
 import research4pic2 from "../assets/research4pic2.jpg";
+import research4pic3 from "../assets/research4pic3.jpg";
 import research5pic1 from "../assets/research5pic1.gif";
 import research5pic2 from "../assets/research5pic2.gif";
 import research5pic3 from "../assets/research5pic3.gif";
@@ -200,21 +201,18 @@ export default function Research() {
                     <div className="px-4 md:px-10 flex flex-col md:flex-row justify-between text-blue-950">
                       <div className="">
                         <ul>
-                          <li>&nbsp;1. Syringe pump</li>
-                          <li>&nbsp;2. Syringe</li>
-                          <li>&nbsp;3. High-speed camera</li>
-                          <li>&nbsp;4. Laser</li>
-                          <li>&nbsp;5. LED bulb</li>
-                          <li>&nbsp;6. Breadboard Table</li>
+                          <li>&nbsp;1. High-speed camera 1</li>
+                          <li>&nbsp;2. Ophthalmic artery</li>
+                          <li>&nbsp;3. Cool white light source</li>
+                          <li>&nbsp;4. Pump</li>
                         </ul>
                       </div>
                       <div>
                         <ul>
-                          <li>&nbsp;7. Retinal artery with guide</li>
-                          <li>&nbsp;8. Laptop for data acquisition</li>
-                          <li>&nbsp;9. Laser 2 with lab jack</li>
-                          <li>10. Laser stand</li>
-                          <li>11. Tripod </li>
+                          <li>&nbsp;5. High-speed camera 2</li>
+                          <li>&nbsp;6. Desktop 1</li>
+                          <li>&nbsp;7. Desktop 2</li>
+                          <li>&nbsp;8. Experimental Table</li>
                         </ul>
                       </div>
                     </div>
@@ -309,16 +307,16 @@ export default function Research() {
                       nasal cavity is challenging due to its intricate
                       anatomical structure. The deposition mechanisms for
                       smaller particles are attributed to diffusion. On the
-                      contrary, inertial impaction dominates larger ones {" "}
+                      contrary, inertial impaction dominates larger ones{" "}
                       <a
-                      href="https://pubs.aip.org/aip/pof/article/36/9/091919/3314000/Effect-of-various-septal-deviations-and"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-700 hover:underline"
-                    >
-                      Access Link
-                    </a>.{" "}
-                      Many parameters affect the drug trajectory, including
+                        href="https://pubs.aip.org/aip/pof/article/36/9/091919/3314000/Effect-of-various-septal-deviations-and"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-700 hover:underline"
+                      >
+                        Access Link
+                      </a>
+                      . Many parameters affect the drug trajectory, including
                       patient-specificity, administration technique, device
                       type, and atomization techniques
                     </p>
@@ -329,7 +327,7 @@ export default function Research() {
                     <img
                       src={research4pic2}
                       alt="research4pic2"
-                      className="rounded-lg transition duration-500 h-[200px] w-[250px] md:h-64 md:w-96"
+                      className="rounded-lg transition duration-500 h-[200px] w-[250px] md:h-56 md:w-80"
                     />
                   </div>
                   <div className="pt-2 md:w-3/5">
@@ -343,6 +341,45 @@ export default function Research() {
                     <p className="px-4 text-blue-900 font-semibold">
                       Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys Fluent.
                     </p>
+                  </div>
+                </div>
+                <div className="  flex flex-col md:flex-row gap-2 items-center py-4">
+                  <div className="flex justify-center md:w-2/5">
+                    <img
+                      src={research4pic3}
+                      alt="research4pic3"
+                      className="rounded-lg transition duration-500 h-[150px] w-[250px] md:h-48 md:w-96"
+                    />
+                  </div>
+                  <div className="pt-2 md:w-3/5">
+                    <p className="px-4 text-red-700 font-semibold">
+                      Equipments name in figure
+                    </p>
+                    <div className="px-4 md:px-10 flex flex-col md:flex-row  text-blue-950 md:gap-10">
+                      <div className="md:w-1/2">
+                        <ol className="list-decimal list-inside">
+                          <li>3D printed Nasal cavity</li>
+                          <li>Differential U-tube manometer</li>
+                          <li>Stand for holding the Nasal cavity</li>
+                          <li>Vaccum pump</li>
+                          <li>Flow meter</li>
+                        </ol>
+                      </div>
+                      <div className="md:w-1/2">
+                        <ol start={6} className="list-decimal list-inside">
+                          <li>
+                            Pipe connecting from the end of the nasopharynx to
+                            the inlet of the flow meter
+                          </li>
+                          <li>
+                            Pipe connecting from the exit of the flow meter to
+                            the vacuum pump
+                          </li>
+                          <li>Flow control valve attached to the flow meter</li>
+                          <li>Experimental table</li>
+                        </ol>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -447,7 +484,8 @@ export default function Research() {
                       </a>
                     </p>
                     <p className="px-4 text-blue-900 font-semibold">
-                      Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys structural.
+                      Softwares used: 3D Slicer, Ansys ICEM-CFD, Ansys
+                      structural.
                     </p>
                   </div>
                 </div>
