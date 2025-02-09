@@ -5,6 +5,7 @@ import research1pic2 from "../assets/research1pic2.gif";
 import research2pic1 from "../assets/research2pic1.gif";
 import research2pic2 from "../assets/research2pic2.jpg";
 import research2pic3 from "../assets/research2pic3.jpg";
+import research2pic4 from "../assets/research2pic4.gif";
 import research3pic1 from "../assets/research3pic1.jpg";
 import research3pic2 from "../assets/research3pic2.jpg";
 import research3pic3 from "../assets/research3pic3.jpg";
@@ -170,11 +171,25 @@ export default function Research() {
                       these regions susceptible to different vascular damages.
                       We at Biofluids Research Lab are investigating the effect
                       of tortuosity variations on hemodynamics through particle
-                      streak velocimetry (PSV) experiments. Since low-wall shear
-                      stress (WSS) is a well-accepted hemodynamic parameter for
-                      atherosclerosis, the WSS is correlated with the tortuosity
-                      index, which can be considered a geometrical marker for
-                      identifying low shear zones{" "}
+                      streak velocimetry (PSV) experiments.
+                    </p>
+                  </div>
+                </div>
+                <div className="  flex flex-col md:flex-row-reverse gap-2 items-center mt-5 md:mt-[-35px]">
+                  <div className="flex flex-col justify-center md:w-2/5 items-center">
+                    <img
+                      src={research2pic4}
+                      alt="research2pic4"
+                      className="rounded-lg transition duration-500 h-[150px] w-[250px] md:h-60 md:w-96"
+                    />
+                  </div>
+                  <div className="pt-2 md:w-3/5">
+                    <p className="px-4">
+                      Since low-wall shear stress (WSS) is a well-accepted
+                      hemodynamic parameter for atherosclerosis, the WSS is
+                      correlated with the tortuosity index, which can be
+                      considered a geometrical marker for identifying low shear
+                      zones{" "}
                       <a
                         href="https://pubs.aip.org/aip/pof/article/36/1/011912/3061594/Delineating-the-effects-of-morphological-changes"
                         target="_blank"
@@ -186,12 +201,12 @@ export default function Research() {
                     </p>
                   </div>
                 </div>
-                <div className="  flex flex-col md:flex-row-reverse gap-2 items-center py-4">
+                <div className="  flex flex-col md:flex-row gap-2 items-center py-4">
                   <div className="flex justify-center md:w-2/5">
                     <img
                       src={research2pic3}
                       alt="research2pic3"
-                      className="rounded-lg transition duration-500 h-[150px] w-[250px] md:h-48 md:w-96"
+                      className="rounded-lg transition duration-500 h-[150px] w-[250px] md:h-56 md:w-80"
                     />
                   </div>
                   <div className="pt-2 md:w-3/5">
@@ -348,7 +363,7 @@ export default function Research() {
                     <img
                       src={research4pic3}
                       alt="research4pic3"
-                      className="rounded-lg transition duration-500 h-[150px] w-[250px] md:h-48 md:w-96"
+                      className="rounded-lg transition duration-500 h-[150px] w-[250px] md:h-60 md:w-96"
                     />
                   </div>
                   <div className="pt-2 md:w-3/5">
