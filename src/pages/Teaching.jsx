@@ -59,7 +59,7 @@ export default function Teaching() {
                 </p>
                 <p>
                   <span className="font-semibold">Fluid Mechanics</span> (UG)
-                  (Monsoon Semester 23-24){" "}
+                  (Monsoon Semester 23-24, 24-25){" "}
                   <a
                     href="/Fluid Mechanics.pdf"
                     target="_blank"
@@ -89,7 +89,7 @@ export default function Teaching() {
                 </p>
                 <p>
                   <span className="font-semibold">CFD Lab</span> (Winter
-                  Semester 21-22, Winter Semester 22-23, 23-24)
+                  Semester 21-22, Winter Semester 22-23, 23-24, 24-25)
                 </p>
               </div>
             </li>

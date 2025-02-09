@@ -206,7 +206,7 @@ export default function Research() {
                     <img
                       src={research2pic3}
                       alt="research2pic3"
-                      className="rounded-lg transition duration-500 h-[150px] w-[250px] md:h-56 md:w-80"
+                      className="rounded-lg transition duration-500 h-[150px] w-[250px] md:h-64 md:w-96"
                     />
                   </div>
                   <div className="pt-2 md:w-3/5">
@@ -342,7 +342,7 @@ export default function Research() {
                     <img
                       src={research4pic2}
                       alt="research4pic2"
-                      className="rounded-lg transition duration-500 h-[200px] w-[250px] md:h-56 md:w-80"
+                      className="rounded-lg transition duration-500 h-[200px] w-[250px] md:h-64 md:w-96"
                     />
                   </div>
                   <div className="pt-2 md:w-3/5">
