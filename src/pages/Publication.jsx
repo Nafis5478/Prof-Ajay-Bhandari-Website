@@ -22,15 +22,17 @@ export default function Publication() {
                 </p>
                 <p>
                   Kartika Chandra Tripathy, and{" "}
-                  <span className="font-semibold underline">Ajay Bhandari,</span>{" "}
-                  Targeted drug delivery to the deviated regions of the human
-                  nasal cavities:{" "}
-                  <span className="font-semibold">
-                  An in silico investigation and in vitro validation,  pp. 108706, June 2025 
-                  </span>{" "}Computer Methods and Programs in Biomedicine Vol. 264,{" "}
-                  <span className="font-semibold">
-                    June 2025 
+                  <span className="font-semibold underline">
+                    Ajay Bhandari,
                   </span>{" "}
+                  Targeted drug delivery to the deviated regions of the human
+                  nasal cavities: An in silico investigation and in vitro
+                  validation,{" "}
+                  <span className="font-semibold">
+                    Computer Methods and Programs in Biomedicine
+                  </span>{" "}
+                  Vol. 264, pp. 108706,{" "}
+                  <span className="font-semibold">June 2025</span>{" "}
                   <span className="font-semibold text-green-700">
                     {" "}
                     <a
@@ -90,11 +92,12 @@ export default function Publication() {
                   Kartika Chandra Tripathy, and{" "}
                   <span className="font-semibold underline">Ajay Bhandari</span>
                   , Effect of various septal deviations and corrections on nasal
-                  aero and particle dynamics:{" "}
+                  aero and particle dynamics: An in silico and in vitro
+                  investigation,{" "}
                   <span className="font-semibold">
-                    An in silico and in vitro investigation,{" "}
+                    Physics of Fluids Vol. 39(9),
                   </span>{" "}
-                  Physics of Fluids Vol. 39(9), pp. 091919,{" "}
+                  pp. 091919,{" "}
                   <span className="font-semibold">September 2024</span>{" "}
                   <span className="font-semibold text-green-700">
                     {" "}
