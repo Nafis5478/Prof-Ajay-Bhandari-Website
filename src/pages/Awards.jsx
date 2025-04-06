@@ -16,6 +16,21 @@ export default function Awards() {
                   <MdDoubleArrow className="inline-block" />
                 </p>
                 <p>
+                  Got {" "}"
+                  <span className="font-semibold">
+                    Travel grant award under International Travel Scheme
+                  </span>"{" "}
+                  of DST ANRF to attend ARVO conference in Salt Lake Utah USA
+                  from 4th to 8th May 2025.
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                </p>
+                <p>
                   Got “
                   <span className="font-semibold">
                     Gullapalli Young Investigator Award
