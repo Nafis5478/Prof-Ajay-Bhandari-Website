@@ -126,11 +126,15 @@ export default function About() {
                     <MdDoubleArrow className="inline-block" />
                   </p>
                   <p>
-                  Delivered one online lecture as an expert speaker on the topic  “
+                    Delivered one online lecture as an expert speaker on the topic  “
                     <span className="font-semibold">
-                    CFD applications in healthcare” Refresher course on “CFD in Engineering
+                      CFD applications in healthcare 
                     </span>
-                    ” under the Malaviya Mission Teachers Training Program (MMTTP) organized by Department of Mechanical Engineering, IIT(ISM) Dhanbad, INDIA in March 2024.
+                    " Refresher course on "
+                    <span className="font-semibold">
+                      CFD in Engineering
+                    </span>
+                    " under the Malaviya Mission Teachers Training Program (MMTTP) organized by Department of Mechanical Engineering, IIT(ISM) Dhanbad, INDIA in March 2024.
                   </p>
                 </div>
               </li>
