@@ -53,7 +53,7 @@ export default function Project() {
                             <span className="font-semibold">
                               Period of Funding:
                             </span>{" "}
-                            02/2025-07/2025 (6 months) Ongoing
+                            04/2025-04/2026 (1 year) Ongoing
                           </p>
                         </div>
                       </li>
@@ -66,7 +66,7 @@ export default function Project() {
                             <span className="font-semibold">
                               Amount of grant:
                             </span>{" "}
-                            Rs. 12 Lacs
+                            Rs. 14.16 Lacs
                           </p>
                         </div>
                       </li>

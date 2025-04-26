@@ -134,7 +134,7 @@ export default function About() {
                     <span className="font-semibold">
                       CFD in Engineering
                     </span>
-                    " under the Malaviya Mission Teachers Training Program (MMTTP) organized by Department of Mechanical Engineering, IIT(ISM) Dhanbad, INDIA in March 2024.
+                    " under the Malaviya Mission Teachers Training Program (MMTTP) organized by Department of Mechanical Engineering, IIT(ISM) Dhanbad, INDIA in March 2025.
                   </p>
                 </div>
               </li>
