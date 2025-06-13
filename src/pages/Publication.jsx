@@ -1,7 +1,7 @@
 import React from "react";
 import { MdDoubleArrow } from "react-icons/md";
 export default function Publication() {
-  var pi = 21;
+  var pi = 22;
   var ci = 19;
   return (
     <div className="h-full pt-28 md:pt-32 px-5 md:px-28">
@@ -12,6 +12,38 @@ export default function Publication() {
 
         <div className="py-4 md:ml-40 md:mr-20 shadow-gray-500 shadow-lg px-2 my-3">
           <ul className="flex flex-col gap-2 md:gap-3 md:text-lg ">
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  {/* <MdDoubleArrow className="inline-block" /> */}
+                  <span className="inline-block font-semibold px-2">
+                    {pi - 21}.{" "}
+                  </span>
+                </p>
+                <p>
+                  <span className="font-semibold underline">
+                    Ajay Bhandari,
+                  </span>{" "}Kartika Chandra Tripathy, Sourav Choudhury, Prasanth Bokam, and Arnaud Germaneau, Unveiling human brain tumor response to tumor treating fields mediated thermosensitive liposome drug delivery: A heat and mass transfer optimization,{" "}
+                  <span className="font-semibold">
+                    International Journal of Heat and Mass Transfer,
+                  </span>{" "}
+                  Vol. 251, pp. 108706,{" "}
+                  <span className="font-semibold">November 2025</span>{" "}
+                  <span className="font-semibold text-green-700">
+                    {" "}
+                    <a
+                      href="https://www.sciencedirect.com/science/article/abs/pii/S001793102500691X"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-700 hover:underline"
+                    >
+                      Access Link
+                    </a>{" "}
+                    IF:5
+                  </span>
+                </p>
+              </div>
+            </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
                 <p>
