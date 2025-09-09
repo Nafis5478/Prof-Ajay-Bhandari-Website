@@ -1,7 +1,7 @@
 import React from "react";
 import { MdDoubleArrow } from "react-icons/md";
 export default function Publication() {
-  var pi = 22;
+  var pi = 23;
   var ci = 19;
   return (
     <div className="h-full pt-28 md:pt-32 px-5 md:px-28">
@@ -17,13 +17,54 @@ export default function Publication() {
                 <p>
                   {/* <MdDoubleArrow className="inline-block" /> */}
                   <span className="inline-block font-semibold px-2">
+                    {pi - 22}.{" "}
+                  </span>
+                </p>
+                <p>
+                  Farshad Moradi Kashkooli,{" "}
+                  <span className="font-semibold underline">
+                    Ajay Bhandari,
+                  </span>{" "}
+                  Boram Gu, Michael C. Kolios, Mohammad Kohandel, and Wenbo
+                  Zhan, Multiphysics modelling enhanced by imaging and
+                  artificial intelligence for personalised cancer nanomedicine:
+                  Foundations for clinical digital twins,{" "}
+                  <span className="font-semibold">
+                    Journal of Controlled Release,
+                  </span>{" "}
+                  Vol. 386, pp. 114138,{" "}
+                  <span className="font-semibold">October 2025</span>{" "}
+                  <span className="font-semibold text-green-700">
+                    {" "}
+                    <a
+                      href="https://www.sciencedirect.com/science/article/pii/S0168365925007497"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-700 hover:underline"
+                    >
+                      Access Link
+                    </a>{" "}
+                    IF:11.5
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  {/* <MdDoubleArrow className="inline-block" /> */}
+                  <span className="inline-block font-semibold px-2">
                     {pi - 21}.{" "}
                   </span>
                 </p>
                 <p>
                   <span className="font-semibold underline">
                     Ajay Bhandari,
-                  </span>{" "}Kartika Chandra Tripathy, Sourav Choudhury, Prasanth Bokam, and Arnaud Germaneau, Unveiling human brain tumor response to tumor treating fields mediated thermosensitive liposome drug delivery: A heat and mass transfer optimization,{" "}
+                  </span>{" "}
+                  Kartika Chandra Tripathy, Sourav Choudhury, Prasanth Bokam,
+                  and Arnaud Germaneau, Unveiling human brain tumor response to
+                  tumor treating fields mediated thermosensitive liposome drug
+                  delivery: A heat and mass transfer optimization,{" "}
                   <span className="font-semibold">
                     International Journal of Heat and Mass Transfer,
                   </span>{" "}

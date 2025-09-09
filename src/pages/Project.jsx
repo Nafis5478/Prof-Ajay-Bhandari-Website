@@ -16,7 +16,9 @@ export default function Project() {
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}
-                    Technology development for the manufacturing of thin electrical steel laminations using high pressure die casting. 
+                    Error quantification of a porous brain perfusion model based
+                    on experiments and non-porous simulations for accelerated
+                    stroke treatment development.
                   </div>
                   <div className="md:mx-5">
                     <ul>
@@ -27,7 +29,79 @@ export default function Project() {
                           </p>
                           <p>
                             <span className="font-semibold">Role:</span>{" "}
-                            Principal Investigator (PI from Mechanical) in collaboration with Dr. Rahul MR (PI from FMME Department)
+                            Principal Investigator (PI from India) in
+                            collaboration with Dr. Istvan Tamas Jozsa (PI from
+                            UK)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">
+                              Sponsoring Organization:
+                            </span>{" "}
+                            The Royal Society (The Yusuf and Farida Hamied
+                            Foundation)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">
+                              Period of Funding:
+                            </span>{" "}
+                            2025-2027 (2 years) Ongoing
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">
+                              Amount of grant:
+                            </span>{" "}
+                            12,000 Pounds. (Rs. 14 Lacs INR Equivalent)
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <div className="font-bold">1.</div>
+                <div className="md:mx-2">
+                  <div className="font-semibold">
+                    <span className="font-bold underline">Project Name:</span>{" "}
+                    Technology development for the manufacturing of thin
+                    electrical steel laminations using high pressure die
+                    casting.
+                  </div>
+                  <div className="md:mx-5">
+                    <ul>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">Role:</span>{" "}
+                            Principal Investigator (PI from Mechanical) in
+                            collaboration with Dr. Rahul MR (PI from FMME
+                            Department)
                           </p>
                         </div>
                       </li>
@@ -144,7 +218,7 @@ export default function Project() {
                 </div>
               </div>
             </li>
-            <li className="flex flex-row">  
+            <li className="flex flex-row">
               <div className="flex flex-row gap-2">
                 <div className="font-bold">3.</div>
                 <div className="md:mx-2">
@@ -217,7 +291,9 @@ export default function Project() {
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}
-                    Investigation of Effect of Nasal Septum Deviation on Nasal Airflow Obstruction using Computational Fluid Dynamics and 3D Printing for Septoplasty Planning.
+                    Investigation of Effect of Nasal Septum Deviation on Nasal
+                    Airflow Obstruction using Computational Fluid Dynamics and
+                    3D Printing for Septoplasty Planning.
                   </div>
                   <div className="md:mx-5">
                     <ul>
@@ -241,7 +317,8 @@ export default function Project() {
                             <span className="font-semibold">
                               Sponsoring Organization:
                             </span>{" "}
-                            Indian Institute of Technology (Indian School of Mines), Dhanbad under Faculty Research Scheme (FRS)
+                            Indian Institute of Technology (Indian School of
+                            Mines), Dhanbad under Faculty Research Scheme (FRS)
                           </p>
                         </div>
                       </li>
