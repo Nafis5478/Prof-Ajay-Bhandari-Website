@@ -82,7 +82,7 @@ export default function Project() {
             </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
-                <div className="font-bold">1.</div>
+                <div className="font-bold">2.</div>
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}
@@ -151,7 +151,7 @@ export default function Project() {
             </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
-                <div className="font-bold">2.</div>
+                <div className="font-bold">3.</div>
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}
@@ -220,7 +220,7 @@ export default function Project() {
             </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
-                <div className="font-bold">3.</div>
+                <div className="font-bold">4.</div>
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}
@@ -287,7 +287,7 @@ export default function Project() {
             </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
-                <div className="font-bold">4.</div>
+                <div className="font-bold">5.</div>
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}
