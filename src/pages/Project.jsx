@@ -16,6 +16,71 @@ export default function Project() {
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}
+                    Development and validation of digital twin to improve adjuvant treatment planning and prevent glioblastoma (GB) recurrence in post-surgical GB patients
+                  </div>
+                  <div className="md:mx-5">
+                    <ul>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">Role:</span>{" "}
+                            Principal Investigator
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">
+                              Sponsoring Organization:
+                            </span>{" "}
+                            Indian Council of Medical Research (ICMR)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">
+                              Period of Funding:
+                            </span>{" "}
+                            2025-2028 (3 years) Ongoing
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">
+                              Amount of grant:
+                            </span>{" "}
+                            INR 41,46,806/- (41.46 Lacs)
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <div className="font-bold">2.</div>
+                <div className="md:mx-2">
+                  <div className="font-semibold">
+                    <span className="font-bold underline">Project Name:</span>{" "}
                     Error quantification of a porous brain perfusion model based
                     on experiments and non-porous simulations for accelerated
                     stroke treatment development.
@@ -82,7 +147,7 @@ export default function Project() {
             </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
-                <div className="font-bold">2.</div>
+                <div className="font-bold">3.</div>
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}
@@ -151,7 +216,7 @@ export default function Project() {
             </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
-                <div className="font-bold">3.</div>
+                <div className="font-bold">4.</div>
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}
@@ -220,7 +285,7 @@ export default function Project() {
             </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
-                <div className="font-bold">4.</div>
+                <div className="font-bold">5.</div>
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}
@@ -287,7 +352,7 @@ export default function Project() {
             </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
-                <div className="font-bold">5.</div>
+                <div className="font-bold">6.</div>
                 <div className="md:mx-2">
                   <div className="font-semibold">
                     <span className="font-bold underline">Project Name:</span>{" "}

@@ -1,7 +1,7 @@
 import React from "react";
 import { MdDoubleArrow } from "react-icons/md";
 export default function Publication() {
-  var pi = 23;
+  var pi = 24;
   var ci = 19;
   return (
     <div className="h-full pt-28 md:pt-32 px-5 md:px-28">
@@ -12,6 +12,40 @@ export default function Publication() {
 
         <div className="py-4 md:ml-40 md:mr-20 shadow-gray-500 shadow-lg px-2 my-3">
           <ul className="flex flex-col gap-2 md:gap-3 md:text-lg ">
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  {/* <MdDoubleArrow className="inline-block" /> */}
+                  <span className="inline-block font-semibold px-2">
+                    {pi - 23}.{" "}
+                  </span>
+                </p>
+                <p>
+                  Kartika Chandra Tripathy,{" "}
+                  <span className="font-semibold underline">
+                    Ajay Bhandari,
+                  </span>{" "}
+                   Heat and mass transfer investigation concerning drug droplet phase change in nasal drug delivery,{" "}
+                  <span className="font-semibold">
+                    International Journal of Thermal Sciences,
+                  </span>{" "}
+                  Vol. 223, pp. 110589,{" "}
+                  <span className="font-semibold">May 2026</span>{" "}
+                  <span className="font-semibold text-green-700">
+                    {" "}
+                    <a
+                      href="https://www.sciencedirect.com/science/article/abs/pii/S1290072925009123"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-700 hover:underline"
+                    >
+                      Access Link
+                    </a>{" "}
+                    IF:5
+                  </span>
+                </p>
+              </div>
+            </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
                 <p>
