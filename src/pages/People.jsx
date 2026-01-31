@@ -8,6 +8,7 @@ import anand from "../assets/anand.jpg";
 import nitin from "../assets/nitin.jpg";
 import sudanshu from "../assets/sudanshu.jpg";
 import anjay from "../assets/anjay.jpg";
+import jaydeep from "../assets/jaydeep.jpeg";
 export default function People() {
   return (
     <div className="h-full pt-28 lg:pt-32 px-5 lg:px-28">
@@ -106,6 +107,35 @@ export default function People() {
                     The title of my thesis is "
                     <span className="font-semibold">
                     Experimental and Numerical investigation of obstructive sleep apnea
+                    </span>
+                    ".
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50 ">
+                <div className="flex justify-center md:w-2/5 items-center">
+                  <img
+                    src={jaydeep}
+                    alt="gautam"
+                    className="rounded-lg h-40 w-40 md:w-64 md:h-72 shadow-lg shadow-gray-700"
+                  />
+                </div>
+                <div className="p-2 md:w-3/5">
+                  <h1 className="text-3xl font-semibold">Jaydeep Biswas (Ongoing)</h1>
+                  <p>
+                    I have completed my B.E. in Mechanical Engineering from
+                     I.T. Gopeshwar (Uttarakhand Technical University) and my
+                    M.Tech in Thermal Science from the National Institute of Technology Calicut. I joined IIT(ISM), Dhanbad, for my
+                    Ph.D and pursuing my Ph.D. research in the Biofluid research
+                    lab under the supervision of{" "}
+                    <span className="font-semibold">Prof. Ajay Bhandari</span>{" "}
+                    my research interests are Biofluid mechanics and
+                    Hemodynamics, Fluid-structure interactions. The title of my
+                    thesis is "
+                    <span className="font-semibold">
+                      Hydrogel drug delivery to prevent glioblastoma (GB) Recurrence 
                     </span>
                     ".
                   </p>

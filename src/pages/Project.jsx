@@ -421,6 +421,81 @@ export default function Project() {
           </ul>
         </div>
       </div>
+      <div className="text-left md:items-center mt-7">
+        <h1 className="text-3xl text-center md:text-left font-semibold px-8">
+          Consultancy Projects
+        </h1>
+
+        <div className="py-10 md:ml-28 md:mr-20 shadow-gray-500 shadow-lg px-3 my-4">
+          <ul className="flex flex-col gap-2 md:gap-3 md:text-lg ">
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <div className="font-bold">1.</div>
+                <div className="md:mx-2">
+                  <div className="font-semibold">
+                    <span className="font-bold underline">Project Name:</span>{" "}
+                    Technology development for the manufacturing of thin electrical steel laminations using high pressure die casting.
+                  </div>
+                  <div className="md:mx-5">
+                    <ul>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">Role:</span>{" "}
+                            Principal Investigator (PI from Mechanical) in collaboration with Dr. Rahul MR (PI from FMME Department)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">
+                              Sponsoring Organization:
+                            </span>{" "}
+                            Tata Steel
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">
+                              Period of Funding:
+                            </span>{" "}
+                            04/2025-04/2026 (1 year) Ongoing
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="flex flex-row gap-2">
+                          <p>
+                            <MdDoubleArrow className="inline-block" />
+                          </p>
+                          <p>
+                            <span className="font-semibold">
+                              Amount of grant:
+                            </span>{" "}
+                            INR 14.16 Lacs
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

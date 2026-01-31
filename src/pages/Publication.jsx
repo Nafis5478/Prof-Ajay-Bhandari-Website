@@ -1,7 +1,7 @@
 import React from "react";
 import { MdDoubleArrow } from "react-icons/md";
 export default function Publication() {
-  var pi = 24;
+  var pi = 25;
   var ci = 19;
   return (
     <div className="h-full pt-28 md:pt-32 px-5 md:px-28">
@@ -12,6 +12,39 @@ export default function Publication() {
 
         <div className="py-4 md:ml-40 md:mr-20 shadow-gray-500 shadow-lg px-2 my-3">
           <ul className="flex flex-col gap-2 md:gap-3 md:text-lg ">
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  {/* <MdDoubleArrow className="inline-block" /> */}
+                  <span className="inline-block font-semibold px-2">
+                    {pi - 24}.{" "}
+                  </span>
+                </p>
+                <p>
+                  HFarshad Moradi Kashkooli, Wenbo Zhan,{" "}
+                  <span className="font-semibold underline">
+                    Ajay Bhandari,
+                  </span>{" "}Tahir Yusufaly, Michael Kolios, Arman Rahmim, Madjid Soltani, From Images to Physics-Based Computational Models to Digital Twins:{" "}
+                  <span className="font-semibold">
+                    A Framework for Personalized Cancer Therapies, Frontiers in Radiology,
+                  </span>{" "}
+                  Vol 6, pp. 1737577,{" "}
+                  <span className="font-semibold"> January 2026,</span>{" "}
+                  <span className="font-semibold text-green-700">
+                    {" "}
+                    <a
+                      href="Access Link: https://www.frontiersin.org/journals/radiology/articles/10.3389/fradi.2026.1737577/abstract"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-700 hover:underline"
+                    >
+                      Access Link
+                    </a>{" "}
+                    IF:2.3
+                  </span>
+                </p>
+              </div>
+            </li>
             <li className="flex flex-row">
               <div className="flex flex-row gap-2">
                 <p>
@@ -1400,10 +1433,20 @@ export default function Publication() {
                   {/* <span className="inline-block font-semibold px-2">1. </span> */}
                 </p>
                 <p>
+                  Kartika Chandra Tripathy, and{" "}
+                  <span className="font-semibold underline">Ajay Bhandari</span> “A Dual-Nozzle Nasal Spray Device for Enhanced Targeted and Multi-Region Drug Delivery within a Single Nostril (Published). <span className="font-semibold"> Application No: 202531087017</span>
+                </p>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="flex flex-row gap-2">
+                <p>
+                  <MdDoubleArrow className="inline-block" />
+                  {/* <span className="inline-block font-semibold px-2">1. </span> */}
+                </p>
+                <p>
                   Ashish Siddharth,{" "}
-                  <span className="font-semibold underline">Ajay Bhandari</span>
-                  , and Arun Dayal Udai, Method and Equipment for Ocular Surgery
-                  and Drug Delivery (Filed).
+                  <span className="font-semibold underline">Ajay Bhandari</span> and Arun Dayal Udai, Method and Equipment for Ocular Surgery and Drug Delivery (Granted). <span className="font-semibold">Application No: 202431060703</span>
                 </p>
               </div>
             </li>
