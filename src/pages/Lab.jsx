@@ -15,6 +15,7 @@ import influsionpump from "../assets/influsionpump.jpg";
 import magneticstrrier from "../assets/magneticstrrier.jpg";
 import cwlsource from "../assets/cwlsource.jpg"
 import ultrasonicbath from "../assets/ultrasonicbath.jpg";
+import meteringpump from "../assets/meteringpump.jpeg";
 import ImageSlider from "../components/Slider.jsx";
 export default function Lab() {
   return (
@@ -320,6 +321,28 @@ export default function Lab() {
                   </p>
                   <h1 className="text-red-500 font-semibold">Specifications</h1>
                   <p className="text-blue-900 font-semibold">Infusion pump, BPL ACURA V1, KMTA4H5965
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50">
+                <div className="flex justify-center md:w-2/5">
+                  <img
+                    src={meteringpump}
+                    alt="meteringpump"
+                    className="rounded-lg h-[250px]"
+                  />
+                </div>
+                <div className="p-2 md:w-3/5">
+                  <h1 className="text-3xl font-semibold">
+                  Metering Pump
+                  </h1>
+                  <p>
+                  The beta/ X diaphragm metering pump is used to generate controlled, non-continuous (metered) flow for blood-flow and blood-mimicking fluid experiments. Its digitally controlled drive allows accurate volume-based dosing, while the specially designed dosing head provides reliable suction and minimizes air-lock formation. The pump is easy to operate, supports flexible installation, and enables digital monitoring via Bluetooth and NFC
+                  </p>
+                  <h1 className="text-red-500 font-semibold">Specifications</h1>
+                  <p className="text-blue-900 font-semibold">Metering pump, BTXb 02050
                   </p>
                 </div>
               </div>

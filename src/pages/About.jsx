@@ -116,10 +116,24 @@ export default function About() {
         </div>
         <div className="text-left md:items-center">
           <h1 className="text-2xl md:mx-16 font-semibold text-gray-900 text-center md:text-start underline md:no-underline md:border-b-2 md:border-gray-900">
-            Invited Talks and Webinars Organized
+            Outreach Activities
           </h1>
           <div className="py-10 md:ml-40 md:mr-20 px-2 md:px-0">
             <ul className="flex flex-col gap-2 md:gap-3 md:text-lg">
+              <li className="flex flex-row">
+                <div className="flex flex-row gap-2">
+                  <p>
+                    <MdDoubleArrow className="inline-block" />
+                  </p>
+                  <p>
+                    Organized an online refresher course as a convener on the topic  “
+                    <span className="font-semibold">
+                      Fluid Mechanics: Principles, Advances and Applications
+                    </span>
+                    " sponsored by MMTTP in Department of Mechanical Engineering at IIT (ISM) Dhanbad from 15-26th September 2026.
+                  </p>
+                </div>
+              </li>
               <li className="flex flex-row">
                 <div className="flex flex-row gap-2">
                   <p>

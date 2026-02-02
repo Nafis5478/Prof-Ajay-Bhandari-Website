@@ -152,34 +152,9 @@ export default function People() {
         <div className="py-10 lg:ml-40 lg:mr-20">
           <ul className="flex flex-col gap-2 lg:gap-3 lg:text-lg ">
             
+            
             <li className="flex flex-row">
               <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row p-4 gap-2 bg-gray-50">
-                <div className="flex justify-center md:w-2/5 items-center">
-                  <img
-                    src={anant}
-                    alt="anant"
-                    className="rounded-lg shadow-lg shadow-gray-700 md:h-56"
-                  />
-                </div>
-                <div className="p-2 md:w-3/5">
-                  <h1 className="text-3xl font-semibold">
-                    Anant Prakash Mishra (Ongoing)
-                  </h1>
-                  <p>
-                    I am pursuing my M.Tech degree in Mechanical Engineering at
-                    IIT(ISM) Dhanbad which will be completed by July 2025. My
-                    M.Tech project is "
-                    <span className="font-semibold">
-                    Experimental investigation of intravitreal drug delivery in vitreous humor of human eye
-                    </span>
-                    ". I have completed my B.Tech in Mechanical Engineering from
-                    B.I.T SINDRI, Dhanbad, Jharkhand in the year 2021.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li className="flex flex-row">
-              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50">
                 <div className="flex justify-center md:w-2/5 items-center">
                   <img
                     src={nitin}
@@ -206,7 +181,7 @@ export default function People() {
               </div>
             </li>
             <li className="flex flex-row">
-              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row p-4 gap-2 bg-gray-50">
+              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50">
                 <div className="flex justify-center md:w-2/5 items-center">
                   <img
                     src={sudanshu}
@@ -234,7 +209,7 @@ export default function People() {
               </div>
             </li>
             <li className="flex flex-row">
-              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50">
+              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row p-4 gap-2 bg-gray-50">
                 <div className="flex justify-center md:w-2/5 items-center">
                   <img
                     src={anand}
@@ -263,7 +238,7 @@ export default function People() {
               </div>
             </li>
             <li className="flex flex-row">
-              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row p-4 gap-2 bg-gray-50">
+              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50">
                 <div className="flex justify-center md:w-2/5">
                   <img
                     src={dhruv}
@@ -292,7 +267,7 @@ export default function People() {
               </div>
             </li>
             <li className="flex flex-row">
-              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50">
+              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row p-4 gap-2 bg-gray-50">
                 <div className="flex justify-center md:w-2/5 items-center">
                   <img
                     src={sourav}
@@ -317,6 +292,32 @@ export default function People() {
                     Steel, Jamshedpur. I graduated with a Bachelor's degree in
                     Mechanical Engineering from Aryabhatta Institute of
                     Engineering and Management, Durgapur, in 2018.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className="flex flex-row">
+              <div className="shadow-gray-500 shadow-lg flex flex-col md:flex-row-reverse p-4 gap-2 bg-gray-50">
+                <div className="flex justify-center md:w-2/5 items-center">
+                  <img
+                    src={anant}
+                    alt="anant"
+                    className="rounded-lg shadow-lg shadow-gray-700 md:h-56"
+                  />
+                </div>
+                <div className="p-2 md:w-3/5">
+                  <h1 className="text-3xl font-semibold">
+                    Anant Prakash Mishra (Completed)
+                  </h1>
+                  <p>
+                    I am pursuing my M.Tech degree in Mechanical Engineering at
+                    IIT(ISM) Dhanbad which will be completed by July 2025. My
+                    M.Tech project is "
+                    <span className="font-semibold">
+                    Experimental investigation of intravitreal drug delivery in vitreous humor of human eye
+                    </span>
+                    ". I have completed my B.Tech in Mechanical Engineering from
+                    B.I.T SINDRI, Dhanbad, Jharkhand in the year 2021.
                   </p>
                 </div>
               </div>
